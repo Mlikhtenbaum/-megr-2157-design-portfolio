@@ -1,8 +1,10 @@
 # A1 – [Topic]
 
-## Objective
+## Objectives
 
-Edit the A1 Assignment File to demonstrate the capability of editing  portfolio content using GitHub through a web browser. Upload a file to demonstrate knowledge of how to attach media to the GitHub portfolio page.
+Analytical Element: Analyze two portfolios against functional requirements and document your findings on your A1 portfolio page.
+Decision Element: Engage with the template critically and make three documented decisions.
+Communication Element: Populate the "about me" section of the portfolio.
 
 
 ## Analyze
@@ -15,11 +17,13 @@ a.  Navigability: One of the stronger points of Zach's engineering portfolio is 
 
 b.  Reproducibility: The documentation provided throughout the different sections of Zach's portfolio provides step-by-step instructions on how he completed his projects. If a colleague were looking to use his article "TickTock: The Most Expensive Watches in the World-A Data Story" as a guide to creating a modern version of his 2022 watch manufacturer pricing table, they would easily be able to replicate his process.
 
-c.  Evidence of reasoning: 
+c.  Evidence of reasoning: Zach's portfolio proves his reasoning and presents his final decisions using evidence and data. In the "Reddit" section of his portfolio, Zach links his article "Refactoring A Python ETL Pipeline (With Example)". In this article, Zach provides a basic introduction to what his original Python script does and lists the improvements he wants to make. He provides the original code for his program and proceeds to edit it to facilitate the improvements that he listed. Each important step is detailed and documented, allowing others interested in the field of programming and data engineering to learn from his process.
 
-d.  Professional tone:
+d.  Professional tone: Zach retains a professional tone throughout his portfolio and within the projects that he details. The language he uses meets the standard of a document that would be handed to an employer. This is especially noticeable when reading his documents regarding his data engineering programs. Zach retains a professional tone and uses vocabulary that is specific and relevant to his field: "Next, we’ll create a function for getting the access token returned from the Reddit API" [1]. This standard of documentation is precisely what employers mandate.
 
 Portfolio Analysis #2: Non-GitHub-Based Engineering Portfolio:
+
+Citations: [1]Quinn, Z., 2022, “Refactoring A Python ETL Pipeline (With Example),” Medium. 
 
 ## Decide
 
