@@ -23,9 +23,11 @@ Portfolio Analysis #2: Non-GitHub-Based Engineering Portfolio:
 
 ## Decide
 
-Homepage creation - 
+Homepage creation - I wanted my homepage to be both a summary and a guide that viewers can use to understand and traverse my portfolio. Firstly, I summarized the strict purpose of my portfolio. Then I explained the way in which the portfolio is organized, which provides viewers with the knowledge they need to navigate the page. I then stressed the level to which I will document each segment of my portfolio, and why it will be beneficial to do so. Overall, the overview/homepage is brief, but effective in introducing readers to the portfolio.
 
-I wanted my homepage to be both a summary and a guide that viewers can use to understand and traverse my portfolio. Firstly, I summarized the strict purpose of my portfolio. Then I explained the way in which the portfolio is organized, which provides viewers with the knowledge they need to navigate the page. I then stressed the level to which I will document each segment of my portfolio, and why it will be beneficial to do so. Overall, the overview/homepage is brief, but effective in introducing readers to the portfolio.
+Homepage Identity - I edited a few features of the portfolio to make the site "flow" a little better. I did this by changing the heading of "portfolio-overview" to "portfolio-homepage" and adding the title image to that page. This was done to create a personalized title page, while retaining the original title page as a "class-overview", which I can still reference if I need to refresh myself on the three pillars or the semester arc.
+
+Documentation Standard: I will document every step of the assignments I complete and the designs I create that I believe are relevant to anyone using my engineering process as a guide.
 
 
 
