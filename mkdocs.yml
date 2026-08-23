@@ -10,9 +10,9 @@ theme:
     - navigation.tracking
 
 nav:
-  - Home: index.md
-  - About Me: aboutme/index.md
   - Portfolio Homepage: portfolio-overview.md
+  - About Me: aboutme/index.md
+  - Home: index.md
   - Assignments:
       - A1: assignments/A01/index.md
       - A2: assignments/A02/index.md
