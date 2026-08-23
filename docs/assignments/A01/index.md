@@ -33,6 +33,15 @@ d.  Professional tone: A professional tone is maintained throughout the portfoli
 
 Citations: [1]Quinn, Z., 2022, “Refactoring A Python ETL Pipeline (With Example),” Medium. 
 
+Product Analysis: Ink Cartridge for Ball-Point Pen (Patent US5904432A)
+
+The primary function of this product is to hold and dispense an adequate amount of ink when put into contact with a surface and driven across it.
+
+The design of a ballpoint pen ink cartridge relies on two governing models. Firstly is a transition fit. The transition fit allows the ball at the point of the ink cartridge to be retained by the inner walls of the pipe at the tip of the pen. Secondly, the clearance fit within the inner section of the pipe tip allows the ball to rotate, creating space for ink to flow past the ball and onto whatever the user is writing on.
+
+
+
+
 ## Decide
 
 Homepage creation - I wanted my homepage to be both a summary and a guide that viewers can use to understand and traverse my portfolio. Firstly, I summarized the strict purpose of my portfolio. Then I explained the way in which the portfolio is organized, which provides viewers with the knowledge they need to navigate the page. I then stressed the level to which I will document each segment of my portfolio, and why it will be beneficial to do so. Overall, the overview/homepage is brief, but effective in introducing readers to the portfolio.
