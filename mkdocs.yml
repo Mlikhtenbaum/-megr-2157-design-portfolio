@@ -12,7 +12,7 @@ theme:
 nav:
   - Portfolio Homepage: portfolio-overview.md
   - About Me: aboutme/index.md
-  - Home: index.md
+  - Class Overview: index.md
   - Assignments:
       - A1: assignments/A01/index.md
       - A2: assignments/A02/index.md
