@@ -23,6 +23,12 @@ Portfolio Analysis #2: Non-GitHub-Based Engineering Portfolio:
 
 ## Decide
 
+Homepage creation - 
+
+I wanted my homepage to be both a summary and a guide that viewers can use to understand and traverse my portfolio. Firstly, I summarized the strict purpose of my portfolio. Then I explained the way in which the portfolio is organized, which provides viewers with the knowledge they need to navigate the page. I then stressed the level to which I will document each segment of my portfolio, and why it will be beneficial to do so. Overall, the overview/homepage is brief, but effective in introducing readers to the portfolio.
+
+
+
 ## Communicate
 
 The communication segment of the A1 assignment revolves around populating the "About Me" repository, which has been completed.
