@@ -6,10 +6,12 @@ As an aspiring professional engineer, I am someone who strives to learn more abo
 
 Engineering is an inherently challenging field due to its multi-faceted nature. It necessitates that those who undertake it perfect their knowledge regarding a tremendous range of studies and techniques, and there's no other career I'd rather pursue.
 
-"What does it mean to defend an engineering decision : and do you currently know how to do it?"
+"What does it mean to defend an engineering decision: and do you currently know how to do it?"
 
 In my opinion, the process of defending an engineering decision is dependent on who the engineer is validating the solution for. The first audience that occurs to me an engineer would justify their decision to is a group of engineers. In this scenario, much of the justification would be based on the process the engineer used to solve the issue in the first place. Background information would come first. Identification of the problem and possible solutions would come next, and the chosen decision would be validated. Data and relevant calculations would then be conveyed, backing the idea that the proposed solution is the best possible choice.
 
 Secondly, the engineer would need to defend their decision to the firm for which they work. Seeing that this would involve presenting to individuals unfamiliar with the engineering process and its principles, the engineer would need to alter their strategy. Although an explanation of the physical aspects and calculations that accompany the engineering decision would still be necessary, different facets must also be addressed. Economic factors, timelines, and the end consumer would need to be included in the explanation of the design process that led to the ultimate decision. Although engineering is, by definition, a branch of science/technology, modern engineers must be versatile to compete with others in their field.
 
 As for whether I currently know how to do it, I definitely don't. Regarding the first scenario, I lack the capability to take a complex physical issue and use higher-level physics/engineering calculations to create a solution. Nor do I have the capacity to mathematically defend a decision against a group of individuals who are capable of such intensive calculations. As for the second scenario, I would need to learn more about product design and presentation to successfully defend a decision to a board of businessmen/investors. Overall, I've got a lot to learn, but I'm excited and motivated to become a legitimate, professional engineer.
+
+The A1 assignment and this "about me" page took me about 8 or 9 hours. I took my sweet time, though, and wrote as well as I am capable.
