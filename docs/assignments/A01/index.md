@@ -31,16 +31,27 @@ c.  Evidence of reasoning: This portfolio accurately documents and presents Davi
 
 d.  Professional tone: A professional tone is maintained throughout the portfolio. Engineering vocabulary is employed to describe Davis' projects and the processes that accompanied each of them. An example of the use of professional engineering terminology can be found under the "Forming a Plan" subheading of the Pocket Rocket page of the portfolio, in which Davis describes the challenges that his design will face. "A system capable of rapidly reflying test hardware had to be rugged enough to take a beating on top of any aerodynamic or mechanical loading the rocket would experience during flight." This excerpt combines reasoning and a professional tone, which is exactly what a professional engineering setting mandates.
 
-Citations: [1]Quinn, Z., 2022, “Refactoring A Python ETL Pipeline (With Example),” Medium. 
+Portfolio Analysis Citations (ASME): [1]Quinn, Z., 2022, “Refactoring A Python ETL Pipeline (With Example),” Medium. 
 
 Product Analysis: Ink Cartridge for Ball-Point Pen (Patent US5904432A)
 
-The primary function of this product is to hold and dispense an adequate amount of ink when put into contact with a surface and driven across it.
+The primary function of this product is to hold and dispense an adequate amount of ink when brought into contact with a surface and driven across it.
 
 The design of a ballpoint pen ink cartridge relies on two governing models. Firstly is a transition fit. The transition fit allows the ball at the point of the ink cartridge to be retained by the inner walls of the pipe at the tip of the pen. Secondly, the clearance fit within the inner section of the pipe tip allows the ball to rotate, creating space for ink to flow past the ball and onto whatever the user is writing on.
 
+A physical assumption that the design of the ballpoint pen relies on is that of gravity. Without gravity, there would be no force that pushes the ink down through the cartridge, and thus ink would not flow out onto the paper/writing surface. This is why astronauts have specially engineered pens that have an internal pressure system that eject the ink, rather than relying on gravity.
 
+Although the overall design of the ballpoint pen is fairly intuitive, multiple variables must be considered and engineered to create a functional, reliable product. Firstly, consider the ball at the tip of the ink cartridge. The ball must be perfectly round and made of a resilient material that will not change shape due to strain and wear. This led engineers to choose tungsten carbide for most ballpoint pen balls due to its high hardness and wear resistance. Moving along the pen, the next feature we meet is the tip housing. This is the pipe that contains the ball and allows for ink transfer. Some necessary design aspects are, again, resistance to wear and strain. However, compromises must be made to allow for ease of manufacturing and reduced end cost for the consumer. This makes brass a perfect choice. It's ductile enough to be made into pipe and bent to contain the pen ball, but strong enough to resist writing forces. Finally, we meet the ink cartridge itself, which, although it doesn't need to meet such stringent material requirements as the other components, still requires some design. It must be composed of a ductile material that can maintain a transition fit on the tip housing, and the user needs to see how much ink remains in the cartridge (optimally). Naturally, when considering modern materials based on both price and material specifications, an engineer would employ plastic. Specifically, Polypropylene Copolymer, which is a plastic that has high impact resistance and lighter weight when compared to other options [1]. Polypropylene Copolymer is also a thermoplastic, which allows for ease of shaping once heated, allowing for the minimization of manufacturing costs. [1]
 
+<img width="2031" height="388" alt="pen parts" src="https://github.com/user-attachments/assets/16c304cc-558c-4df4-a0b4-bc11b8cd004a" />
+
+The patent that defines ballpoint pens is Patent US5904432A. Possible 
+
+Product Analysis Citations (ASME):
+
+[1]Brown, R. S., 2026, “How ballpoint pens are made? - A detailed process,” art ltd. magazine [Online]. Available: https://artltdmag.com/how-ballpoint-pens-are-made/. [Accessed: 24-Aug-2026]. 
+
+[2]“What Ball Point Pens are made of and why it matters,” Serious Materials in Home Services & Construction: An Informative Guide [Online]. Available: https://www.seriousmaterials.com/what-ball-point-pens-are-made-of-and-why-it-matters. [Accessed: 24-Aug-2026]. 
 
 ## Decide
 
@@ -49,7 +60,6 @@ Homepage creation - I wanted my homepage to be both a summary and a guide that v
 Homepage Identity - I edited a few features of the portfolio to make the site "flow" a little better. I did this by changing the heading of "portfolio-overview" to "portfolio-homepage" and adding the title image to that page. This was done to create a personalized title page, while retaining the original title page as a "class-overview", which I can still reference if I need to refresh myself on the three pillars or the semester arc.
 
 Documentation Standard: I will document every step of the assignments I complete and the designs I create that I believe are relevant to anyone using my engineering process as a guide.
-
 
 
 ## Communicate
