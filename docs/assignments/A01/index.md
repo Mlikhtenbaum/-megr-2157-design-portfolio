@@ -2,8 +2,10 @@
 
 ## Objectives
 
-Analytical Element: Analyze two portfolios against functional requirements and document your findings on your A1 portfolio page. Analyze a product based on the given criteria.
-Decision Element: Engage with the template critically and make three documented decisions.
+Analytical Element: Analyze two portfolios against functional requirements and document your findings on your A1 portfolio page. Analyze a product and its patent based on the given criteria.
+
+Decision Element: Engage with the portfolio template critically and make three documented decisions.
+
 Communication Element: Populate the "about me" section of the portfolio.
 
 ## Analyze
