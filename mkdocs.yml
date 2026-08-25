@@ -12,7 +12,6 @@ theme:
 nav:
   - Portfolio Homepage: portfolio-overview.md
   - About Me: aboutme/index.md
-  - Class Overview: index.md
   - Assignments:
       - A1: assignments/A01/index.md
       - A2: assignments/A02/index.md
@@ -25,3 +24,4 @@ nav:
       - A9: assignments/A09/index.md
       - A10: assignments/A10/index.md
       - A11: assignments/A11/index.md
+  - Class Overview and Mission Reminder: index.md
