@@ -3,7 +3,7 @@
 ## Objective
 Design a truss and document your process.
 
-## Documentation
+## Initial Planning
 
 Phase 1: Reading and Understanding:
  Reading and understanding the assignment in its entirety is vital to creating an effective engineering solution. On 9/1/26, from 11:05 to 11:15, I dedicated my time to ensuring I was familiar with the general process behind each step of the truss design process.
@@ -17,12 +17,18 @@ Phase 2: Plan Summarization and Restructuring:
   <img width="2414" height="3074" alt="1" src="https://github.com/user-attachments/assets/4f1b0ab3-8992-4dec-8ec2-54c73b15cac1" />
 <img width="2212" height="2850" alt="2" src="https://github.com/user-attachments/assets/ea8bacef-ba52-4cd3-a1ec-8e0a41247db8" />
 
-
-Phase 2: Portfolio Analysis
+Phase 3: Portfolio Analysis
 
   Throughout this phase of my engineering process, I will analyze previous designs that have been submitted by students. This will allow me to have a better overview of how the end result should look, which may even alter how I want to conduct my process.
 
-## Analyze
+The first portfolio I looked through for this stage of the process was Luke DeVries' (which can be found at this link: https://instructure.charlotte.edu/eportfolios/4880/welcome). I found Luke's portfolio very helpful in providing an overview of an effective structure and documentation process. The structure of his portfolio perfectly lines up with the steps of the assignment, which makes it very easy to navigate. His documentation is replete, especially in describing the mistakes that he encountered throughout his design process (which is very admirable). I plan on using the information I gained in analyzing his portfolio to ensure that I complete all my calculations correctly on the offset, rather than having to go back and redo them. His perseverance in creating two separate truss designs was also insightful, as it has inspired me to read more about truss design and how symmetry can be beneficial.
+
+The second portfolio I read was Sammari Tate's (which can be accessed at https://uncc.instructure.com/eportfolios/4900/home/landing-page). Sammari's portfolio was very detailed and organized, which I hope to achieve in my portfolio as well. One detail that I appreciated within Sammari's project was a simple yet uncommon measure in daily life: differentiating between mass and weight. I would have realized the necessity for further calculation than just finding mass once I looked at SolidWorks' weight approximation, but Sammari saved me the trouble of having to backtrack. I appreciate maintaining an efficient work process, and overlooking small but vital details like these due to everyday simplifications can mean spending more time than necessary on a project. Proper calculations and vocabulary are essential to engineering success.
+
+This segment of the initial planning process took me from 7:00 pm to 7:37 pm.
+
+## Truss Design
+
 
 
 ## Decide
