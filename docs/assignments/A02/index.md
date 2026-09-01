@@ -19,6 +19,7 @@ Phase 2: Plan Summarization and Restructuring:
 
 
 Phase 2: Portfolio Analysis
+
   Throughout this phase of my engineering process, I will analyze previous designs that have been submitted by students. This will allow me to have a better overview of how the end result should look, which may even alter how I want to conduct my process.
 
 ## Analyze
