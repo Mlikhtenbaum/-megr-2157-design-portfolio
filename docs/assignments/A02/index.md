@@ -136,4 +136,3 @@ The expected failure mode of the pin is undoubtedly sliding failure along its cr
 ASME Citation: [2]Conniff, M., 2026, “Types of stress in mechanics and materials,” Xometry [Online]. Available: https://www.xometry.com/resources/materials/types-of-stress/. [Accessed: 03-Sep-2026]. 
 
 Overall, this project took me about 15 hours. My CAD download files can be found [here](https://drive.google.com/drive/folders/1N5_GUr7DBAASGF05TKrJUhHWa3FSFKzd?usp=drive_link).
-
