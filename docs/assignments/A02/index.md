@@ -94,6 +94,8 @@ Step three assigns a similar problem as step 2, but is in reference to the pins 
 
 ## Step 4:
 
+CAD Design:
+
 When designing the truss in SolidWorks, I chose to model the truss and the pins in separate files. There was no need to assemble the system, and since the pin and truss materials are of very similar density, there is no point in inserting the pins into the truss inside the modeling program. After designing my truss, I chose AISI 1035 Steel (SS) in the SolidWorks material presets to best mimic the properties of A500 steel. Once I analyzed the resulting mass properties, I found that SolidWorks simulates the actual mass of the truss as 8027.43 grams, or 8.027 kg. This means that my initial estimate of 8.16kg had a percent error of 1.62%, which I am more than happy with! The slight difference is likely due to differences in exact material properties. My weight estimate for the pin was also fairly accurate, with SolidWorks reporting a pin mass of 9.76 g (which, when multiplied by 6 to match the number of joints in my truss, results in a mass of 58.56 grams), while my measurement was 57 grams. That leads to a percent error of 2.74%, which is also acceptable. 
 
 Truss CAD Images:
@@ -109,9 +111,11 @@ Percent Error Calculations (Along with Radius Calculation for Pin)
 
 ## Step 5:
 
+Engineering Lesson:
+
 The engineering lessons I learned from this lesson are multitudinous and invaluable. Firstly, I understood the importance of fully reading textbook content rather than skimming through it, especially when learning a new topic or refreshing my memory regarding an old one. If I had placed more emphasis on doing this in the first place, I wouldn't have wasted so much time trying to determine a solution to an indeterminate system. On a more positive note, I learned the importance of having a variety of skills when in an engineering design environment. I wouldn't have been able to complete this project as well as I did if I didn't have the math, writing, and computer skills that I have learned throughout my life.
 
-## Step 5:
+## Step 6:
 
 2157 Addition:
 
