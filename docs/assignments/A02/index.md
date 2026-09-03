@@ -41,15 +41,48 @@ This part of the planning phase ranged from 7:40 pm to 8:21 pm. I also went back
 
 Step 1:
 
-The first step I completed within my truss design process was sketching out Figure 1 and creating two different truss designs based on the given dimensions. While sketching out these trusses, my design process was fairly arbitrary, but there was one dictating element in the mix. I wanted to involve as many triangles as I could. This is because I know they are the most supportive shape when designing structures that encounter loads from multiple directions. After creating my two designs, I sat down and began to analyze them mentally, both visually and mathematically, eliminating zero-force members in my basic calculations and ensuring that my designs were realistic. After considering their viability, design B was the clear winner, based on two advantages. It has fewer zero-force members than the first design, but still retains two for redundancy and resistance to possible side loads. The first design is too skeletonized and wouldn't be able to resist the applied forces (20kN each). The second advantage of design B involves its utility in a real-world application. It should - and I hadn't conducted the calculations yet - still be able to handle the applied loads even if one of the members were to fail. Of course, this distinction depends on the cross-sectional area of the rods that make up the truss, and the material it's made from, but in theory, design B is the winner in this scenario. 
+The first step I completed within my truss design process was sketching out Figure 1 and creating two different truss designs based on the given dimensions. While sketching out these trusses, my design process was fairly arbitrary, but there was one dictating element in the mix. I wanted to involve as many triangles as I could. This is because I know they are the most supportive shape when designing structures that encounter loads from multiple directions. After creating my two designs, I sat down and began to analyze them mentally, both visually and mathematically, eliminating zero-force members in my basic calculations and ensuring that my designs were realistic. After considering their viability, design B was the clear winner, based on two advantages. It has no zero-force members, which are important in real-world applications but are irrelevant to our controlled situation. This lack of zero-force members allows the design to be lighter than a truss with more beams/rods. The second superiority of design B theoretically offsets this aforementioned disadvantage. It should - and I hadn't conducted the calculations yet - still be able to handle the applied loads even if one of the members were to fail. Of course, this distinction depends on the cross-sectional area of the rods that make up the truss, and the material it's made from. However, in theory, design B is the winner under both of these considerations.
 
 Here are my initial design sketches:
 
 <img width="2663" height="3410" alt="3 (Truss Design)" src="https://github.com/user-attachments/assets/6e212439-af8a-46ed-95eb-f895b05d4fae" />
 
+Length and external force equilibrium:
+
 This segment of the assignment took from 8:00 pm to 9:40 pm, but my time definitely wasn't spent as efficiently as it was on the previous segments. Time for bed!
 
+<img width="2541" height="3340" alt="Length and External Forces" src="https://github.com/user-attachments/assets/606bca56-4612-42c8-ab59-4ccb34d8c3a2" /><img width="2429" height="3169" alt="Final Truss Calc 1" src="https://github.com/user-attachments/assets/7a6b2e91-44fe-4405-888c-cb055fc16ca6" />
+
+
+Continuing this process, I redrew Design B more accurately and inputted the given measurements into my diagram. It was time to get into determining lengths and forces. One important lesson I learned throughout this process is that it is important to identify determinate joints prior to beginning the solving process. I drew joint E prior to solving joint C, which was inefficient since I needed info from C's solution to determine the forces on E. At least, that's what I thought. In reality, the truss that I had designed was statically indeterminate. Luckily for me, I had only wasted an hour of my time trying to determine equation equivalencies and substitutions, which meant that this section took me from 8:40 am to 11:00 am. After today's classes, it'll be back to the drawing board, this time armed with a vital equation for the creation of trusses: 
+
+<img width="591" height="61" alt="image" src="https://github.com/user-attachments/assets/dbc479b2-8717-4ea2-9587-dc5725c2c528" />
+[1]
+
+One might notice that I didn't have to create a new citation for this image. That's because it's out of the same textbook section that I had cited earlier! That's right, I totally missed one of the most important considerations when creating trusses. My only excuse was that I used the site "https://www.truzme.com/free-truss-calculator" to ensure my truss would function correctly under the given loads, and everything worked out on that program. Now, looking back, I understand that the truss calculator uses more than just static equilibrium to determine internal forces. I will provide my work for the indeterminate truss here, so that I may be an example to others of what NOT to do!
+
+<img width="2366" height="3114" alt="A2 Indet Work" src="https://github.com/user-attachments/assets/5812a18e-0f88-4f12-9ed0-b83369c9c04d" />
+
+Step 1.1:
+
+Truss Modification:
+
+Now, running low on time, my priority was to keep the majority of the truss I had started with, but modify it to match it to the determinate truss equation. Since I have three reaction forces, my truss must follow the equation: 2J = 3 + M. Right now, my joints and members were not governed by this formula, leaving me with the equation: 12 = 3 + 10. This meant that removing one member would allow my truss to work! I chose to eliminate member FD, leaving me with this new and determinate design:
+
+<img width="2343" height="1048" alt="A2 Truss Modification" src="https://github.com/user-attachments/assets/7a089012-5798-4a44-bb0b-2be07571db44" />
+
+Now I can actually find all of the internal truss forces and move on. This time I will work from the right side of the truss to the left, since the forces on the right side are easier to determine initially. Here are my final truss calculations:
+
+<img width="2429" height="3169" alt="Final Truss Calc 1" src="https://github.com/user-attachments/assets/bcd65f75-fc98-4529-a4cd-16d5a6a7493b" />
+<img width="2322" height="2050" alt="Final Truss Calc 2" src="https://github.com/user-attachments/assets/f7d83de3-d091-4b19-b838-21bc09a1e93d" />
+
+
+
+
+
 Step 2:
+
+
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
