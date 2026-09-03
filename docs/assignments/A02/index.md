@@ -53,7 +53,7 @@ Length and external force equilibrium:
 
 This segment of the assignment took from 8:00 pm to 9:40 pm, but my time definitely wasn't spent as efficiently as it was on the previous segments. Time for bed!
 
-<img width="2541" height="3340" alt="Length and External Forces" src="https://github.com/user-attachments/assets/606bca56-4612-42c8-ab59-4ccb34d8c3a2" /><img width="2429" height="3169" alt="Final Truss Calc 1" src="https://github.com/user-attachments/assets/7a6b2e91-44fe-4405-888c-cb055fc16ca6" />
+<img width="2541" height="3340" alt="Length and External Forces" src="https://github.com/user-attachments/assets/606bca56-4612-42c8-ab59-4ccb34d8c3a2" />
 
  Continuing this process, I redrew Design B more accurately and inputted the given measurements into my diagram. It was time to get into determining lengths and forces. One important lesson I learned throughout this process is that it is important to identify determinate joints prior to beginning the solving process. I drew joint E prior to solving joint C, which was inefficient since I needed info from C's solution to determine the forces on E. At least, that's what I thought. In reality, the truss that I had designed was statically indeterminate. Luckily for me, I had only wasted an hour of my time trying to determine equation equivalencies and substitutions, which meant that this section took me from 8:40 am to 11:00 am. After today's classes, it'll be back to the drawing board, this time armed with a vital equation for the creation of trusses: 
 
