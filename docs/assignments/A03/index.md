@@ -53,7 +53,7 @@ These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd
 
 ### 1. Parametric CAD Design and Calculations:
 
-I chose an outer diameter of 2 inches for my beam/tube because it is an easy-to-understand size. Working with familiar sizes is advantageous to engineers because they are instantly able to determine if stress/strain values are realistic. I chose an inner diameter of 1.75 in to minimize the thickness of the tube, which, in turn, shortens the overall length of the beam. I chose 300 lbf/in^2 as my applied force value because I wanted to provide this beam (which has a fairly small outer diameter) with the greatest chance of surviving the load. I completed hand calculations to determine the resultant length, and then input the deflection equation into SolidWorks and checked my calculations using parametric formulas. The material I chose to employ within my design was 1060-H14 aluminum, which fit the criteria necessitated by the assignment's instructions.
+I chose an outer diameter of 2 inches for my bar/tube because it is an easy-to-understand size. Working with familiar sizes is advantageous to engineers because they are instantly able to determine if stress/strain values are realistic. I chose an inner diameter of 1.75 in to minimize the thickness of the tube, which, in turn, shortens the overall length of the bar. I chose 300 lbf/in^2 as my applied force value because I wanted to provide this bar (which has a fairly small outer diameter) with the greatest chance of surviving the load. I completed hand calculations to determine the resultant length, and then input the deflection equation into SolidWorks and checked my calculations using parametric formulas. The material I chose to employ within my design was 1060-H14 aluminum, which fit the criteria necessitated by the assignment's instructions.
 
 [Hand Calculations]
 
@@ -84,7 +84,7 @@ To create the FEA simulation within SolidWorks, I used the process described in 
 
 <img width="1920" height="1080" alt="FEA SS Deflection " src="https://github.com/user-attachments/assets/0b587319-da55-4bb0-9182-057ab425e31e" />
 
-The maximum stress experienced by the beam is 5.074 × 10^2 psi. I determined this number by using the "probe" feature within the stress analysis map, which automatically provides the stress at every node of the structure based on the mesh that I created. The yield strength of aluminum, as provided by the assignment description, is 40 Ksi or 40000 Psi.
+The maximum stress experienced by the bar is 5.074 × 10^2 psi. I determined this number by using the "probe" feature within the stress analysis map, which automatically provides the stress at every node of the structure based on the mesh that I created. The yield strength of aluminum, as provided by the assignment description, is 40 Ksi or 40000 Psi.
 
 Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety factor of my design is 78 (found by calculating 40000/507.4). That number really doesn't make a lot of sense, considering that most safety factors lie within the range of integers 2-4. Therefore, I used the yield strength provided by SolidWorks to determine a more realistic safety factor. SolidWorks' provided yield strength for 1060-H14 aluminum is 1.305 x 10^4 Psi. Using this value in my calculations, I ended up with a safety factor of ~25.72, which is still high but more realistic.
 
@@ -119,7 +119,7 @@ Throughout this assignment, I learned about different design methods and how to 
 
 ### Modify Design Parameters:
 
-This segment of the assignment dictates that each of the variables developed within the previous iteration of the beam design must be altered. Then the final dimension and force alterations due to these changes must be estimated and determined via hand calculations. 
+This segment of the assignment dictates that each of the variables developed within the previous iteration of the bar design must be altered. Then the final dimension and force alterations due to these changes must be estimated and determined via hand calculations. 
 
 Original Dimensions:
 
