@@ -122,13 +122,19 @@ Throughout this assignment, I learned about different design methods and how to 
 This segment of the assignment dictates that each of the variables developed within the previous iteration of the beam design must be altered. Then the final dimension and force alterations due to these changes must be estimated and determined via hand calculations. 
 
 Original Dimensions:
+
 - Outer Diameter: 2 inches
+  
 - Inner Diameter: 1.75 inches
+  
 - Applied Force: 300 lbf
 
 Altered Dimensions:
+
 - Outer Diameter: 4 inches
+  
 - Inner Diameter: 1.75 inches
+  
 - Applied Force: 400 lbf
 
 Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. The increase in force will lessen this increase in length, but the length should increase regardless.
