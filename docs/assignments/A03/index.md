@@ -11,21 +11,24 @@ Fully reading and understanding the assignment description is vital for a projec
 
 One initial mistake that I will document goes back long before this assignment. Back in the summer, when I downloaded SolidWorks using my UNC Charlotte email, I chose to only install the geometric functions of the program. Before getting into the CAD design section of A3, I had to redownload it entirely. I noted this because it emphasizes the idea that putting something off always makes it more of a hassle in the future.
 
-I also chose not to analyze previous portfolios as intensely as I did on assignment A2. I discarded this portion of analysis because previous portfolios detailing A3 were based on different cross-sections.
+I also chose not to analyze previous portfolios as intensely as I did on assignment A2. I discarded this portion of the analysis because previous portfolios detailing A3 were based on different cross-sections.
 
 
 ### 2. Read necessary textbook content and take notes:
 
-<img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/2ccbcd76-8ebe-49b5-ae51-c72517035520" />
 [Textbook Notes]
 
-   
+<img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/2ccbcd76-8ebe-49b5-ae51-c72517035520" />
+
+
 ### 3. Develop understanding of parametric design workflow:
 
 These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv9H5o) [1]
 
-<img width="2277" height="1528" alt="A3 Parametric Design Notes" src="https://github.com/user-attachments/assets/863b1e7e-2c45-4d1d-b4b4-c5b602a5adf4" />
 [Parametric Design Video Notes]
+
+<img width="2277" height="1528" alt="A3 Parametric Design Notes" src="https://github.com/user-attachments/assets/863b1e7e-2c45-4d1d-b4b4-c5b602a5adf4" />
+
 
 Parametric Design Steps:
 
@@ -40,8 +43,9 @@ Parametric Design Steps:
    
 These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd6Fww) [2]
 
-<img width="2434" height="1178" alt="A3 FEA Intro Notes" src="https://github.com/user-attachments/assets/a544e694-9585-4250-a9de-2760dac96f65" />
 [FEA Video Notes]
+
+<img width="2434" height="1178" alt="A3 FEA Intro Notes" src="https://github.com/user-attachments/assets/a544e694-9585-4250-a9de-2760dac96f65" />
 
 
 ## Action Phase: Parametric Modeling and FEA
@@ -51,40 +55,41 @@ These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd
 
 I chose an outer diameter of 2 inches for my beam/tube because it is an easy-to-understand size. Working with familiar sizes is advantageous to engineers because they are instantly able to determine if stress/strain values are realistic. I chose an inner diameter of 1.75 in to minimize the thickness of the tube, which, in turn, shortens the overall length of the beam. I chose 300 lbf/in^2 as my applied force value because I wanted to provide this beam (which has a fairly small outer diameter) with the greatest chance of surviving the load. I completed hand calculations to determine the resultant height, and then input the deflection equation into SolidWorks and checked my calculations using parametric formulas. The material I chose to employ within my design was 1060-H14 aluminum, which fit the criteria necessitated by the assignment's instructions.
 
-Hand Calculations:
+[Hand Calculations]
 
 <img width="2521" height="1340" alt="A3 Hand Calc of L" src="https://github.com/user-attachments/assets/4e1a7a1e-e3e5-494b-9ef9-bdfc604a1b20" />
 
-SolidWorks Parametric Calculations:
+[SolidWorks Parametric Calculations]
 
 <img width="927" height="415" alt="image" src="https://github.com/user-attachments/assets/d705036a-f4a7-4d03-8ef5-4005f16a9b44" />
 
 SolidWorks Model Dimensions:
 
-<img width="1762" height="930" alt="image" src="https://github.com/user-attachments/assets/7b64602d-06be-4ff3-900a-e309a17446c2" />
 [Diameters as global variables]
+<img width="1762" height="930" alt="image" src="https://github.com/user-attachments/assets/7b64602d-06be-4ff3-900a-e309a17446c2" />
 
-<img width="1632" height="672" alt="image" src="https://github.com/user-attachments/assets/8e0710c8-4a37-4725-9e48-57f8332796ca" />
 [Length determined by global variable "L"]
-
+<img width="1632" height="672" alt="image" src="https://github.com/user-attachments/assets/8e0710c8-4a37-4725-9e48-57f8332796ca" />
 
 
 ### Step 2: FEA SolidWorks Simulation:
 
 To create the FEA simulation within SolidWorks, I used the process described in Step 4 of the planning phase.
 
-Von Mises Stress Map:
+[Von Mises Stress Map]
+
 <img width="1920" height="1080" alt="FEA SS Von Mises Stress" src="https://github.com/user-attachments/assets/2f542c09-a227-4b09-8be9-a7a5986f5ddf" />
 
-Deflection/Displacement Map:
+[Deflection/Displacement Map]
+
 <img width="1920" height="1080" alt="FEA SS Deflection " src="https://github.com/user-attachments/assets/0b587319-da55-4bb0-9182-057ab425e31e" />
 
 The maximum stress experienced by the beam is 5.074 × 10^2 psi. I determined this number by using the "probe" feature within the stress analysis map, which automatically provides the stress at every node of the structure based on the mesh that I created. The yield strength of aluminum, as provided by the assignment description, is 40 Ksi or 40000 Psi.
 
 Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety factor of my design is 78 (found by calculating 40000/507.4). That number really doesn't make a lot of sense, considering that a load of 300 lbf creates a fairly large amount of stress, especially within such a narrow beam. Therefore, I used the yield strength provided by SolidWorks to determine a more realistic safety factor. SolidWorks' provided yield strength for 1060-H14 aluminum is 1.305 x 10^4 Psi. Using this value in my calculations, I ended up with a safety factor of ~25.72, which is still high but more realistic.
 
-<img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/ade56ccb-af5d-448e-ba40-2ce8f484b265" />
 [Stress Probe]
+<img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/ade56ccb-af5d-448e-ba40-2ce8f484b265" />
 
 
 ### Step 3: Design Reflection:
@@ -99,7 +104,8 @@ b. Pin Hole Stress Concentration:
 
 This section of A3 dictates that the pinhole calculations should be simplified into that of a hole in a flat bar in tension. This may or may not be accurate for my design, which is a tube and has significantly less cross-sectional area. Regardless, a safety factor of 25-78, depending on which yield strength is used, should leave enough room for a small pinhole.
 
-My calculations for this step can be found within this image:
+[Pinhole Calculations]
+
 <img width="2684" height="944" alt="Pinhole Stress Riser" src="https://github.com/user-attachments/assets/0f9a77cb-f959-41df-8736-c6327e1299f2" />
 
 A maximum stress value of 1522.2 lbf/in^2 is found by using the hole in a flat bar in tension approximation. This is still well within the safety factors of both 25 and 78, so the design is still viable (assuming, as I stated earlier, that this formula approximation is semi-valid for a tube).
@@ -127,7 +133,7 @@ Altered Dimensions:
 
 Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. The increase in force will lessen this increase in length, but the length should increase regardless.
 
-New Hand Calculations:
+[New Hand Calculations]
 
 <img width="2291" height="1007" alt="Altered Dimension Hand Calc" src="https://github.com/user-attachments/assets/41243aaa-2f46-48df-b042-b65b9a7be044" />
 
