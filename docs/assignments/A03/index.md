@@ -86,7 +86,7 @@ To create the FEA simulation within SolidWorks, I used the process described in 
 
 The maximum stress experienced by the beam is 5.074 × 10^2 psi. I determined this number by using the "probe" feature within the stress analysis map, which automatically provides the stress at every node of the structure based on the mesh that I created. The yield strength of aluminum, as provided by the assignment description, is 40 Ksi or 40000 Psi.
 
-Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety factor of my design is 78 (found by calculating 40000/507.4). That number really doesn't make a lot of sense, considering that a load of 300 lbf creates a fairly large amount of stress, especially within such a narrow beam. Therefore, I used the yield strength provided by SolidWorks to determine a more realistic safety factor. SolidWorks' provided yield strength for 1060-H14 aluminum is 1.305 x 10^4 Psi. Using this value in my calculations, I ended up with a safety factor of ~25.72, which is still high but more realistic.
+Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety factor of my design is 78 (found by calculating 40000/507.4). That number really doesn't make a lot of sense, considering that most safety factors lie within the range of integers 2-4. Therefore, I used the yield strength provided by SolidWorks to determine a more realistic safety factor. SolidWorks' provided yield strength for 1060-H14 aluminum is 1.305 x 10^4 Psi. Using this value in my calculations, I ended up with a safety factor of ~25.72, which is still high but more realistic.
 
 [Stress Probe]
 <img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/ade56ccb-af5d-448e-ba40-2ce8f484b265" />
