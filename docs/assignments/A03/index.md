@@ -14,7 +14,7 @@ I also chose not to analyze previous portfolios as intensely as I did on assignm
 
 ###2. Read necessary textbook content and take notes.
 
-<img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/7965b7df-4688-4ac9-9258-5835c8ec7be0" />
+<img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/2ccbcd76-8ebe-49b5-ae51-c72517035520" />
 [Textbook Notes]
 
    
@@ -22,7 +22,7 @@ I also chose not to analyze previous portfolios as intensely as I did on assignm
 
 These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv9H5o) [1]
 
-<img width="2277" height="1528" alt="A3 Parametric Design Notes" src="https://github.com/user-attachments/assets/12a6303e-fb21-49fe-89eb-8c55ecd78ce2" />
+<img width="2277" height="1528" alt="A3 Parametric Design Notes" src="https://github.com/user-attachments/assets/863b1e7e-2c45-4d1d-b4b4-c5b602a5adf4" />
 [Parametric Design Video Notes]
 
 Parametric Design Steps:
@@ -35,7 +35,7 @@ Parametric Design Steps:
    
 These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd6Fww) [2]
 
-<img width="2434" height="1178" alt="A3 FEA Intro Notes" src="https://github.com/user-attachments/assets/e47f0509-3b39-44da-8573-e4c5eb9f3940" />
+<img width="2434" height="1178" alt="A3 FEA Intro Notes" src="https://github.com/user-attachments/assets/a544e694-9585-4250-a9de-2760dac96f65" />
 [FEA Video Notes]
 
 ASME Citations: 
@@ -53,29 +53,33 @@ I chose an outer diameter of 2 inches for my beam/tube because it is an easy-to-
 
 Hand Calculations:
 
-<img width="2521" height="1340" alt="A3 Hand Calc of L" src="https://github.com/user-attachments/assets/96ad0228-c783-4ae5-b62f-1eb903082f7e" />
+<img width="2521" height="1340" alt="A3 Hand Calc of L" src="https://github.com/user-attachments/assets/4e1a7a1e-e3e5-494b-9ef9-bdfc604a1b20" />
 
 SolidWorks Parametric Calculations:
 
-<img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/8cd6bdd7-0dea-42fa-b996-c60244274861" />
+<img width="927" height="415" alt="image" src="https://github.com/user-attachments/assets/d705036a-f4a7-4d03-8ef5-4005f16a9b44" />
+
 
 ###Step 2: FEA SolidWorks Simulation
 
 To create the FEA simulation within SolidWorks, I used the process described in Step 4 of the planning phase.
 
 Von Mises Stress Map:
-<img width="1920" height="1080" alt="FEA SS Von Mises Stress" src="https://github.com/user-attachments/assets/0bea249a-9753-4df7-bb3d-bc60cb0b83da" />
+<img width="1920" height="1080" alt="FEA SS Von Mises Stress" src="https://github.com/user-attachments/assets/2f542c09-a227-4b09-8be9-a7a5986f5ddf" />
 
 Deflection/Displacement Map:
-<img width="1920" height="1080" alt="FEA SS Von Mises Stress" src="https://github.com/user-attachments/assets/b09b536b-6688-4ab4-b3c4-aa9bcbd518c1" />
+<img width="1920" height="1080" alt="FEA SS Deflection " src="https://github.com/user-attachments/assets/0b587319-da55-4bb0-9182-057ab425e31e" />
 
 The maximum stress experienced by the beam is 5.074 × 10^2 psi. I determined this number by using the "probe" feature within the stress analysis map, which automatically provides the stress at every node of the structure based on the mesh that I created. The yield strength of aluminum, as provided by the assignment description, is 40 Ksi or 40000 Psi.
 
 Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety factor of my design is 78 (found by calculating 40000/507.4). That number really doesn't make a lot of sense, considering that a load of 300 lbf creates a fairly large amount of stress, especially within such a narrow beam. Therefore, I am going to use the yield strength provided by SolidWorks to determine a more realistic safety factor. SolidWorks' provided yield strength for 1060-H14 aluminum is 1.305 x 10^4 Psi. Using this value in my calculations, I end up with a safety factor of ~25.72, which is still high but more realistic.
 
-<img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/05b233bc-6616-4d79-a3b3-b6c4f8334832" />
+<img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/ade56ccb-af5d-448e-ba40-2ce8f484b265" />
 [Stress Probe]
 
+###Step 3: Design Reflection
+
+The axial deflection that I found using hand calculations was 220.97 inches.
 
 ## Analyze:
 
