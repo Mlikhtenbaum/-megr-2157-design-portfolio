@@ -98,7 +98,7 @@ a. Axial Deflection Analysis:
 
 I assumed that this segment of A3 is referring to length rather than deflection. Deflection is given within the parameters of the assignment: "The max axial deflection of the bar is .009 inches.", and remains constant. This means that its percent error would be zero.
 
-The axial length that I determined using hand calculation was 220.97 inches. The length determined by SolidWorks using parametric design and variable inputs was 220.95. The percent error of these two values can be found using the formula "% Error = |(SolidWorks Value - Theoretical Hand Calculated Value) / Theoretical Value| × 100%." This leads to a result of .009%, which is very accurate. The small discrepancy between these values can easily be explained by the number of decimal places used within the two calculations. This is expected due to the simple geometry of the object, which has no stress risers and a uniform cross section. I would trust both results equally, considering they are nearly identical.
+The axial length that I determined using hand calculation was 220.97 inches. The length determined by SolidWorks using parametric design and variable inputs was 220.95. The percent error of these two values can be found using the formula "% Error = |(SolidWorks Value - Theoretical Hand Calculated Value) / Theoretical Value| × 100%." This leads to a result of .009%, which is very accurate. The small discrepancy between these values can easily be explained by the number of decimal places used within the two calculations. This level of accuracy is undurprising due to the simple geometry of the object, which has no stress risers and a uniform cross section. I would trust both results equally, considering they are nearly identical.
 
 b. Pin Hole Stress Concentration:
 
@@ -108,7 +108,7 @@ This section of A3 dictates that the pinhole calculations should be simplified i
 
 <img width="2684" height="944" alt="Pinhole Stress Riser" src="https://github.com/user-attachments/assets/0f9a77cb-f959-41df-8736-c6327e1299f2" />
 
-A maximum stress value of 1522.2 lbf/in^2 is found by using the hole in a flat bar in tension approximation. This is still well within the safety factors of both 25 and 78, so the design is still viable (assuming, as I stated earlier, that this formula approximation is semi-valid for a tube).
+A maximum stress value of 1522.2 lbf/in^2 is found by using the hole in a flat bar in tension approximation. This is still well within the safety factors of both 25 and 78, so the design is still viable (assuming, as I had stated earlier, that this formula approximation is relatively valid for a tube).
 
 ### Step 4: Lesson Summary:
 
@@ -137,13 +137,13 @@ Altered Dimensions:
   
 - Applied Force: 400 lbf
 
-Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. Although the increase in force lessens length, the growth in area creates a far more sizeable impact.
+Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. Although the increase in force lessens the length, the growth in area creates a far more sizeable impact.
 
 [New Hand Calculations]
 
 <img width="2291" height="1007" alt="Altered Dimension Hand Calc" src="https://github.com/user-attachments/assets/41243aaa-2f46-48df-b042-b65b9a7be044" />
 
-My assumption that the length would increase was correct. The length increased more than ten times, going from ~221 inches to ~2290 inches. This is because the tube is experiencing such a low amount of stress relative to its cross-sectional area. For it to accumulate the deflection necessitated by the assignment instructions (.009 in), the tube must be very long.
+My assumption that the length would increase was correct. The length increased more than ten times, going from ~221 inches to ~2290 inches. This is because the tube experiences a low stress value relative to its cross-sectional area. For it to accumulate the deflection necessitated by the assignment instructions (.009 in), the tube must be very long.
 
 
 ## Decide
