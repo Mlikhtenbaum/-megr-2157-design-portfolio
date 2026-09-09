@@ -28,6 +28,7 @@ These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv
 [Parametric Design Video Notes]
 
 Parametric Design Steps:
+
 - Determine relevant parameters and use engineering equations to create relationships between them.
 
 - Define these relationships using variables.
