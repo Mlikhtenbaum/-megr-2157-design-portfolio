@@ -5,7 +5,7 @@ Design a bar which has a circular cross-section that satisfies the provided valu
 
 ## Planning Phase:
 
-### 1. Read and understand instructions.
+### 1. Read and understand instructions:
 
 Fully reading and understanding the assignment description is vital for a project that involves multiple stages. For this assignment, I chose not to fully rewrite the instructions as I did on A2. This is because I found myself going back to the provided instructions more than I was looking at my own. Minimizing unnecessary writing will help me use my time more efficiently.
 
@@ -14,13 +14,13 @@ One initial mistake that I will document goes back long before this assignment. 
 I also chose not to analyze previous portfolios as intensely as I did on assignment A2. I discarded this portion of analysis because previous portfolios detailing A3 were based on different cross-sections.
 
 
-### 2. Read necessary textbook content and take notes.
+### 2. Read necessary textbook content and take notes:
 
 <img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/2ccbcd76-8ebe-49b5-ae51-c72517035520" />
 [Textbook Notes]
 
    
-### 3. Develop understanding of parametric design workflow by watching provided content and taking notes:
+### 3. Develop understanding of parametric design workflow:
 
 These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv9H5o) [1]
 
@@ -33,7 +33,7 @@ Parametric Design Steps:
 - Input these variables directly into a CAD model so that values automatically update when variables are altered.
 
 
-### 4. Analyze and notate a YouTube video that explains the use of FEA within SolidWorks.
+### 4. Analyze and notate the use of FEA within SolidWorks:
    
 These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd6Fww) [2]
 
@@ -49,7 +49,7 @@ ASME Citations:
 ## Action Phase: Parametric Modeling and FEA
 
 
-### 1. Parametric CAD Design and Calculations
+### 1. Parametric CAD Design and Calculations:
 
 I chose an outer diameter of 2 inches for my beam/tube because it is an easy-to-understand size. Working with familiar sizes is advantageous to engineers because they are instantly able to determine if stress/strain values are realistic. I chose an inner diameter of 1.75 in to minimize the thickness of the tube, which, in turn, shortens the overall length of the beam. I chose 300 lbf/in^2 as my applied force value because I wanted to provide this beam (which has a fairly small outer diameter) with the greatest chance of surviving the load. I completed hand calculations to determine the resultant height, and then input the deflection equation into SolidWorks and checked my calculations using parametric formulas. The material I chose to employ within my design was 1060-H14 aluminum, which fit the criteria necessitated by the assignment's instructions.
 
@@ -62,7 +62,7 @@ SolidWorks Parametric Calculations:
 <img width="927" height="415" alt="image" src="https://github.com/user-attachments/assets/d705036a-f4a7-4d03-8ef5-4005f16a9b44" />
 
 
-### Step 2: FEA SolidWorks Simulation
+### Step 2: FEA SolidWorks Simulation:
 
 To create the FEA simulation within SolidWorks, I used the process described in Step 4 of the planning phase.
 
@@ -80,7 +80,7 @@ Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety 
 [Stress Probe]
 
 
-### Step 3: Design Reflection
+### Step 3: Design Reflection:
 
 a. Axial Deflection Analysis:
 
