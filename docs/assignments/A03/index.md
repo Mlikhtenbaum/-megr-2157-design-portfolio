@@ -7,9 +7,11 @@ Design a bar which has a circular cross-section that satisfies the provided valu
 
 ### 1. Read and understand instructions.
 
-I chose not to fully rewrite the instructions as I did on the last assignment because I found myself going back to the original instructions more than I was looking at my own. One initial mistake that I will document goes back long before this assignment. Back in the summer, when I downloaded SolidWorks using my UNC Charlotte email, I chose to only install the geometric functions of the program. Now I have to either install more components of the app or redownload it entirely to be able to conduct the FEA portion of the assignment. I noted this because it emphasizes the idea that putting something off always makes it more of a hassle in the future.
+Fully reading and understanding the assignment description is vital for a project that involves multiple stages. For this assignment, I chose not to fully rewrite the instructions as I did on A2. This is because I found myself going back to the provided instructions more than I was looking at my own. Minimizing unnecessary writing will help me use my time more efficiently.
 
-I also chose not to analyze previous portfolios as intensely as I did on assignment A2 because the previous iterations of A3 were based on different cross-sections.
+One initial mistake that I will document goes back long before this assignment. Back in the summer, when I downloaded SolidWorks using my UNC Charlotte email, I chose to only install the geometric functions of the program. Before getting into the CAD design section of A3, I had to redownload it entirely. I noted this because it emphasizes the idea that putting something off always makes it more of a hassle in the future.
+
+I also chose not to analyze previous portfolios as intensely as I did on assignment A2. I discarded this portion of analysis because previous portfolios detailing A3 were based on different cross-sections.
 
 
 ### 2. Read necessary textbook content and take notes.
