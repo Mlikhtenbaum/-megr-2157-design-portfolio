@@ -146,7 +146,9 @@ Based on these changes, I believed that the overall length of the bar would incr
 My assumption that the length would increase was correct. The length increased more than ten times, going from ~221 inches to ~2290 inches. This is because the tube is experiencing such a low amount of stress relative to its cross-sectional area. For it to accumulate the deflection necessitated by the assignment instructions (.009 in), the tube must be very long.
 
 
-## Decide:
+## Decide
+
+### Personal Engineering Decisions:
 
 One engineering decision I initially made was to use metric units. I'm a little more familiar with them, and I despise using fractional measurements. However, working in the machine shop has made me far more comfortable with U.S. Customary units since we standardize around thousandths rather than bizarre and difficult-to-comprehend fractions.
 
