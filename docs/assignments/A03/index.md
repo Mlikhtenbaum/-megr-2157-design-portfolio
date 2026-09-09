@@ -5,20 +5,20 @@ Design a bar which has a circular cross-section that satisfies the provided valu
 
 ## Planning Phase:
 
-###1. Read and understand instructions.
+### 1. Read and understand instructions.
 
 I will not be fully rewriting the instructions as I did on the last assignment because I found myself going back to the original instructions more than I was looking at my own. One initial mistake that I will document goes back long before this assignment. Back in the summer, when I downloaded SolidWorks using my Charlotte email, I chose to only install the geometric functions of the program. Now I have to either install more components of the app or redownload it entirely to be able to conduct the FEA portion of the assignment. I noted this because it emphasizes the idea that putting something off always makes it more of a hassle in the future.
 
 I also chose not to analyze previous portfolios as intensely as I did on assignment A2 because the previous iterations of A3 were based on different cross-sections.
 
 
-###2. Read necessary textbook content and take notes.
+### 2. Read necessary textbook content and take notes.
 
 <img width="2376" height="2888" alt="A3 Textbook Notes" src="https://github.com/user-attachments/assets/2ccbcd76-8ebe-49b5-ae51-c72517035520" />
 [Textbook Notes]
 
    
-###3. Develop understanding of parametric design workflow by watching provided content and taking notes:
+### 3. Develop understanding of parametric design workflow by watching provided content and taking notes:
 
 These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv9H5o) [1]
 
@@ -31,7 +31,7 @@ Parametric Design Steps:
 - Input these variables directly into a CAD model so that values automatically update when variables are altered.
 
 
-###4. Analyze and notate a YouTube video that explains the use of FEA within SolidWorks.
+### 4. Analyze and notate a YouTube video that explains the use of FEA within SolidWorks.
    
 These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd6Fww) [2]
 
@@ -47,7 +47,7 @@ ASME Citations:
 ## Action Phase: Parametric Modeling and FEA
 
 
-###1. Parametric CAD Design and Calculations
+### 1. Parametric CAD Design and Calculations
 
 I chose an outer diameter of 2 inches for my beam/tube because it is an easy-to-understand size. Working with familiar sizes is advantageous to engineers because they are instantly able to determine if stress/strain values are realistic. I also chose an inner diameter of 1.75 in to minimize the thickness of the tube, which, in turn, shortens the overall length of the beam. I chose 300 lbf/in^2 as my applied force value because I wanted to give this original, fairly small dimension of D = 2 in the greatest chance of surviving the load. I completed hand calculations to determine the resultant height, and then input the equation into SolidWorks and checked my calculations using parametric formulas. The material I chose to employ within my design was 1060-H14 aluminum, which fit the criteria necessitated by the assignment's instructions.
 
@@ -60,7 +60,7 @@ SolidWorks Parametric Calculations:
 <img width="927" height="415" alt="image" src="https://github.com/user-attachments/assets/d705036a-f4a7-4d03-8ef5-4005f16a9b44" />
 
 
-###Step 2: FEA SolidWorks Simulation
+### Step 2: FEA SolidWorks Simulation
 
 To create the FEA simulation within SolidWorks, I used the process described in Step 4 of the planning phase.
 
@@ -77,11 +77,34 @@ Based on the formula Stress(max)=Stress(yield)/SF, the maximum resulting safety 
 <img width="1911" height="751" alt="PROBE SS Stress" src="https://github.com/user-attachments/assets/ade56ccb-af5d-448e-ba40-2ce8f484b265" />
 [Stress Probe]
 
-###Step 3: Design Reflection
 
-The axial deflection that I found using hand calculations was 220.97 inches.
+### Step 3: Design Reflection
 
-## Analyze:
+a. Axial Deflection Analysis:
+
+I am going to assume that this segment of A3 is referring to length rather than deflection. Deflection is given within the parameters of the assignment: "The max axial deflection of the bar is .009 inches.", and remains constant. This means that its percent error would be zero.
+
+The axial length that I determined using hand calculation was 220.97 inches. The length determined by SolidWorks using parametric design and variable inputs was 220.95. The percent error of these two values can be found using the formula "% Error = |(SolidWorks Value - Theoretical Hand Calculated Value) / Theoretical Value| × 100%." This leads to a result of .009%, which is very accurate. The small discrepancy between these values can easily be explained by the number of decimal places used within the two calculations. This is expected due to the simple geometry of the object, which has no stress risers and a uniform cross section. I would trust both results equally, considering they are nearly identical.
+
+b. Pin Hole Stress Concentration:
+
+This section of A3 dictates that the pinhole calculations should be simplified into that of a hole in a flat bar in tension. This may or may not be accurate for my design, which is a tube and has significantly less cross-sectional area. Regardless, a safety factor of 25-78, depending on which yield strength is used, should leave enough room for a small pinhole.
+
+My calculations for this step can be found within this image:
+<img width="2684" height="944" alt="Pinhole Stress Riser" src="https://github.com/user-attachments/assets/0f9a77cb-f959-41df-8736-c6327e1299f2" />
+
+A maximum stress value of 1522.2 lbf/in^2 is found by using the hole in a flat bar in tension approximation. This is still well within the safety factors of both 25 and 78, so the design is still viable (assuming, as I stated earlier, that this formula approximation is semi-valid for a tube).
+
+### Step 4: Lesson Summary:
+
+Throughout this assignment, I learned about different design methods and how to apply them with the SolidWorks CAD program. Global variables and parametric design are vital in cutting down the time required to create parts, and especially the time required to edit them. I also learned about the basic simulation/FEA features within SolidWorks, which are vital to the efficiency and accuracy of engineering designs. Overall, the assignment took me about 7 hours. 
+
+
+## MEGR-2157 Addition
+
+### Modify Design Parameters:
+
+
 
 
 ## Decide:
