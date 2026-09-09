@@ -150,7 +150,7 @@ My assumption that the length would increase was correct. The length increased m
 
 ### Personal Engineering Decisions:
 
-One engineering decision I initially made was to use metric units. I'm a little more familiar with them, and I despise using fractional measurements. However, working in the machine shop has made me far more comfortable with U.S. Customary units since we standardize around thousandths rather than bizarre and difficult-to-comprehend fractions.
+One engineering decision I intended to make originally was using metric units throughout this assignment. I'm a little more familiar with them, and I despise using fractional measurements. However, working in the machine shop has made me far more comfortable with U.S. Customary units since we standardize around thousandths. As soon as I saw that the provided variables were based on U.S. units, I switched tracks and used them instead.
 
 Another engineering decision I made (which is also noted in my paper notes regarding parametric design) was to use fewer sketch relations in the CAD section of this assignment than I usually do. I chose to do this to ensure that my knowledge of global variables and the assignment requirements was well conveyed. I strongly believe that having a good understanding of geometric relations is vital (and in some cases more important than global variables) to an efficient CAD workflow. 
 
