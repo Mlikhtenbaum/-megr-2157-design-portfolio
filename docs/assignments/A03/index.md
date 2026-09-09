@@ -43,11 +43,6 @@ These notes were taken from this [video](https://www.youtube.com/watch?v=HQUXZJd
 <img width="2434" height="1178" alt="A3 FEA Intro Notes" src="https://github.com/user-attachments/assets/a544e694-9585-4250-a9de-2760dac96f65" />
 [FEA Video Notes]
 
-ASME Citations: 
-[1]Bredder, E., ed., 2020, “ Solidworks 2019 Geometric Relations & Equations,” YouTube [Online]. Available: https://www.youtube.com/watch?v=qRBBmwv9H5o. [Accessed: 08-Sep-2026]. 
-
-[2]TforDesign, ed., 2021, “ SOLIDWORKS FEA Static Simulation in 10 Mins !,” YouTube [Online]. Available: https://www.youtube.com/watch?v=HQUXZJd6Fww. [Accessed: 08-Sep-2026]. 
-
 
 ## Action Phase: Parametric Modeling and FEA
 
@@ -135,5 +130,13 @@ My assumption that the length would increase was correct. The length increased m
 One engineering decision I initially made was to use metric units. I'm a little more familiar with them, and I despise using fractional measurements. However, working in the machine shop has made me far more comfortable with U.S. Customary units since we standardize around thousandths rather than bizarre and difficult-to-comprehend fractions.
 
 Another engineering decision I made (which is also noted in my paper notes regarding parametric design) was to use fewer sketch relations in the CAD section of this assignment than I usually do. I chose to do this to ensure that my knowledge of global variables and the assignment requirements was well conveyed. I strongly believe that having a good understanding of geometric relations is vital (and in some cases more important than global variables) to an efficient CAD workflow. 
+
+
+## ASME Citations: 
+
+[1]Bredder, E., ed., 2020, “ Solidworks 2019 Geometric Relations & Equations,” YouTube [Online]. Available: https://www.youtube.com/watch?v=qRBBmwv9H5o. [Accessed: 08-Sep-2026]. 
+
+[2]TforDesign, ed., 2021, “ SOLIDWORKS FEA Static Simulation in 10 Mins !,” YouTube [Online]. Available: https://www.youtube.com/watch?v=HQUXZJd6Fww. [Accessed: 08-Sep-2026]. 
+
 
 
