@@ -59,6 +59,15 @@ SolidWorks Parametric Calculations:
 
 <img width="927" height="415" alt="image" src="https://github.com/user-attachments/assets/d705036a-f4a7-4d03-8ef5-4005f16a9b44" />
 
+SolidWorks Model Dimensions:
+
+<img width="1762" height="930" alt="image" src="https://github.com/user-attachments/assets/7b64602d-06be-4ff3-900a-e309a17446c2" />
+[Diameters as global variables]
+
+<img width="1632" height="672" alt="image" src="https://github.com/user-attachments/assets/8e0710c8-4a37-4725-9e48-57f8332796ca" />
+[Length determined by global variable "L"]
+
+
 
 ### Step 2: FEA SolidWorks Simulation:
 
