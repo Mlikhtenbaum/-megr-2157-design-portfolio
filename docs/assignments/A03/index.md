@@ -137,7 +137,7 @@ Altered Dimensions:
   
 - Applied Force: 400 lbf
 
-Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. The increase in force will lessen this increase in length, but the length should increase regardless.
+Based on these changes, I believed that the overall length of the bar would increase due to the relationship established in the hand calculations I had conducted earlier. Although the increase in force lessens length, the growth in area creates a far more sizeable impact.
 
 [New Hand Calculations]
 
