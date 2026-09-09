@@ -29,7 +29,9 @@ These notes were taken from this [video](https://www.youtube.com/watch?v=qRBBmwv
 
 Parametric Design Steps:
 - Determine relevant parameters and use engineering equations to create relationships between them.
+
 - Define these relationships using variables.
+
 - Input these variables directly into a CAD model so that values automatically update when variables are altered.
 
 
