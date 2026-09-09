@@ -161,5 +161,9 @@ Another engineering decision I made (which is also noted in my paper notes regar
 
 [2]TforDesign, ed., 2021, “ SOLIDWORKS FEA Static Simulation in 10 Mins !,” YouTube [Online]. Available: https://www.youtube.com/watch?v=HQUXZJd6Fww. [Accessed: 08-Sep-2026]. 
 
+CAD File Download Link:
+
+https://drive.google.com/drive/folders/1tyAzeaZkDtcyI7IxqCJO4ElyXYwqn5-p?usp=sharing
+
 
 
