@@ -38,11 +38,11 @@ My final choice between these two values was 26.8mm, for two reasons. The first 
 
 Figures 3 and 4 detail the process behind determining the necessary thickness of the motor mount plate. Figure 3 provides a mount thickness based on the bending stress experienced by the part. Figure 4 uses maximum deflection to determine thickness based on stability rather than stress. The height of Feature 1's flange is not accounted for within this calculation to simplify the computational process. The formula for normal stress has been used in the stress calculations for this segment because the force is assumed to be acting axially, rather than on one end of a cantilever, as was true in the previous portion of the design.
 
-Beam Stress Calculations:
+Beam Stress Calculations: Figure 3
 
 <img width="2289" height="3038" alt="A4-3" src="https://github.com/user-attachments/assets/1d0c82da-d83a-4c73-b118-a03a47051d71" />
 
-Beam Deflection Calculations:
+Beam Deflection Calculations: Figure 4
 
 <img width="2408" height="3176" alt="A4-4" src="https://github.com/user-attachments/assets/d0cc4ac7-0ea4-4bb5-b751-21932f743962" />
 
