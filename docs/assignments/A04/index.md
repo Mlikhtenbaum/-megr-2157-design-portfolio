@@ -102,7 +102,7 @@ F2 Bolt Holes and the Shaft Hole came last:
 
 This technical drawing conveys all features and dimensions needed to replicate my motor mount design.
 
-[A4 Motor Mount Drawing.pdf](https://github.com/user-attachments/files/32320895/A4.Motor.Mount.Drawing.pdf)
+<img width="1055" height="819" alt="Drawing" src="https://github.com/user-attachments/assets/e14b3963-caac-402f-8765-3786c747cc44" />
 
 
 ## Decisions: 
@@ -131,3 +131,4 @@ This project took me about 11 hours. Mainly due to my confusion about how to cal
 ## Downloads:
 
 Here is the [link](https://drive.google.com/drive/folders/1zwv8j4h-NW8Ql2mJCiRN7Nqz18Xc2u2_?usp=drive_link) to the Google Drive folder that contains my CAD file and engineering drawing.
+Here is the [A4 Motor Mount Drawing.pdf](https://github.com/user-attachments/files/32320895/A4.Motor.Mount.Drawing.pdf) download.
