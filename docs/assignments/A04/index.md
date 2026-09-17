@@ -17,7 +17,7 @@ Step two is drawing out the initial design sketches. There are two features that
 
 Initial Design Sketches: 
 
-<img width="2422" height="3140" alt="A4-5" src="https://github.com/user-attachments/assets/32d04b8d-27f2-4313-9bcc-b76effaae4fb" />
+<img width="2422" height="2185" alt="A4-5" src="https://github.com/user-attachments/assets/6b46f27c-2ade-4d4d-9b56-4012b1f89fc3" />
 
 
 ## Feature 1:
@@ -127,3 +127,7 @@ One mistake that I wish I had accounted for was not adding ample length to F1. I
 One of the engineering lessons I learned from this project was carrying units. Due to the complexity of the calculations and the number of variables involved, ensuring that units cancel out is vital to determining correct design dimensions.
 
 This project took me about 11 hours. Mainly due to my confusion about how to calculate beam equations with the addition of the motor mount flange, which really wasn't necessary anyway.
+
+## Downloads:
+
+Here is the [link](https://drive.google.com/drive/folders/1zwv8j4h-NW8Ql2mJCiRN7Nqz18Xc2u2_?usp=drive_link) to the Google Drive folder that contains my CAD file and engineering drawing.
