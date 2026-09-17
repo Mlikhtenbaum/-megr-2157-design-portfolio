@@ -21,17 +21,17 @@ Step two is drawing out the initial design sketches. There are two features that
 
 All hand calculations for Feature 1 were simplified based on three assumptions. The first assumption is that the moments of inertia required to solve the problem are based on rectangular measurements, rather than the circular ones which are given. This will affect calculations, since base and height measurements are not manually converted into radial measurements. The second assumption was that forces act directly on the portion of the motor that is sticking out from the mount - the shaft. The third assumption is that the effective base measurement (b(eff)) of the motor mount will be approximately the same as the necessary diameter for the contact flange of the motor mount and motor.
 
-The first two figures detail the process that I used to determine the necessary diameter of the contact flange that connects the motor mount to the motor. While designing for stress, the dimensions of the motor shaft (to which force P is being directly applied) are used to determine the moment of inertia and the magnitude of the moment that is being applied to the shaft. Determining these values based on the dimensions of the thin shaft provides the design with another layer of safety, because long, thin structures are easier to bend. Once I and M are found, the necessary flange diameter is determined to be the value of the variable "b(eff)". Designing for deflection follows a similar process, although the value of the variable b(eff) is determined through the moment equation in this formula. Upon concluding these two calculation processes, my two answers were an outer flange diameter of 18.5mm and 26.8mm for stress and deflection, respectively.
+Figures 1 and 2 detail the process that I used to determine the necessary diameter of the contact flange that connects the motor mount to the motor. While designing for stress, the dimensions of the motor shaft (to which force P is being directly applied) are used to determine the moment of inertia and the magnitude of the moment that is being applied to the shaft. Determining these values based on the dimensions of the thin shaft provides the design with another layer of safety, because long, thin structures are easier to bend. Once I and M are found, the necessary flange diameter is determined to be the value of the variable "b(eff)". Designing for deflection follows a similar process, although the value of the variable b(eff) is determined through the moment equation in this formula. Upon concluding these two calculation processes, my two answers were an outer flange diameter of 18.5mm and 26.8mm for stress and deflection, respectively.
 
-Beam Stress Calculations:
+Beam Stress Calculations: Figure 1
 <img width="2444" height="3110" alt="A4-1" src="https://github.com/user-attachments/assets/60dfce43-9b6f-487b-b39d-c63aca002a99" />
 
-Beam Deflection Calculations:
+Beam Deflection Calculations: Figure 2
 <img width="2421" height="3100" alt="A4-2" src="https://github.com/user-attachments/assets/45e09fde-9782-4701-869e-75fe08240417" />
 
 My final choice between these two values was 26.8mm, for two reasons. The first is that 26.8mm more effectively combats deflection and keeps the design from deforming further than .03mm. Secondly, after inspecting the motor dimensions, there would be no way to bolt the motor to the mount with a diameter of 18.5 mm- the distance between the bolt holes of the motor is 22mm.
 
-The third figure details the process behind determining the necessary thickness of the motor mount plate. The assumption has been made that the thickness value gathered from these calculations will apply to both the square body of feature 1 and the flange portion that connects the motor to the mount. This is a valid assumption because: A. the flange does not protrude excessively from the body of the mount, which would create a bending moment, and B. the flange dimensions have already been determined based on allowable stress. The formula for normal stress has been used in the calculations for this segment because the force is assumed to be acting axially, rather than on one end of a cantilever, as it was in the previous portion of the design.
+Figures 3 and 4 detail the process behind determining the necessary thickness of the motor mount plate. Figure 3 provides a mount thickness based on the bending stress experienced by the part. Figure 4 uses maximum deflection to determine thickness based on stability rather than stress. The height of Feature 1's flange is not accounted for within this calculation to simplify the computational process. The formula for normal stress has been used in the stress calculations for this segment because the force is assumed to be acting axially, rather than on one end of a cantilever, as was true in the previous portion of the design.
 
 Beam Stress Calculations:
 <img width="2289" height="3038" alt="A4-3" src="https://github.com/user-attachments/assets/1d0c82da-d83a-4c73-b118-a03a47051d71" />
@@ -39,7 +39,7 @@ Beam Stress Calculations:
 Beam Deflection Calculations:
 <img width="2408" height="3176" alt="A4-4" src="https://github.com/user-attachments/assets/d0cc4ac7-0ea4-4bb5-b751-21932f743962" />
 
-Between these two resultant thicknesses, t = 13.4mm is the clear winner. It is much higher than the thickness value due to stress, likely due to PETG's relatively high yield strength. A deflection of .03mm is fairly minute, especially when considering a 300N force applied to the end of an 18mm lever, and leads to a higher necessary thickness value.
+Between these two resultant thicknesses, t = 13.4mm is the clear winner. It is much higher than the thickness value due to stress, which is very low due to PETG's relatively high yield strength. A deflection of .03mm is fairly small, especially when considering a 300N force applied to the end of an 18mm lever, and leads to a higher necessary thickness value.
 
 
 ## Feature 2:
