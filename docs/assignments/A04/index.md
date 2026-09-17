@@ -13,7 +13,9 @@ B. Design for maximum deflection of .30mm
 
 Step one of the planning process was understanding the different requirements that A4 mandates for the motor mount. Firstly, the mount must be strong enough to withstand an applied stress of 300N. Secondly, it mustn't deflect more than .03mm while the 300N force is acting upon it. 
 
-Step two is drawing out the initial design sketches. There are two features that create the overall structure of the motor mount. Feature 1 is the part of the mount that the motor attaches to. Once the motor is bolted on, it is fixed and has reaction forces in the x and y axes, and a reaction moment that resists applied torque. Feature 2 is mounted to the wall/ceiling and keeps the whole structure in place. Shear stress will be the most important consideration when creating this feature because Feature 1 applies a force to a relatively small area of Feature 2. Deflection is not as important a consideration in the design of Feature 2 due to where the 300N force is being applied, but it must still be accounted for.
+Step two is drawing out the initial design sketches. There are two features that create the overall structure of the motor mount. Feature 1 is the part of the mount that the motor attaches to. Once the motor is bolted on, it is fixed and has reaction forces in the x and y axes, and a reaction moment that resists applied torque. Feature 2 is mounted to the wall/ceiling and keeps the whole structure in place. Bending stress will be the most important consideration when creating this feature because the assignment states that "the deflection of the feature attached to the wall is zero". This is likely the case because Feature 2 is fixed to the ceiling throughout its entire area.
+
+Initial Design Sketches: 
 
 <img width="2422" height="3140" alt="A4-5" src="https://github.com/user-attachments/assets/32d04b8d-27f2-4313-9bcc-b76effaae4fb" />
 
@@ -25,9 +27,11 @@ All hand calculations for Feature 1 were simplified based on three assumptions. 
 Figures 1 and 2 detail the process that I used to determine the necessary diameter of the contact flange that connects the motor mount to the motor. While designing for stress, the dimensions of the motor shaft (to which force P is being directly applied) are used to determine the moment of inertia and the magnitude of the moment that is being applied to the shaft. Determining these values based on the dimensions of the thin shaft provides the design with another layer of safety, because long, thin structures are easier to bend. Once I and M are found, the necessary flange diameter is determined to be the value of the variable "b(eff)". Designing for deflection follows a similar process, although the value of the variable b(eff) is determined through the moment equation in this formula. Upon concluding these two calculation processes, my two answers were an outer flange diameter of 18.5mm and 26.8mm for stress and deflection, respectively.
 
 Beam Stress Calculations: Figure 1
+
 <img width="2444" height="3110" alt="A4-1" src="https://github.com/user-attachments/assets/60dfce43-9b6f-487b-b39d-c63aca002a99" />
 
 Beam Deflection Calculations: Figure 2
+
 <img width="2421" height="3100" alt="A4-2" src="https://github.com/user-attachments/assets/45e09fde-9782-4701-869e-75fe08240417" />
 
 My final choice between these two values was 26.8mm, for two reasons. The first is that 26.8mm more effectively combats deflection and keeps the design from deforming further than .03mm. Secondly, after inspecting the motor dimensions, there would be no way to bolt the motor to the mount with a diameter of 18.5 mm- the distance between the bolt holes of the motor is 22mm.
@@ -35,9 +39,11 @@ My final choice between these two values was 26.8mm, for two reasons. The first 
 Figures 3 and 4 detail the process behind determining the necessary thickness of the motor mount plate. Figure 3 provides a mount thickness based on the bending stress experienced by the part. Figure 4 uses maximum deflection to determine thickness based on stability rather than stress. The height of Feature 1's flange is not accounted for within this calculation to simplify the computational process. The formula for normal stress has been used in the stress calculations for this segment because the force is assumed to be acting axially, rather than on one end of a cantilever, as was true in the previous portion of the design.
 
 Beam Stress Calculations:
+
 <img width="2289" height="3038" alt="A4-3" src="https://github.com/user-attachments/assets/1d0c82da-d83a-4c73-b118-a03a47051d71" />
 
 Beam Deflection Calculations:
+
 <img width="2408" height="3176" alt="A4-4" src="https://github.com/user-attachments/assets/d0cc4ac7-0ea4-4bb5-b751-21932f743962" />
 
 Between these two resultant thicknesses, t = 13.4mm is the clear winner. It is much higher than the thickness value due to stress, which is very low due to PETG's relatively high yield strength. A deflection of .03mm is fairly small, especially when considering a 300N force applied to the end of an 18mm lever, and leads to a higher necessary thickness value.
@@ -48,6 +54,7 @@ Between these two resultant thicknesses, t = 13.4mm is the clear winner. It is m
 All hand calculations for Feature 2 were simplified based on two assumptions. Firstly, the moment created at point A, at the center of the motor mount flange on Feature 1, can be directly translated vertically to affect Feature 2. Secondly, the width and length of Feature 1 can be used for the width and length of Feature 2. Both dimensions are far over-engineered for stress (as the values determined in the Feature 1 calculations prove), and Feature 2 experiences no deflection, so this assumption is valid. 
 
 Beam Stress Calculations:
+
 <img width="2398" height="3147" alt="A4-6" src="https://github.com/user-attachments/assets/2f1fd491-c3e1-491f-a7b7-264d7dbfc85b" />
 
 A height measurement of 8.37mm for Feature 2 makes sense when compared to the other values determined throughout the design process.
