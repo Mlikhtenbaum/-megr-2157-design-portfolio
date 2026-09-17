@@ -5,6 +5,7 @@
 Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5:1 Planetary Gearbox) that attaches to a rigid wall.
 
 A. Design around yield strength, with a safety factor of 3
+
 B. Design for maximum deflection of .30mm
 
 
