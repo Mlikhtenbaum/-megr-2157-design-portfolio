@@ -9,7 +9,7 @@ A. Design around yield strength, with a safety factor of 3
 B. Design for maximum deflection of .30mm
 
 
-### Step 1: 
+### Initial Planning: 
 
 Step one of the planning process was understanding the different requirements that A4 mandates for the motor mount. Firstly, the mount must be strong enough to withstand an applied stress of 300N. Secondly, it mustn't deflect more than .03mm while the 300N force is acting upon it. 
 
