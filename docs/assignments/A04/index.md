@@ -117,7 +117,7 @@ Fourth, for feature 1, I chose to utilize the rectangular moment of inertia of t
 
 Fifth, I decided to standardize around millimeters within my calculations. This kept all my numbers understandable throughout the design process.
 
-Finally, I chose to offset the height/length of the motor mount flange by 1mm out from the thickness of the motor mount. This is valid because it adds enough material to provide a circular surface for the motor to contact while keeping the leverage of P on the feature to a minimum.
+Finally, I chose to offset the height/length of the motor mount flange by 0.5mm out from the thickness of the motor mount. This is valid because it adds enough material to provide a circular surface for the motor to contact while keeping the leverage of P on the feature to a minimum.
 
 
 ## Communicate
