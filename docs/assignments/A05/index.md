@@ -1,10 +1,11 @@
 # A5 – Bracket Design
 
+
 ## Objectives:
 
 ### All Sections:
 
-Detail-design a bracket by analyzing the normal stress, bending stress, and stiffness equations using strength of materials to determine dimensions. Use statics and solids skills to complete the task of designing the features.
+Detail-design a bracket by analyzing the normal stress, bending stress, and stiffness equations using strength of materials to determine dimensions. Use statics and solid mechanics skills to complete the task of designing the features.
 
 - Conduct stress analysis to determine appropriate dimensions for structural features.
 - Generate free-body diagrams (FBDs) to visualize forces and constraints for each feature.
@@ -31,18 +32,30 @@ Select the proper fit for feature A and for the 1" shaft:
 - Discuss the design process used, and cite resources (include page numbers) in your documentation.
 - Select the proper manufacturing technique. Show the process included tables used.
 
+
 ## Planning:
 
-### Phase 1:
+### Step 1:
+The first step of this project is understanding exactly what objects and forces are relevant to consider when designing the dimensions of the bracket shaft. A polyester strap will wrap around the shaft area of the bracket and pull down with a force of 2F. This means that the shaft must be long enough to support the full width of the strap, and strong enough to resist the deflection and stress caused by the applied force. The rest of the overall bracket geometry is provided within Appendix B: 
 
-The first step of this project is understanding exactly what objects and forces are relevant to consider when designing the dimensions of the bracket shaft. A polyester strap will wrap around the shaft area of the bracket and pull down with a force of 2F. This means that the shaft must be long enough to support the full width of the strap, and strong enough to resist the deflection and stress caused by the applied force.
+<img width="1255" height="812" alt="Appendix B" src="https://github.com/user-attachments/assets/4f1504ff-085d-4c07-97e4-c4e6be3cc926" />
+
+An important consideration to note prior to sketching and designing the bracket for this section is that the strap will apply a horizontal force, rather than the vertical one detailed by Appendix B.
+
+### Step 2:
+The second step of the design will be sketching out the overall geometry of the part. We are provided with enough information about the different part segments and the necessary connections to draw out an overall design.
+
+### Step 3:
+The second phase entails creating FBD's of every relevant section of the bracket and considering the applied stress to determine necessary segment dimensions. The modulus of elasticity of Steel (ASTM A36) must be used for this section, and a safety factor of 4 is to be employed. 
+
+### Step 4:
+The third step involves creating the same FBDs as the previous section and determining bracket dimensions through strain analysis. Each segment of the bracket must fall within a maximum deflection of 5 thousandths of an inch.
 
 
 
-## Analyze
 
 
-## Decide
+## Decide:
 
 One of the first decisions I made after reading the assignment instructions was to design a perfectly symmetrical bracket and assume that no failure will occur due to direct shear stress. These considerations will simplify the design and its associated calculations.
 
