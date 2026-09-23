@@ -61,6 +61,8 @@ One of the first decisions I made after reading the assignment instructions was 
 
 The second decision I made was to design my bracket entirely using Steel (ASTM A36). I chose this design for a few reasons. First, steel is strong, and using it will allow my design to be slightly smaller than one made of aluminum (when considering stress). Secondly, steel is relatively cheap and will keep the manufacturing price low. Third, using one material throughout the design simplifies the calculations needed to determine press-fit dimensions.
 
+Thirdly, when analyzing features D and E based on stress, I modelled them as bars rather than beams. This is a more accurate strategy because the heights of both features are much more substantial than their length. This means that they bend very little, and linear stress/deformation is a more important consideration.
+
 
 ## Communicate
 
