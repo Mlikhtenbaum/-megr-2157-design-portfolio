@@ -104,10 +104,14 @@ Assumption sensitivity: One assumption I made was that a height of feature B (th
 
 The overall length of the part is assumed to be 3" to account for hole cutouts and required part thickness. This is a known valid assumption because of a previous calculation completed for feature B, which dictated that a part with a similar cross-sectional area must lie within 16". The linkage is made from the same ASTM A36 Steel as the bracket for simplicity.
 
+### .726" D Hole Callout:
+
 The hole in the link that connects to feature A must be designed as a running/sliding fit. Based on this specification, I have assumed that an RC7 fit is adequate, due to the likelihood of such a strap being used in an outdoor environment. An RC7 fit dictates that the .726" diameter hole of the linkage must lie within a tolerance of +.002", -.000". Feature A, which interfaces with this hole, must be .726" and lie within a tolerance of -.0025" to -.0037". An RC7 fit is classified as tolerance grade 9, meaning the hole can be manufactured using the reaming process.
 
 <img width="1097" height="468" alt="726 D Tolerance" src="https://github.com/user-attachments/assets/442b527f-8e5f-46b0-8f63-78df18381bea" />
 This clearance information can be found on page 654 of the Machinery's Handbook
+
+### 1.000" D Hole Callout:
 
 The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure. Based on this information, an FN2 fit is adequate, considering it is described as a fit "suitable	for	ordinary	steel	parts" on page 651 of the Machinery's Handbook. An FN2 fit dictates that the 1.000" diameter hole of the linkage must lie within a tolerance of +.0008", -.000". The 1" cylinder, which interfaces with this hole, must be 1" and lie within a tolerance of +.0014" to +.0019". Reaming can also create this hole, since an FN2 fit is within tolerance grade 7.
 
