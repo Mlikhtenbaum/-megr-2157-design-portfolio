@@ -1,6 +1,6 @@
 # A6 – Bracket Drawing
 
-## Objective
+## Objective:
 
 - Conduct stress analysis to determine appropriate dimensions for structural features.
 - Generate free-body diagrams (FBDs) to visualize forces and constraints for each feature.
@@ -10,9 +10,9 @@
 - Create detailed multiview sketches illustrating dimensions derived from both stress and stiffness analyses.
 - Reflect on and document key engineering lessons learned throughout the process.
 
-## Step 1: Parametric Design
+## Step 1: Parametric Design:
 
-### Appropriate Dimension Determination
+### Appropriate Dimension Determination:
 
 All of the dimensions used for this assignment have been taken directly from my stress calculations on the previous project, A5. I chose to use the values gathered from stress calculations rather than those determined by deflection calculations because stress required increased dimensions in every segment. A reference multiview image from A5 is provided below to detail the part dimensions. 
 
@@ -55,9 +55,13 @@ Lastly, it was time to extrude feature A, the strap shaft. It has the same overa
 <img width="1917" height="1018" alt="Feature A Extrusion" src="https://github.com/user-attachments/assets/9c0e8e40-c5a0-4394-9c98-19eda72fff6b" />
 
 
+## Step 2: Drawing:
 
 
+## Step 3: Reflections:
 
+
+## Step 4: 2157 Additions:
 
 
 ## Decide
