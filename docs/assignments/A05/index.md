@@ -106,7 +106,7 @@ Assumption sensitivity: One assumption I made was that a height of feature B (th
 
 The overall length of the part is assumed to be 3" to account for hole cutouts and required part thickness. This is a known valid assumption because of a previous calculation completed for feature B, which dictated that a part with a similar cross-sectional area must lie within 16". The linkage is made from the same ASTM A36 Steel as the bracket for simplicity. Shear stress is disregarded to better match the format of calculations employed in previous sections.
 
-<img width="3000" height="4000" alt="14" src="https://github.com/user-attachments/assets/0f3eeb06-fb85-46d0-a8ba-b6c10999ad40" />
+<img width="2448" height="3158" alt="14" src="https://github.com/user-attachments/assets/82e7b28d-b3c7-4f33-9cd9-2602a9b8ec66" />
 
 ### .726" D Hole Callout:
 
