@@ -1,4 +1,4 @@
-# A5 – Bracket Design
+<img width="4000" height="3000" alt="9" src="https://github.com/user-attachments/assets/0da5b5fa-30c8-4611-8210-673b7ec9c0e5" /># A5 – Bracket Design
 
 
 ## Objectives:
@@ -54,14 +54,56 @@ The third step involves creating the same FBDs as the previous section and deter
 
 ## Action Phase:
 
-The height of B is the same for both strategies because it must be within 16" to meet the required maximum deflection. Therefore, it was adjusted to 0.5" (when measuring from shast center to bottom of bracket body) to accommodate the required shaft dimension and allow space for the strap.
+### Reference Sketch:
+
+<img width="4000" height="3000" alt="1" src="https://github.com/user-attachments/assets/a36a4acf-0e8c-455f-b5ad-e87e9af05cda" />
+
+The height of B is the same for both strategies because it must be within 16" to meet the required maximum deflection. Therefore, it was adjusted to 0.5" (when measuring from shaft center to bottom of bracket body) to accommodate the required shaft dimension and allow space for the strap.
+
 
 ### Stress Analysis:
 This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on an allowable stress of 9000N. 
 
+<img width="4000" height="3000" alt="2" src="https://github.com/user-attachments/assets/f0f4ea54-97e9-4d39-ba94-a62d246e6abe" />
+
+<img width="4000" height="3000" alt="3" src="https://github.com/user-attachments/assets/868b85f8-83fb-40ed-8d98-0a198f3fdbaf" />
+
+<img width="4000" height="3000" alt="4" src="https://github.com/user-attachments/assets/9e36b3a7-ad52-4491-a6c3-8a97cdafe7f4" />
+
+<img width="4000" height="3000" alt="5" src="https://github.com/user-attachments/assets/2fb0287c-673f-4916-b890-bb11f2670459" />
+
+<img width="4000" height="3000" alt="6" src="https://github.com/user-attachments/assets/deb38074-6750-41c6-b4dc-abedbfe62b5c" />
+
 ### Deflection Analysis:
 
 This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on a maximum deflection of .005". FBDs have been simplified to increase efficiency. Refer to the previous subheading "Stress Analysis" for more detailed FBD's.
+
+<img width="4000" height="3000" alt="7" src="https://github.com/user-attachments/assets/aa38d720-40eb-463e-8d41-0dd2fb188ab6" />
+
+<img width="4000" height="3000" alt="8" src="https://github.com/user-attachments/assets/54db83c1-2cf3-4ec2-9899-8fa52d955850" />
+
+<img width="4000" height="3000" alt="9" src="https://github.com/user-attachments/assets/766b814c-c134-4859-9747-b079b3c829aa" />
+
+<img width="4000" height="3000" alt="10" src="https://github.com/user-attachments/assets/0ddbf844-6f4e-4a49-a470-71b768d5343c" />
+
+<img width="4000" height="3000" alt="11" src="https://github.com/user-attachments/assets/74ff7b1b-d3c3-4320-a639-ad33a73b815a" />
+
+### Multiview Drawings:
+
+<img width="4000" height="3000" alt="12" src="https://github.com/user-attachments/assets/77451caa-8570-4176-a9b6-564eeaf868bc" />
+
+<img width="4000" height="3000" alt="13" src="https://github.com/user-attachments/assets/0b97196b-f835-40d3-b69a-3f09067e6506" />
+
+
+## Lessons Learned:
+
+Governing failure mode: For feature A of the bracket, the strap shaft has a governing failure mode of stress due to bending. Stress governed its final dimension of a diameter of .726", since deflection required a smaller diameter of .3652". Stress required nearly twice as much support from the feature, likely due to the small overall size of the part.
+
+Error propagation: One instance where a value from an earlier feature carried into a later one was the diameter of feature A becoming the length of feature B. There were no errors that occurred throughout the calculation process because I double-checked my dimensional analysis.
+
+Assumption sensitivity: One assumption I made was that a height of feature B (the axially loaded bar that attaches feature A to the rest of the bracket) could be assumed to be .5", since it was well within the height dictated by maximum deflection, and would allow the other bracket segments to be smaller as well. If this was determined to be incorrect, say if the user needed to use a much thicker strap, this dimension would have to be increased.
+
+## 2157 Addition:
 
 
 
