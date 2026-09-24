@@ -1,6 +1,3 @@
-<img width="4000" height="3000" alt="9" src="https://github.com/user-attachments/assets/0da5b5fa-30c8-4611-8210-673b7ec9c0e5" /># A5 – Bracket Design
-
-
 ## Objectives:
 
 ### All Sections:
@@ -56,7 +53,7 @@ The third step involves creating the same FBDs as the previous section and deter
 
 ### Reference Sketch:
 
-<img width="4000" height="3000" alt="1" src="https://github.com/user-attachments/assets/a36a4acf-0e8c-455f-b5ad-e87e9af05cda" />
+<img width="2569" height="1964" alt="1" src="https://github.com/user-attachments/assets/25b764ee-2d71-489c-b5c7-356715ea6259" />
 
 The height of B is the same for both strategies because it must be within 16" to meet the required maximum deflection. Therefore, it was adjusted to 0.5" (when measuring from shaft center to bottom of bracket body) to accommodate the required shaft dimension and allow space for the strap.
 
@@ -64,35 +61,35 @@ The height of B is the same for both strategies because it must be within 16" to
 ### Stress Analysis:
 This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on an allowable stress of 9000N. 
 
-<img width="4000" height="3000" alt="2" src="https://github.com/user-attachments/assets/f0f4ea54-97e9-4d39-ba94-a62d246e6abe" />
+<img width="2278" height="2851" alt="2" src="https://github.com/user-attachments/assets/724e66d1-bacb-4c69-a1e6-b0c4bfb5cd57" />
 
-<img width="4000" height="3000" alt="3" src="https://github.com/user-attachments/assets/868b85f8-83fb-40ed-8d98-0a198f3fdbaf" />
+<img width="2274" height="2937" alt="3" src="https://github.com/user-attachments/assets/e8d56da4-a206-493d-b007-4a9e35e6aac2" />
 
-<img width="4000" height="3000" alt="4" src="https://github.com/user-attachments/assets/9e36b3a7-ad52-4491-a6c3-8a97cdafe7f4" />
+<img width="2222" height="2835" alt="4" src="https://github.com/user-attachments/assets/e6c83419-03f2-4035-aec8-fa0b6e6a1d35" />
 
-<img width="4000" height="3000" alt="5" src="https://github.com/user-attachments/assets/2fb0287c-673f-4916-b890-bb11f2670459" />
+<img width="2235" height="2734" alt="5" src="https://github.com/user-attachments/assets/23e11448-79da-4431-b412-7e78cf78077e" />
 
-<img width="4000" height="3000" alt="6" src="https://github.com/user-attachments/assets/deb38074-6750-41c6-b4dc-abedbfe62b5c" />
+<img width="2287" height="2881" alt="6" src="https://github.com/user-attachments/assets/58ca0c6a-51ec-4411-93c7-2a9213159dba" />
 
 ### Deflection Analysis:
 
 This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on a maximum deflection of .005". FBDs have been simplified to increase efficiency. Refer to the previous subheading "Stress Analysis" for more detailed FBD's.
 
-<img width="4000" height="3000" alt="7" src="https://github.com/user-attachments/assets/aa38d720-40eb-463e-8d41-0dd2fb188ab6" />
+<img width="2428" height="3101" alt="7" src="https://github.com/user-attachments/assets/bcfa113d-62c6-4361-8535-70c4a331a875" />
 
-<img width="4000" height="3000" alt="8" src="https://github.com/user-attachments/assets/54db83c1-2cf3-4ec2-9899-8fa52d955850" />
+<img width="2400" height="3002" alt="8" src="https://github.com/user-attachments/assets/b85b9920-ecc8-48ff-9a65-9f6918c0c258" />
 
-<img width="4000" height="3000" alt="9" src="https://github.com/user-attachments/assets/766b814c-c134-4859-9747-b079b3c829aa" />
+<img width="2445" height="3136" alt="9" src="https://github.com/user-attachments/assets/6f2c5d82-aafe-49cb-a177-e3346c202846" />
 
-<img width="4000" height="3000" alt="10" src="https://github.com/user-attachments/assets/0ddbf844-6f4e-4a49-a470-71b768d5343c" />
+<img width="2263" height="2875" alt="10" src="https://github.com/user-attachments/assets/5c2a9c86-1e3d-46eb-9085-190852928451" />
 
-<img width="4000" height="3000" alt="11" src="https://github.com/user-attachments/assets/74ff7b1b-d3c3-4320-a639-ad33a73b815a" />
+<img width="2436" height="3068" alt="11" src="https://github.com/user-attachments/assets/9b442d06-2b56-48a8-a080-958a026cd195" />
 
 ### Multiview Drawings:
 
-<img width="4000" height="3000" alt="12" src="https://github.com/user-attachments/assets/77451caa-8570-4176-a9b6-564eeaf868bc" />
+<img width="2628" height="3147" alt="12" src="https://github.com/user-attachments/assets/2dc958ca-b8f1-4065-b100-9496669d2e62" />
 
-<img width="4000" height="3000" alt="13" src="https://github.com/user-attachments/assets/0b97196b-f835-40d3-b69a-3f09067e6506" />
+<img width="2374" height="2942" alt="13" src="https://github.com/user-attachments/assets/4420e368-a6d6-46e4-998b-9f40ef3b04ba" />
 
 
 ## Lessons Learned:
