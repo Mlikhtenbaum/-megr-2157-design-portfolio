@@ -57,6 +57,13 @@ Lastly, it was time to extrude feature A, the strap shaft. It has the same overa
 
 ## Step 2: Drawing:
 
+Since the bracket is designed with three different sliding fits over the rigid T-beam, dimensions must be adjusted, and tolerances must be established that allow these fits to function. The most efficient manner of creating these relationships is as follows: Identify fit classifications that match the assignment designations, then assign appropriate dimensions and tolerances.
+
+A5 Specifications:
+
+“a” intention for use where accuracy is not essential
+“b” is about the closest fits that can be expected to run freely
+“c” is where accurate location and minimum play is desired
 
 ## Step 3: Reflections:
 
