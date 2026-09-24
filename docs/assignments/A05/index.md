@@ -107,15 +107,15 @@ The overall length of the part is assumed to be 3" to account for hole cutouts a
 The hole in the link that connects to feature A must be designed as a running/sliding fit. Based on this specification, I have assumed that an RC7 fit is adequate, due to the likelihood of such a strap being used in an outdoor environment. An RC7 fit dictates that the .726" diameter hole of the linkage must lie within a tolerance of +.002", -.000". Feature A, which interfaces with this hole, must be .726" and lie within a tolerance of -.0025" to -.0037". An RC7 fit is classified as tolerance grade 9, meaning the hole can be manufactured using the reaming process.
 
 <img width="1097" height="468" alt="726 D Tolerance" src="https://github.com/user-attachments/assets/442b527f-8e5f-46b0-8f63-78df18381bea" />
-<This clearance information can be found on page 654 of the Machinery's Handbook>
+This clearance information can be found on page 654 of the Machinery's Handbook
 
 The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure. Based on this information, an FN2 fit is adequate, considering it is described as a fit "suitable	for	ordinary	steel	parts" on page 651 of the Machinery's Handbook. An FN2 fit dictates that the 1.000" diameter hole of the linkage must lie within a tolerance of +.0008", -.000". The 1" cylinder, which interfaces with this hole, must be 1" and lie within a tolerance of +.0014" to +.0019". Reaming can also create this hole, since an FN2 fit is within tolerance grade 7.
 
 <img width="792" height="575" alt="1 D Tolerance" src="https://github.com/user-attachments/assets/5ab48987-885f-427f-9ed2-7e16ca45377c" />
-<This clearance information can be found on page 658 of the Machinery's Handbook>
+This clearance information can be found on page 658 of the Machinery's Handbook
 
 <img width="1025" height="1158" alt="image" src="https://github.com/user-attachments/assets/7a52b979-b8cf-4881-ba56-d0e1e6a73b9b" />
-<This tolerance grade chart can be found on  page 649 of the Machinery's Handbook>
+This tolerance grade chart can be found on  page 649 of the Machinery's Handbook
 
 ## Decide:
 
