@@ -52,6 +52,16 @@ The second phase entails creating FBD's of every relevant section of the bracket
 The third step involves creating the same FBDs as the previous section and determining bracket dimensions through strain analysis. Each segment of the bracket must fall within a maximum deflection of 5 thousandths of an inch.
 
 
+## Action Phase:
+
+The height of B is the same for both strategies because it must be within 16" to meet the required maximum deflection. Therefore, it was adjusted to 0.5" (when measuring from shast center to bottom of bracket body) to accommodate the required shaft dimension and allow space for the strap.
+
+### Stress Analysis:
+This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on an allowable stress of 9000N. 
+
+### Deflection Analysis:
+
+This section details the symbolic formulas and numeric calculations used to determine necessary bracket dimensions based on a maximum deflection of .005". FBDs have been simplified to increase efficiency. Refer to the previous subheading "Stress Analysis" for more detailed FBD's.
 
 
 
