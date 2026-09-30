@@ -14,7 +14,7 @@ All of the dimensions used for this section of the assignment have been taken di
 
 ### Global Variable Creation:
 
-The first step was to create a list of global variables within the equations tab of SolidWorks. This allows me to directly import dimensions, which improves efficiency and allows for quick dimension changes if they are deemed necessary. Global variables also clean up the overall look of the file.
+The first step was to create a list of global variables within the Equations tab of SolidWorks. This allows me to directly import dimensions, which improves efficiency and allows for quick dimension changes if they are deemed necessary. Global variables also clean up the overall look of the file.
 
 <img width="918" height="422" alt="Gobal Equations" src="https://github.com/user-attachments/assets/e073534e-8592-4e06-8f1d-ec28fd450fee" />
 
@@ -51,7 +51,11 @@ Lastly, it was time to extrude feature A, the strap shaft. It has the same overa
 
 ## Step 2: Drawing:
 
-Since the bracket is designed with three different sliding fits over a rigid T-beam, drawing dimensions must be adjusted, and tolerances must be established that allow these fits to function correctly. The most efficient manner of creating these relationships is as follows: Identify fit classifications that match the assignment designations, then assign appropriate dimensions and tolerances.
+Since the bracket is designed with three different sliding fits over a rigid T-beam, model dimensions must now be adjusted, and tolerances must be established that allow these fits to function correctly. The most efficient manner of creating these relationships is as follows: Identify fit classifications that match the assignment designations, then assign appropriate dimensions and tolerances to the 3D model.
+
+“a” intention for use where accuracy is not essential
+“b” is about the closest fits that can be expected to run freely
+“c” is where accurate location and minimum play is desired
 
 Based on these guidelines and the tolerances indicated in the following diagram, we can determine the necessary fits by referencing the Machinery's Handbook:
 
@@ -70,7 +74,11 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 ## Step 4: 2157 Additions:
 
 
-## Decide
+## Decide:
+
+One specific decision I made during this project was to alter my dimensions based on the provided T-beam tolerances only after creating my original 3D model. I didn't change them for my 3D model originally because the assignment specifically asks us to "determine the appropriate dimensions from the last assignment", and the dimensions from A5 were derived without the use of tolerances. This is why the images that outline the creation of the 3D model have slightly different dimensions than those dictated by the engineering sheet.
+
+
 
 
 ## Communicate
