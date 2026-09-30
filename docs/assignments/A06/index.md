@@ -2,19 +2,13 @@
 
 ## Objective:
 
-- Conduct stress analysis to determine appropriate dimensions for structural features.
-- Generate free-body diagrams (FBDs) to visualize forces and constraints for each feature.
-- Identify and document known and unknown variables, assumptions, and algebraic models for stress calculations.
-- Perform stiffness analysis to establish minimum required dimensions based on deflection constraints.
-- Compare stress and stiffness analyses to ensure structural integrity and compliance with given constraints.
-- Create detailed multiview sketches illustrating dimensions derived from both stress and stiffness analyses.
-- Reflect on and document key engineering lessons learned throughout the process.
+Generate a comprehensive solid model and a multi-view engineering drawing that accurately represents your designed bracket, incorporating all features to ensure both strength and stiffness requirements are met.
 
 ## Step 1: Parametric Design:
 
 ### Appropriate Dimension Determination:
 
-All of the dimensions used for this assignment have been taken directly from my stress calculations on the previous project, A5. I chose to use the values gathered from stress calculations rather than those determined by deflection calculations because stress required increased dimensions in every segment. A reference multiview image from A5 is provided below to detail the part dimensions. 
+All of the dimensions used for this section of the assignment have been taken directly from my stress calculations on the previous project, A5. I chose to use the values gathered from stress calculations rather than those determined by deflection calculations because stress required increased dimensions in every segment. A reference multiview image from A5 is provided below to detail the part dimensions. 
 
 <img width="2628" height="3147" alt="12" src="https://github.com/user-attachments/assets/5b0cbc41-9d7c-451d-ba83-8961b9ec3615" />
 
@@ -57,13 +51,18 @@ Lastly, it was time to extrude feature A, the strap shaft. It has the same overa
 
 ## Step 2: Drawing:
 
-Since the bracket is designed with three different sliding fits over the rigid T-beam, dimensions must be adjusted, and tolerances must be established that allow these fits to function. The most efficient manner of creating these relationships is as follows: Identify fit classifications that match the assignment designations, then assign appropriate dimensions and tolerances.
+Since the bracket is designed with three different sliding fits over a rigid T-beam, drawing dimensions must be adjusted, and tolerances must be established that allow these fits to function correctly. The most efficient manner of creating these relationships is as follows: Identify fit classifications that match the assignment designations, then assign appropriate dimensions and tolerances.
 
-A5 Specifications:
+Based on these guidelines and the tolerances indicated in the following diagram, we can determine the necessary fits by referencing the Machinery's Handbook:
 
-“a” intention for use where accuracy is not essential
-“b” is about the closest fits that can be expected to run freely
-“c” is where accurate location and minimum play is desired
+<img width="506" height="152" alt="A5 Bracket Dimension Spec Tolerances" src="https://github.com/user-attachments/assets/26aa957c-abad-4076-8e9a-2acf07e11910" />
+
+- Fit "a" and the resulting bracket dimension:
+
+- Fit "b" and the resulting bracket dimension:
+
+- Fit "c" and the resulting bracket dimension:
+  
 
 ## Step 3: Reflections:
 
