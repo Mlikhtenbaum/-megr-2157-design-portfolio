@@ -11,7 +11,7 @@ Generate a comprehensive solid model and a multi-view engineering drawing that a
 All of the dimensions used for this section of the assignment have been taken directly from my stress calculations on the previous project, A5. I chose to use the values gathered from stress calculations rather than those determined by deflection calculations because stress required increased dimensions in every segment. A reference multiview image from A5 is provided below to detail the part dimensions. 
 
 <img width="2163" height="2834" alt="A5 Bracket Dimension Spec Tolerances" src="https://github.com/user-attachments/assets/e1db6c85-d6d3-44f7-93bf-19fce0a844bc" />
-*The height of Feature E has been updated from .7536" to .6542" to correct a calculation error from the A5 calculations*
+*The height of Feature E has been updated from .7536" to .6542" to correct an error from the A5 calculations*
 
 ### Global Variable Creation:
 
