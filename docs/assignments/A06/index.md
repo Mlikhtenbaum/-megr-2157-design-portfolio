@@ -134,7 +134,7 @@ One lesson emphasized by this assignment about part-to-part compatibility is tha
 
 ## Decide:
 
-One specific decision I made during this project was to alter my dimensions based on the provided T-beam tolerances only after creating my original 3D model. I didn't change them for my 3D model originally because the assignment specifically asks us to "determine the appropriate dimensions from the last assignment", and the dimensions from A5 were derived without the use of tolerances. This is why the images that outline the creation of the 3D model have slightly different dimensions than those dictated by the engineering sheet.
+One specific decision I made for this project was going through the extra effort of manually installing the third-angle projection symbol. I chose to do this even though it was optional because it is a major clarification that I would greatly appreciate if I were the individual manufacturing the part.
 
 
 ## Downloads:
