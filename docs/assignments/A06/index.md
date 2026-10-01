@@ -23,13 +23,13 @@ The first step was to create a list of global variables within the Equations tab
 
 The second step was sketching out the overall structure of the upper bracket and importing dimensions. I made a handful of decisions that improved efficiency during this process. I based the center of the part around the origin, which allowed me to sketch half of the part and then use the "mirror" feature to instantly create the rest. Since this is the front of the part, I sketched the feature on the front plane, which will make the final part drawing more comprehensible.
 
-<img width="1917" height="1017" alt="Upper Bracket Sketch" src="https://github.com/user-attachments/assets/5ad56713-c234-4735-aea4-68d184a38f51" />
+<img width="2556" height="1393" alt="Upper Bracket Sketch" src="https://github.com/user-attachments/assets/cd3cb853-4d98-45cf-a423-9189e2d2f08f" />
 
 ### Upper Bracket Extrusion:
 
 Extruding the upper bracket sketch came next. The dimension used for this portion is the length of feature A (the strap shaft) added to the width of feature B, which connects the shaft to the rest of the bracket.
 
-<img width="1915" height="1011" alt="Upper Bracket Extrusion" src="https://github.com/user-attachments/assets/b64946e0-3d00-40b5-aaa1-7d9f90bf481c" />
+<img width="2558" height="1388" alt="Upper Bracket Extrusion" src="https://github.com/user-attachments/assets/f189f99a-81ca-4951-bfb8-6c8f9394c803" />
 
 ### Feature B and A Conjoined Sketch:
 
