@@ -66,13 +66,12 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 
 <img width="2315" height="1118" alt="Fit A" src="https://github.com/user-attachments/assets/589f5161-dcd2-4366-8dda-51cb5295069d" />
 
-<img width="576" height="364" alt="Fit Spec for Feature A" src="https://github.com/user-attachments/assets/71b6b4f8-3103-4b2d-99fd-915b341de1f2" />
+<img width="1046" height="290" alt="Fit Spec for Feature A" src="https://github.com/user-attachments/assets/1dfdc39d-c250-4a4b-91de-b17f3b831584" />
 
 
 - Diagram of Fit "b" and the resulting bracket dimension (found on page 655 of Machinery's Handbook):
 
 <img width="2368" height="1167" alt="Fit B" src="https://github.com/user-attachments/assets/5bd27b9c-a3e9-42e3-84f2-7df66a493d71" />
-
 
 <img width="591" height="339" alt="Fit Spec for Feature B" src="https://github.com/user-attachments/assets/1ea734cd-4cbb-420d-b90a-d8c6f5f7e9ea" />
 
