@@ -103,19 +103,19 @@ This assignment took me about 10 hours.
 
 ### Parametric Design:
 
-#### Creating Global Equations:
+- Creating Global Equations:
 
 These equations have been taken from the stress calculations completed in A5.
 
 <img width="1126" height="242" alt="Link Global Vars" src="https://github.com/user-attachments/assets/8ca068c3-cd4d-4282-a05a-a86a2e710b52" />
 
-#### Creating Link Sketch:
+- Creating Link Sketch:
 
 The link has been created using the "slot" feature and two circles to save time.
 
 <img width="2559" height="1392" alt="Link Sketch" src="https://github.com/user-attachments/assets/c3ca9a80-e47a-47e7-a4be-77496e5ba6c6" />
 
-#### Extruding Link Sketch:
+- Extruding Link Sketch:
 
 The only thing to note about this process is that I have assumed that the cross-section of the link area as it borders the 1" hole is a square. This means the width of the sketch feature at that point and the depth of the extrusion are the same.
 
