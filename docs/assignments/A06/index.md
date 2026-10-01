@@ -93,14 +93,32 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 
 I actually used strength calculations to drive all of the dimensions in my parametric model. I expressed these equations in the CAD software by prompting Google Gemini to convert the same formulas I used in my hand calculations into plain text equations that I could input into SolidWorks. I chose to employ AI in this part of the design process because it was more efficient than manually typing out my formulas and painstakingly ensuring my syntax was correct. As indicated earlier within the caption for the image under the "Appropriate Dimension Determination" subheading, one of my A5 calculations was actually incorrect, and using the parametric design strategy helped me understand what was wrong and how to correct it. Luckily, since I had attributed the correct global equations to dimension the feature, it automatically updated once I corrected the equation.
 
-Pick one dimension on your drawing where you applied a tighter tolerance class (e.g., X.XXX ± .005) and one where you applied a looser class (e.g., X.X ± .02). For each, identify whether that feature is a mating/functional surface (like a sliding fit interface) or a non-critical feature, and explain why that functional role justified the tolerance class you chose. If you applied the tightest tolerance across your drawing by default, describe what happens to manufacturing cost or feasibility when a non-critical feature is held to an unnecessarily tight tolerance.
-
 One dimension in my drawing where I applied a tighter tolerance was for the segment of my bracket that contacts segment c of the rigid T-beam. Since the fit for this segment calls for "accurate location and minimum play", it must have a tighter dimensional allowance and tolerance. An LC1 fit classification dictates a maximum tolerance of +.0006" for this bracket segment, which means that the part dimension must be called out to the ten-thousandth of an inch. 
 
-I applied a looser class on the bracket segments that are not vital in terms of fit. For example, the height of feature B (the extrusion that connects the strap shaft to the bracket body) and the shaft diameter itself are only called out to X.XX and have a tolerance of +.005/-.005. Their exact dimensions are not vital to the overall function of the part; they just need to be around their nominal size. Using looser tolerances in non-vital areas like these is an effective way to reduce manufacturing costs.
+I applied a looser class to the bracket segments that are not vital in terms of fit. For example, the height of feature B (the extrusion that connects the strap shaft to the bracket body) and the shaft diameter itself are only called out to X.XX and have a tolerance of +.005/-.005. Their exact dimensions are not vital to the overall function of the part; they just need to be around their nominal size. Using looser tolerances in non-vital areas like these is an effective way to reduce manufacturing costs.
+
+This assignment took me about 10 hours.
 
 
-## Step 4: 2157 Additions:
+## Step 4: 2157 Additions: Link Part and Drawing
+
+### Creating Global Equations:
+
+These equations have been taken from the stress calculations completed in A5.
+
+<img width="1126" height="242" alt="Link Global Vars" src="https://github.com/user-attachments/assets/8ca068c3-cd4d-4282-a05a-a86a2e710b52" />
+
+### Creating Link Sketch:
+
+The link has been created using the "slot" feature and two circles to save time.
+
+<img width="2559" height="1392" alt="Link Sketch" src="https://github.com/user-attachments/assets/c3ca9a80-e47a-47e7-a4be-77496e5ba6c6" />
+
+### Extruding Link Sketch:
+
+The only thing to note about this process is that I have assumed that the cross section of the link area as it borders the 1" hole is a square. This means the width of the sketch feature at that point and the depth of the extrusion are the same.
+
+<img width="2559" height="1389" alt="Link Extrude" src="https://github.com/user-attachments/assets/eb7e2829-7fa1-473d-a10c-0810e011db3e" />
 
 
 ## Decide:
@@ -108,7 +126,7 @@ I applied a looser class on the bracket segments that are not vital in terms of 
 One specific decision I made during this project was to alter my dimensions based on the provided T-beam tolerances only after creating my original 3D model. I didn't change them for my 3D model originally because the assignment specifically asks us to "determine the appropriate dimensions from the last assignment", and the dimensions from A5 were derived without the use of tolerances. This is why the images that outline the creation of the 3D model have slightly different dimensions than those dictated by the engineering sheet.
 
 
+## Downloads:
 
-
-## Communicate
+https://drive.google.com/drive/folders/1jfPQwK0K7T63_E02jPgz66Bw1lVwktA8?usp=sharing
 
