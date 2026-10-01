@@ -63,10 +63,19 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 
 - Fit "a" and the resulting bracket dimension:
 
+<img width="576" height="364" alt="Fit Spec for Feature A" src="https://github.com/user-attachments/assets/71b6b4f8-3103-4b2d-99fd-915b341de1f2" />
+
+
 - Fit "b" and the resulting bracket dimension:
 
+<img width="591" height="339" alt="Fit Spec for Feature B" src="https://github.com/user-attachments/assets/1ea734cd-4cbb-420d-b90a-d8c6f5f7e9ea" />
+
+
 - Fit "c" and the resulting bracket dimension:
-  
+
+<img width="376" height="379" alt="Fit Spec for Feature C" src="https://github.com/user-attachments/assets/4d343dbb-4d30-48eb-b704-237bd92eff65" />
+
+
 
 ## Step 3: Reflections:
 
