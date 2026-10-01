@@ -86,7 +86,7 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 
 - Final Part Drawing:
 
-<img width="1540" height="1190" alt="Final Part Drawing" src="https://github.com/user-attachments/assets/3af30b33-f235-40b8-871d-5278f7f7e9b0" />
+<img width="1536" height="1192" alt="Final Part Drawing" src="https://github.com/user-attachments/assets/4fc01e9d-fa64-4b2c-92f5-ebde15ed8cff" />
 
 
 ## Step 3: Reflections:
