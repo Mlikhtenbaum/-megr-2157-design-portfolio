@@ -62,19 +62,27 @@ Based on these guidelines and the tolerances indicated in the following diagram,
 
 <img width="506" height="152" alt="A5 Bracket Dimension Spec Tolerances" src="https://github.com/user-attachments/assets/26aa957c-abad-4076-8e9a-2acf07e11910" />
 
-- Fit "a" and the resulting bracket dimension:
+- Diagram of Fit "a" and the resulting bracket dimension (found on page 655 of Machinery's Handbook):
+
+<img width="2315" height="1118" alt="Fit A" src="https://github.com/user-attachments/assets/589f5161-dcd2-4366-8dda-51cb5295069d" />
 
 <img width="576" height="364" alt="Fit Spec for Feature A" src="https://github.com/user-attachments/assets/71b6b4f8-3103-4b2d-99fd-915b341de1f2" />
 
 
-- Fit "b" and the resulting bracket dimension:
+- Diagram of Fit "b" and the resulting bracket dimension (found on page 655 of Machinery's Handbook):
+
+<img width="2368" height="1167" alt="Fit B" src="https://github.com/user-attachments/assets/5bd27b9c-a3e9-42e3-84f2-7df66a493d71" />
+
 
 <img width="591" height="339" alt="Fit Spec for Feature B" src="https://github.com/user-attachments/assets/1ea734cd-4cbb-420d-b90a-d8c6f5f7e9ea" />
 
 
-- Fit "c" and the resulting bracket dimension:
+- Diagram of Fit "c" and the resulting bracket dimension (found on page 655 of Machinery's Handbook):
+
+<img width="2277" height="1155" alt="Fit C" src="https://github.com/user-attachments/assets/71253433-12cf-4f14-8e61-1607298fd93f" />
 
 <img width="376" height="379" alt="Fit Spec for Feature C" src="https://github.com/user-attachments/assets/4d343dbb-4d30-48eb-b704-237bd92eff65" />
+
 
 - Final Part Drawing:
 
