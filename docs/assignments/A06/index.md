@@ -10,13 +10,14 @@ Generate a comprehensive solid model and a multi-view engineering drawing that a
 
 All of the dimensions used for this section of the assignment have been taken directly from my stress calculations on the previous project, A5. I chose to use the values gathered from stress calculations rather than those determined by deflection calculations because stress required increased dimensions in every segment. A reference multiview image from A5 is provided below to detail the part dimensions. 
 
-<img width="2628" height="3147" alt="12" src="https://github.com/user-attachments/assets/5b0cbc41-9d7c-451d-ba83-8961b9ec3615" />
+<img width="2163" height="2834" alt="A5 Bracket Dimension Spec Tolerances" src="https://github.com/user-attachments/assets/e1db6c85-d6d3-44f7-93bf-19fce0a844bc" />
+*The height of Feature E has been updated from .7536" to .6542" to correct a calculation error from the A5 calculations*
 
 ### Global Variable Creation:
 
-The first step was to create a list of global variables within the Equations tab of SolidWorks. This allows me to directly import dimensions, which improves efficiency and allows for quick dimension changes if they are deemed necessary. Global variables also clean up the overall look of the file.
+The first step was to create a list of global variables within the Equations tab of SolidWorks. This allows me to directly import dimensions, which improves efficiency and allows for quick dimension changes if they are deemed necessary. Global variables also clean up the overall look of the file. It also allowed me to identify a dimensional issue with the height of Feature E of my bracket, which I had incorrectly calculated while completing project A5 (I had cube-rooted instead of square-rooting).
 
-<img width="918" height="422" alt="Gobal Equations" src="https://github.com/user-attachments/assets/e073534e-8592-4e06-8f1d-ec28fd450fee" />
+<img width="1127" height="388" alt="Gobal Equations" src="https://github.com/user-attachments/assets/84e56524-f355-4fb3-b670-94f73b92214b" />
 
 ### Upper Bracket Sketch:
 
