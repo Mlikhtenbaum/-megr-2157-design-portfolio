@@ -15,7 +15,7 @@ All of the dimensions used for this section of the assignment have been taken di
 
 ### Global Variable Creation:
 
-The first step was to create a list of global variables in the SolidWorks Equations tab. This allows me to directly import dimensions, improving efficiency and enabling quick dimension changes if needed. Global variables also clean up the overall look of the file. Employing them also allowed me to identify a dimensional issue with the height of Feature E of my bracket, which I had incorrectly calculated while completing project A5 (I had cube-rooted instead of square-rooting).
+The first step was to create a list of global variables in the SolidWorks Equations tab. This allows me to directly import dimensions, improving efficiency and enabling quick dimension changes if needed. Global variables also clean up the overall look of the file. Employing them allowed me to identify a dimensional issue with the height of Feature E of my bracket, which I had incorrectly calculated while completing project A5 (I had cube-rooted instead of square-rooting). 
 
 <img width="1127" height="388" alt="Gobal Equations" src="https://github.com/user-attachments/assets/84e56524-f355-4fb3-b670-94f73b92214b" />
 
