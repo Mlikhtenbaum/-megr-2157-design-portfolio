@@ -102,23 +102,35 @@ This assignment took me about 10 hours.
 
 ## Step 4: 2157 Additions: Link Part and Drawing
 
-### Creating Global Equations:
+### Parametric Design:
+
+#### Creating Global Equations:
 
 These equations have been taken from the stress calculations completed in A5.
 
 <img width="1126" height="242" alt="Link Global Vars" src="https://github.com/user-attachments/assets/8ca068c3-cd4d-4282-a05a-a86a2e710b52" />
 
-### Creating Link Sketch:
+#### Creating Link Sketch:
 
 The link has been created using the "slot" feature and two circles to save time.
 
 <img width="2559" height="1392" alt="Link Sketch" src="https://github.com/user-attachments/assets/c3ca9a80-e47a-47e7-a4be-77496e5ba6c6" />
 
-### Extruding Link Sketch:
+#### Extruding Link Sketch:
 
-The only thing to note about this process is that I have assumed that the cross section of the link area as it borders the 1" hole is a square. This means the width of the sketch feature at that point and the depth of the extrusion are the same.
+The only thing to note about this process is that I have assumed that the cross-section of the link area as it borders the 1" hole is a square. This means the width of the sketch feature at that point and the depth of the extrusion are the same.
 
 <img width="2559" height="1389" alt="Link Extrude" src="https://github.com/user-attachments/assets/eb7e2829-7fa1-473d-a10c-0810e011db3e" />
+
+### Part Drawing:
+
+Tolerances for both hole callouts were taken from the fit classifications determined in A5.
+
+<img width="1535" height="1193" alt="Link Drawing" src="https://github.com/user-attachments/assets/31b6d668-612e-4c5e-b896-732492fb0264" />
+
+### 2157 Reflections:
+
+One lesson emphasized by this assignment about part-to-part compatibility is that it is highly important that both parts are manufactured to the provided tolerances. If one dimension is off, the parts will not fit together. Dimensioning and tolerancing, and proper notes and callouts, are vital to product design and manufacturing. If they are not added to the engineering drawing, it is essentially a blatant lack of communication between designer and manufacturer. This can lead to financial disasters, long lead times, and other issues.
 
 
 ## Decide:
