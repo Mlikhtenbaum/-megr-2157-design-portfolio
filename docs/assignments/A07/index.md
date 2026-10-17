@@ -37,7 +37,14 @@ The workflow for the link follows the same structure as that of the bracket, sin
 
 ## Analyze and Optimize: Bracket
 
+### Step 1: Initial Design FEA
 
+There are no additions or alterations to consider in the first step of the part optimization. FEA must be conducted first to determine where stress and displacement maxima occur, and then optimization can occur.
+
+
+### Step 2: Design 2 FEA and alterations
+
+### Step 3: Design 3 FEA and alterations
 
 ## Analyze and Optimize: Link (2157 Addition)
 
