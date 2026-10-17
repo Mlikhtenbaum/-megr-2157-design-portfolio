@@ -72,7 +72,7 @@ There are no additions or alterations to consider in the first step of the part 
 
 [Figure 6 - Coarse Mesh Creation]
 
-<img width="2559" height="1382" alt="Coarse Mesh FEA Stress (2)" src="https://github.com/user-attachments/assets/297a2467-2646-4ee4-bf3a-bcb8d726f217" />
+<img width="2550" height="1384" alt="Coarse Mesh FEA Stress (2)" src="https://github.com/user-attachments/assets/52d06dc6-388e-4579-a51d-60d3dc9fc806" />
 
 [Figure 7 - Coarse Mesh FEA Stress]
 
