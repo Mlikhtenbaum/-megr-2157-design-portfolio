@@ -102,9 +102,30 @@ There are no additions or alterations to consider in the first step of the part 
 
 [Figure 13 - Medium Mesh FEA SF]
 
+#### 3. Fine Mesh FEA: 
+- Fine Mesh FEA is required due to the difference in coarse mesh vs. medium mesh stress being larger than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(140,100 - 155,700) / 155,700| * 100%
+Percent Difference = |-15,600 / 155,700| * 100%
+Percent Difference = 0.100192 * 100% = 10.02%
+
+<img width="2559" height="1384" alt="Fine Mesh Creation" src="https://github.com/user-attachments/assets/f2baf1c4-5954-44ab-9be6-f1b85fc73a6d" />
+
+[Figure 14 - Fine Mesh Creation]
+
+<img width="2558" height="1385" alt="Fine Mesh FEA Stress" src="https://github.com/user-attachments/assets/5c6d85b5-ee04-46bd-96b5-c467807250d0" />
+
+[Figure 15 - Fine Mesh FEA Stress]
+
+<img width="2556" height="1382" alt="Fine Mesh FEA Disp" src="https://github.com/user-attachments/assets/cbcfc486-ad06-44d3-9110-abb34feabff8" />
+
+[Figure 16 - Fine Mesh FEA Displacement]
+
+<img width="2559" height="1390" alt="Fine Mesh FEA SF" src="https://github.com/user-attachments/assets/6ecd7662-e0b6-4e4d-82e9-8b11cb740502" />
+
+[Figure 17 - Fine Mesh FEA SF]
 
 
-#### 3. Fine Mesh FEA:
 
 ### Step 2: Design 2 FEA and alterations
 
