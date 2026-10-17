@@ -66,21 +66,45 @@ The workflow for the link follows the same structure as that of the bracket, sin
 
 There are no additions or alterations to consider in the first step of the part optimization. FEA must be conducted first to determine where stress and displacement maxima occur, and then optimization can occur.
 
-#### 1. Coarse Mesh Creation:
+#### 1. Coarse Mesh FEA:
 
 <img width="2204" height="1380" alt="Coarse Mesh Setup" src="https://github.com/user-attachments/assets/269df0de-76d5-48e7-9970-7fa5c446f5d6" />
 
-[Figure 6 - Coarse Mesh Design 1]
+[Figure 6 - Coarse Mesh Creation]
 
-#### 2. Coarse Mesh FEA:
-
-<img width="2545" height="1384" alt="Coarse Mesh FEA" src="https://github.com/user-attachments/assets/fe6d068e-bc7c-41ea-a50f-510c0384b0a2" />
+<img width="2559" height="1382" alt="Coarse Mesh FEA Stress (2)" src="https://github.com/user-attachments/assets/297a2467-2646-4ee4-bf3a-bcb8d726f217" />
 
 [Figure 7 - Coarse Mesh FEA Stress]
 
-<img width="2540" height="1382" alt="Coarse Mesh FEA Displacement" src="https://github.com/user-attachments/assets/14710bed-107a-4348-8432-015a08147b91" />
+<img width="2550" height="1388" alt="Coarse Mesh FEA Displacement" src="https://github.com/user-attachments/assets/1e39ab0b-c357-41bf-bd78-c8401d2f3c48" />
 
-[Figure 8- Coarse Mesh FEA Displacement]
+[Figure 8 - Coarse Mesh FEA Displacement]
+
+<img width="2554" height="1391" alt="Coarse Mesh FEA SF" src="https://github.com/user-attachments/assets/46dba5ad-c8e9-4e9a-91d7-b94cdc4fd23e" />
+
+[Figure 9 - Coarse Mesh FEA SF]
+
+#### 2. Medium Mesh FEA:
+
+<img width="2550" height="1382" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/55ae3d5e-ac5f-444d-ae7f-658dc9c64de7" />
+
+[Figure 10 - Medium Mesh Creation]
+
+<img width="2558" height="1386" alt="Med FEA Stress" src="https://github.com/user-attachments/assets/d8bba55c-8d84-4174-a8a2-7e873570bdcd" />
+
+[Figure 11 - Medium Mesh FEA Stress]
+
+<img width="2559" height="1383" alt="Med FEA Disp" src="https://github.com/user-attachments/assets/affe0a20-33fa-4d6a-9864-3ddcc3260682" />
+
+[Figure 12 - Medium Mesh FEA Displacement]
+
+<img width="2559" height="1384" alt="Med FEA SF" src="https://github.com/user-attachments/assets/68c9836c-c574-458a-b61e-acab5f3b6d10" />
+
+[Figure 13 - Medium Mesh FEA SF]
+
+
+
+#### 3. Fine Mesh FEA:
 
 ### Step 2: Design 2 FEA and alterations
 
