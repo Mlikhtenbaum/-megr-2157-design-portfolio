@@ -35,23 +35,65 @@ Note: Use the following difference formula for stress/displacement/safety-factor
 
 The workflow for the link follows the same structure as that of the bracket, since they experience the same applied force.
 
-## Analyze and Optimize: Bracket
 
-### Step 1: Initial Design FEA
+
+## Analyze and Optimize: Bracket:
+
+### Step 1: Overall FEA Setup
+
+##### 1: Fixturing:
+
+<img width="2250" height="1376" alt="Initial Design Fixturing" src="https://github.com/user-attachments/assets/c490f6f2-fde0-4073-93d4-4c506e661e17" />
+
+[Figure 3 - fixed fixture]
+
+##### 4: Split Creation for Force Application
+
+<img width="2222" height="1375" alt="Split Creation for Force Application" src="https://github.com/user-attachments/assets/d04e70c3-ab7e-4c58-a8d8-76a2d99d6228" />
+
+[Figure 4 - Split Creation]
+
+##### 3: Force Application (1200lbf):
+
+<img width="2173" height="1380" alt="External Load Application" src="https://github.com/user-attachments/assets/8b007c4b-ce93-425a-ac16-a3b638b87315" />
+
+[Figure 5 - Force Application Design 1]
+
+* For all following FEAs within the "## Analyze and Optimize: Bracket:" heading, specific force application and fixturing screenshots will not be provided, as they are ubiquitous in terms of position for each mesh iteration.*
+  
+
+### Step 1: Initial Design FEA:
 
 There are no additions or alterations to consider in the first step of the part optimization. FEA must be conducted first to determine where stress and displacement maxima occur, and then optimization can occur.
 
+#### 1. Coarse Mesh Creation:
+
+<img width="2204" height="1380" alt="Coarse Mesh Setup" src="https://github.com/user-attachments/assets/269df0de-76d5-48e7-9970-7fa5c446f5d6" />
+
+[Figure 6 - Coarse Mesh Design 1]
+
+#### 2. Coarse Mesh FEA:
+
+<img width="2545" height="1384" alt="Coarse Mesh FEA" src="https://github.com/user-attachments/assets/fe6d068e-bc7c-41ea-a50f-510c0384b0a2" />
+
+[Figure 7 - Coarse Mesh FEA Stress]
+
+<img width="2540" height="1382" alt="Coarse Mesh FEA Displacement" src="https://github.com/user-attachments/assets/14710bed-107a-4348-8432-015a08147b91" />
+
+[Figure 8- Coarse Mesh FEA Displacement]
 
 ### Step 2: Design 2 FEA and alterations
 
+
 ### Step 3: Design 3 FEA and alterations
+
+
 
 ## Analyze and Optimize: Link (2157 Addition)
 
 
-
 ## Decide
-
+One specific engineering decision I initially made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
 
 ## Communicate
 Part Files for each design and FEA analysis can be found here[]
