@@ -134,7 +134,7 @@ Percent Difference = 0.100192 * 100% = 10.02%
 
 
 
-### Step 2: Design 2 FEA and alterations
+### Step 3: Design 2 FEA and alterations
 
 
 #### 1. Design Alterations:
@@ -214,7 +214,7 @@ Percent Difference = 0.026166 * 100% = 2.62%
 
 
 
-### Step 3: Design 3 FEA and alterations
+### Step 4: Design 3 FEA and alterations
 
 
 #### 1. Design Alterations:
@@ -296,7 +296,7 @@ Percent Difference = 0.018908 * 100% = 1.89%
 
 
 
-### Step 4: Final Design Iteration Table and Lessons Learned
+### Step 5: Final Design Iteration Table and Lessons Learned
 
 
 #### 1. Design Table:
@@ -333,7 +333,7 @@ Both applied force and fixturing require split lines to accurately simulate what
 [Figure 46 - Link Force Application]
 
 
-#### 2. Design 1 FEA:
+#### Step 2. Design 1 FEA:
 
 ##### 1. Coarse Mesh FEA:
 
@@ -380,7 +380,7 @@ Percent Difference = |1,380 / 30,570| * 100%
 Percent Difference = 0.045142 * 100% = 4.51%
 
 
-#### 2. Design 2 FEA:
+#### Step 3. Design 2 FEA:
 
 ##### 1. Design Alterations:
 
@@ -410,25 +410,25 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 <img width="2559" height="1382" alt="Coarse Mesh Defl" src="https://github.com/user-attachments/assets/6c741e79-2a8b-4a41-b2ac-cab96d19b697" />
 
-[Figure 58 - Coarse Mesh FEA Deflection]
+[Figure 59 - Coarse Mesh FEA Deflection]
 
 <img width="2559" height="1383" alt="Coarse Mesh SF" src="https://github.com/user-attachments/assets/e9572a40-275f-4e38-a9ea-0e56ece8541f" />
 
-[Figure 59 - Coarse Mesh FEA SF]
+[Figure 60 - Coarse Mesh FEA SF]
 
 ##### 3. Medium Mesh FEA:
 
 <img width="2559" height="1380" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/91f29274-615b-4eac-bad5-9d32dfad192d" />
 
-[Figure 60 - Medium Mesh Creation]
+[Figure 61 - Medium Mesh Creation]
 
 <img width="2559" height="1383" alt="Med FEA Stress" src="https://github.com/user-attachments/assets/650f3d4f-84da-488e-b5f4-0dde22418791" />
 
-[Figure 61 - Medium Mesh FEA Stress]
+[Figure 62 - Medium Mesh FEA Stress]
 
 <img width="2559" height="1378" alt="Med FEA Defl" src="https://github.com/user-attachments/assets/0cf79ee6-d2e4-4c72-aa5b-21308ff0e5b9" />
 
-[Figure 62 - Medium Mesh FEA Deflection]
+[Figure 63 - Medium Mesh FEA Deflection]
 
 ##### 4. Fine Mesh FEA:
 
@@ -439,7 +439,7 @@ Percent Difference = |300 / 21,210| * 100%
 Percent Difference = 0.014144 * 100% = 1.41%
 
 
-#### 2. Design 3 FEA:
+#### Step 4. Design 3 FEA:
 
 ##### 1. Design Alterations:
 
@@ -451,30 +451,63 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 <img width="2237" height="1382" alt="Extrusion Thickness Increase" src="https://github.com/user-attachments/assets/1c7fbdf8-69c3-47e1-8277-fc23bef799cd" />
 
-[Figure 63 - Extrusion Thickness Increase Using Global Variables]
+[Figure 64 - Extrusion Thickness Increase Using Global Variables]
 
 <img width="2251" height="1377" alt="Fillet Increase" src="https://github.com/user-attachments/assets/9db51a2c-6e66-40b5-b650-2ead0ecd1139" />
 
-[Figure 64 - Fillet Radii Increase]
+[Figure 65 - Fillet Radii Increase]
 
 ##### 2. Coarse Mesh FEA:
 
+<img width="2554" height="1380" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/f4bf3ac6-c1d7-4314-b5f5-2c0f86d7c3d9" />
 
+[Figure 66 - Coarse Mesh Creation]
 
+<img width="2557" height="1384" alt="Coarse FEA Stress" src="https://github.com/user-attachments/assets/8e3b651a-a73a-461e-89e4-af9b2bf07f03" />
 
+[Figure 67 - Coarse Mesh FEA Stress]
 
+<img width="2554" height="1378" alt="Coarse FEA Defl" src="https://github.com/user-attachments/assets/310f2d9a-e5bc-49d0-aa6d-886f8b612f58" />
 
+[Figure 68 - Coarse Mesh FEA Deflection]
 
+<img width="2539" height="1380" alt="Coarse FEA SF" src="https://github.com/user-attachments/assets/4287a1ab-d8b0-440d-8ffd-39f949d9eb89" />
 
-
+[Figure 69 - Coarse Mesh FEA SF]
 
 ##### 3. Medium Mesh FEA:
 
+<img width="2243" height="1380" alt="MED Mesh Creation" src="https://github.com/user-attachments/assets/93df5189-6f8c-4838-a8cc-a6a913ef2865" />
 
+[Figure 70 - Medium Mesh Creation]
 
+<img width="2559" height="1383" alt="MED FEA Stress" src="https://github.com/user-attachments/assets/e2c7bcdd-6dfb-4e0b-8378-37db04950a99" />
 
+[Figure 71 - Medium Mesh FEA Stress]
 
+<img width="2559" height="1379" alt="MED FEA Defl" src="https://github.com/user-attachments/assets/f340b18a-c9f6-4459-b58f-fd007936439b" />
 
+[Figure 72 - Medium Mesh FEA Deflection]
+
+<img width="2559" height="1384" alt="MED FEA SF" src="https://github.com/user-attachments/assets/bf233bdc-249f-4bdd-97ae-982c0024c2c4" />
+
+[Figure 73 - Medium Mesh FEA SF]
+
+##### 4. Fine Mesh FEA:
+
+Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(10,640 - 10,540) / 10,540| * 100%
+Percent Difference = |100 / 10,540| * 100%
+Percent Difference = 0.009488 * 100% = 0.95%
+
+#### Step 5: Final Design Iteration Table:
+
+##### 1. Design Table:
+
+<img width="1080" height="816" alt="Link Table Done" src="https://github.com/user-attachments/assets/7ce1a743-1e75-4801-877d-39f3aa3a789a" />
+
+[Figure 73 - Populated Link Design Table]
 
 
 
@@ -483,10 +516,13 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 One specific engineering decision I initially (incorrectly) made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
 
-Another theoretical mistake in my design process was caused by my creation of a secondary flange on the bracket. The 2157 addition of a link will no longer fit unless the bracket is assembled using multiple components. The height of both flanges would also have to be increased to allow the link to fit correctly.
+Another theoretical mistake in my design process was caused by my creation of a secondary flange on the bracket. The addition of a link to the 2157 will no longer fit unless the bracket is assembled using multiple components. The height of both flanges would also have to be increased to allow the link to fit correctly.
+
+
 
 
 ## Communicate:
 
-Part Files for each design and FEA analysis can be found here[]
+Part Files for each design and FEA analysis can be found [here](https://drive.google.com/drive/folders/1yCqTWjM5q5NnLkooz9kPzZzRrrThjIp2?usp=sharing). Each design iteration for each part is within its own folder. Download the folder and open the part file; all simulations and meshes will accompany it. Overall, this project took me about 15 hours.
+
 
