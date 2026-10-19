@@ -221,7 +221,7 @@ Percent Difference = 0.026166 * 100% = 2.62%
 
 After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
 
-1. The stress riser created by the sudden geometric transition from the shaft to the bracket flange was too extreme to be sustained by simply adding a rib, as I had done in the previous design iteration. More drastic measures must be taken to improve the design and more effectively distribute stress. To alleviate the stress concentration within this segment of the part, I chose to add a secondary flange on the other side of the shaft and add fillets to the transition areas between the shaft and both flanges (the old and new ones). These are valid design improvements because the strap can easily be threaded into the gap between the two flanges, and since the strap is relatively malleable, it can flex to accommodate the fillet radii. The flange thickness will be 1/4 the length of the shaft, and .1" fillets will be used to better transition it into the rest of the flange. .06" fillets will be used to alleviate the stress risers that develop at the connection between the flanges and the shaft, to not cause overt deflection of the strap.
+1. The stress riser created by the sudden geometric transition from the shaft to the bracket flange was too extreme to be sustained by simply adding a rib, as I had done in the previous design iteration. More drastic measures were needed to improve the design and distribute stress more effectively. To alleviate the stress concentration within this segment of the part, I chose to add a secondary flange on the other side of the shaft and add fillets to the transition areas between the shaft and both flanges (the old and new ones). These are valid design improvements because the strap can easily be threaded into the gap between the two flanges, and since the strap is relatively malleable, it can flex to accommodate the fillet radii. The flange thickness will be 1/4 the length of the shaft, and .1" fillets will be used to better transition it into the rest of the flange. .06" fillets will be used to alleviate the stress risers that develop at the connection between the flanges and the shaft, to not cause overt deflection of the strap.
 
 2. To help reduce the weight created by the addition of another flange, material will be removed by adding a realistic amount of material removal fillets to the outside of the bracket. It is important to not just throw them everywhere, as that would make manufacturing the bracket even more difficult. As is, it would likely already have to be composed of multiple components, or created using investment casting and then machined down to the correct tolerances.
 
@@ -317,7 +317,7 @@ Overall, if I were to continue creating design iterations for this bracket, I wo
 
 
 
-## Analyze and Optimize: Link (2157 Addition)
+## Analyze and Optimize: Link (2157 Addition):
 
 
 #### Step 1: Overall FEA Setup:
@@ -335,7 +335,7 @@ Both applied force and fixturing require split lines to accurately simulate what
 
 #### 2. Design 1 FEA:
 
-##### 1. Coarse Mesh FEA
+##### 1. Coarse Mesh FEA:
 
 <img width="2559" height="1385" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/eabc713a-c54b-4e88-8ab8-773b7934025c" />
 
@@ -353,36 +353,122 @@ Both applied force and fixturing require split lines to accurately simulate what
 
 [Figure 50 - Coarse Mesh FEA SF]
 
-##### 2. Medium Mesh FEA
+##### 2. Medium Mesh FEA:
 
 <img width="2323" height="1378" alt="MED MESH" src="https://github.com/user-attachments/assets/7eba0617-1d0b-445c-ad1e-0e1dc99e5a8a" />
 
+[Figure 51 - Medium Mesh Creation]
 
 <img width="2559" height="1380" alt="MED FEA Stress" src="https://github.com/user-attachments/assets/d3265229-9074-4841-a255-f7713869ba17" />
 
+[Figure 52 - Medium Mesh FEA Stress]
 
 <img width="2559" height="1381" alt="MED FEA Defl" src="https://github.com/user-attachments/assets/64b375b4-4f87-4cc1-a3fd-ee6ca57caf6d" />
 
+[Figure 53 - Medium Mesh FEA Deflection]
 
 <img width="2539" height="1365" alt="MED FEA SF" src="https://github.com/user-attachments/assets/16e2691d-967b-4efc-8007-e5fac4e4f6e8" />
 
+[Figure 54 - Medium Mesh FEA SF]
 
+##### 2. Fine Mesh FEA:
 
-
+Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(31,950 - 30,570) / 30,570| * 100%
+Percent Difference = |1,380 / 30,570| * 100%
+Percent Difference = 0.045142 * 100% = 4.51%
 
 
 #### 2. Design 2 FEA:
 
-##### 1. Coarse Mesh FEA
+##### 1. Design Alterations:
 
-##### 2. Medium Mesh FEA
+After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
+
+1. The stress caused by the applied force was building up within the left and right walls at the centerline of the 1" diameter hole. To alleviate this stress, the overall thickness of the part was increased by 1.5 times.
+
+2. .075" fillets were added around the borders of the design to help reduce the overall mass of the link.
+
+<img width="2220" height="1168" alt="Extrusion Thickness Increase" src="https://github.com/user-attachments/assets/97b8d222-0c1f-45e4-b632-ebbba27b8a53" />
+
+[Figure 55 - Extrusion Thickness Increase Using Global Variables]
+
+<img width="2240" height="1380" alt="Fillets" src="https://github.com/user-attachments/assets/dcc97318-aa54-45ca-8b98-4f8a621500f3" />
+
+[Figure 56 - Outer Link Fillets]
+
+##### 2. Coarse Mesh FEA:
+
+<img width="2238" height="1382" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/78b76a50-bf4a-41a8-a889-430abc879b8a" />
+
+[Figure 57 - Coarse Mesh Creation]
+
+<img width="2556" height="1380" alt="Coarse FEA Stress" src="https://github.com/user-attachments/assets/cf0e82e8-07ff-4c44-9d0e-01973bd504c4" />
+
+[Figure 58 - Coarse Mesh FEA Stress]
+
+<img width="2559" height="1382" alt="Coarse Mesh Defl" src="https://github.com/user-attachments/assets/6c741e79-2a8b-4a41-b2ac-cab96d19b697" />
+
+[Figure 58 - Coarse Mesh FEA Deflection]
+
+<img width="2559" height="1383" alt="Coarse Mesh SF" src="https://github.com/user-attachments/assets/e9572a40-275f-4e38-a9ea-0e56ece8541f" />
+
+[Figure 59 - Coarse Mesh FEA SF]
+
+##### 3. Medium Mesh FEA:
+
+<img width="2559" height="1380" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/91f29274-615b-4eac-bad5-9d32dfad192d" />
+
+[Figure 60 - Medium Mesh Creation]
+
+<img width="2559" height="1383" alt="Med FEA Stress" src="https://github.com/user-attachments/assets/650f3d4f-84da-488e-b5f4-0dde22418791" />
+
+[Figure 61 - Medium Mesh FEA Stress]
+
+<img width="2559" height="1378" alt="Med FEA Defl" src="https://github.com/user-attachments/assets/0cf79ee6-d2e4-4c72-aa5b-21308ff0e5b9" />
+
+[Figure 62 - Medium Mesh FEA Deflection]
+
+##### 4. Fine Mesh FEA:
+
+Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(20,910 - 21,210) / 21,210| * 100%
+Percent Difference = |300 / 21,210| * 100%
+Percent Difference = 0.014144 * 100% = 1.41%
 
 
 #### 2. Design 3 FEA:
 
-##### 1. Coarse Mesh FEA
+##### 1. Design Alterations:
 
-##### 2. Medium Mesh FEA
+After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
+
+1. The actual safety factor of the design was not around the desired safety factor of 4.0. To better match the desired level of safety, the overall thickness of the link will be increased to the maximum possible length while still fitting within the geometrical confines of the bracket - .75in.
+
+2. To help offset the weight increase that this thickness addition will cause, the outer fillet of the part will be increased to .09".
+
+<img width="2237" height="1382" alt="Extrusion Thickness Increase" src="https://github.com/user-attachments/assets/1c7fbdf8-69c3-47e1-8277-fc23bef799cd" />
+
+[Figure 63 - Extrusion Thickness Increase Using Global Variables]
+
+<img width="2251" height="1377" alt="Fillet Increase" src="https://github.com/user-attachments/assets/9db51a2c-6e66-40b5-b650-2ead0ecd1139" />
+
+[Figure 64 - Fillet Radii Increase]
+
+##### 2. Coarse Mesh FEA:
+
+
+
+
+
+
+
+
+
+
+##### 3. Medium Mesh FEA:
 
 
 
