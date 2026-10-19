@@ -320,13 +320,84 @@ Overall, if I were to continue creating design iterations for this bracket, I wo
 ## Analyze and Optimize: Link (2157 Addition)
 
 
+#### Step 1: Overall FEA Setup:
+
+Both applied force and fixturing require split lines to accurately simulate what will occur when the link is loaded.
+
+<img width="2254" height="1380" alt="Fixturing" src="https://github.com/user-attachments/assets/a46abd74-f3f3-48be-b242-48d2683dfa5c" />
+
+[Figure 45 - Link Fixturing]
+
+<img width="2550" height="1380" alt="Force Application" src="https://github.com/user-attachments/assets/1ad36114-708a-4cab-8fbe-d2fdc2f22f7b" />
+
+[Figure 46 - Link Force Application]
+
+
+#### 2. Design 1 FEA:
+
+##### 1. Coarse Mesh FEA
+
+<img width="2559" height="1385" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/eabc713a-c54b-4e88-8ab8-773b7934025c" />
+
+[Figure 47 - Coarse Mesh Creation]
+
+<img width="2559" height="1383" alt="Coarse FEA Stress" src="https://github.com/user-attachments/assets/22ebe087-7ba0-4581-a8f9-d8c29f1582b8" />
+
+[Figure 48 - Coarse Mesh FEA Stress]
+
+<img width="2559" height="1386" alt="Coarse FEA Defl" src="https://github.com/user-attachments/assets/a6f44de3-e02d-4023-b680-ac1438ebdccd" />
+
+[Figure 49 - Coarse Mesh FEA Deflection]
+
+<img width="2559" height="1383" alt="Coarse FEA SF" src="https://github.com/user-attachments/assets/b0b1a5ea-351e-4636-999f-336f47b78cac" />
+
+[Figure 50 - Coarse Mesh FEA SF]
+
+##### 2. Medium Mesh FEA
+
+<img width="2323" height="1378" alt="MED MESH" src="https://github.com/user-attachments/assets/7eba0617-1d0b-445c-ad1e-0e1dc99e5a8a" />
+
+
+<img width="2559" height="1380" alt="MED FEA Stress" src="https://github.com/user-attachments/assets/d3265229-9074-4841-a255-f7713869ba17" />
+
+
+<img width="2559" height="1381" alt="MED FEA Defl" src="https://github.com/user-attachments/assets/64b375b4-4f87-4cc1-a3fd-ee6ca57caf6d" />
+
+
+<img width="2539" height="1365" alt="MED FEA SF" src="https://github.com/user-attachments/assets/16e2691d-967b-4efc-8007-e5fac4e4f6e8" />
+
+
+
+
+
+
+#### 2. Design 2 FEA:
+
+##### 1. Coarse Mesh FEA
+
+##### 2. Medium Mesh FEA
+
+
+#### 2. Design 3 FEA:
+
+##### 1. Coarse Mesh FEA
+
+##### 2. Medium Mesh FEA
+
+
+
+
+
+
+
+
 
 
 ## Decide:
 
 One specific engineering decision I initially (incorrectly) made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
 
-
+Another theoretical mistake in my design process was caused by my creation of a secondary flange on the bracket. The 2157 addition of a link will no longer fit unless the bracket is assembled using multiple components. The height of both flanges would also have to be increased to allow the link to fit correctly.
 
 
 ## Communicate:
