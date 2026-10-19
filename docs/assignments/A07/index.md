@@ -1,6 +1,9 @@
 # A7 – FEA on Bracket and Link (2157 Addition)
 
-## Objective
+
+
+
+## Objective:
 - Use Finite Element Analysis (FEA) to improve the bracket design from previous assignments.
 - Ensure high stiffness, strength, and lightweight optimization through iterative design.
 - Conduct multiple FEA simulations, refining geometry based on results.
@@ -37,7 +40,10 @@ The workflow for the link follows the same structure as that of the bracket, sin
 
 
 
+
 ## Analyze and Optimize: Bracket:
+
+
 
 ### Step 1: Overall FEA Setup
 
@@ -62,11 +68,12 @@ The workflow for the link follows the same structure as that of the bracket, sin
 * For all following FEAs within the "## Analyze and Optimize: Bracket:" heading, specific force application and fixturing screenshots will not be provided, as they are ubiquitous in terms of position for each mesh iteration.*
   
 
+
 ### Step 2: Design 1 FEA:
 
 There are no additions or alterations to consider in the first step of the part optimization. FEA must be conducted first to determine where stress and displacement maxima occur, and then optimization can occur.
 
-#### 1. Coarse Mesh FEA:
+##### 1. Coarse Mesh FEA:
 
 <img width="2204" height="1380" alt="Coarse Mesh Setup" src="https://github.com/user-attachments/assets/269df0de-76d5-48e7-9970-7fa5c446f5d6" />
 
@@ -84,7 +91,7 @@ There are no additions or alterations to consider in the first step of the part 
 
 [Figure 9 - Coarse Mesh FEA SF]
 
-#### 2. Medium Mesh FEA:
+##### 2. Medium Mesh FEA:
 
 <img width="2550" height="1382" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/55ae3d5e-ac5f-444d-ae7f-658dc9c64de7" />
 
@@ -102,7 +109,7 @@ There are no additions or alterations to consider in the first step of the part 
 
 [Figure 13 - Medium Mesh FEA SF]
 
-#### 3. Fine Mesh FEA: 
+##### 3. Fine Mesh FEA: 
 - Fine Mesh FEA is required due to the difference in coarse mesh vs. medium mesh stress being larger than 7%:
 Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
 Percent Difference = |(140,100 - 155,700) / 155,700| * 100%
@@ -129,13 +136,14 @@ Percent Difference = 0.100192 * 100% = 10.02%
 
 ### Step 2: Design 2 FEA and alterations
 
+
 #### 1. Design Alterations:
 
 After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
 
 1. The flange that connects the upper portion of the bracket to the strap shaft is significantly under-engineered, since I modelled it as an axially loaded bar, rather than one being acted upon by a bending stress. Material must be added to help support the structure and resist the bending force applied by the strap. To amend this issue, I will model a rib on the rear end of the shaft that will help resist bending, and a fillet to add material to the flange (also to resist bending). The rib width will be 1/2 of the strap shaft diameter, and it will be 1/4 as thick as the length of the shaft. The fillets employed on the rib feature and flange are .1".
 
-2. The upper portion of the bracket experiences very little stress, which means a good portion of the material can be removed (as long as the previously mentioned design alteration does not redistribute the force in a manner that compromises the upper bracket. I will use a fillet to smooth out and remove material from this segment of the bracket, which will reduce its overall weight. Fillets are an important consideration in such a design for another reason as well - they dull the corners of the design, making it safer to use and negating the risk of it snagging and possibly tearing the strap that it supports. The fillets employed on the upper bracket feature are .25", to remove more material.
+2. The upper portion of the bracket experiences very little stress, which means a good portion of the material can be removed (as long as the previously mentioned design alteration does not redistribute the force in a manner that compromises the upper bracket. I will use a fillet to smooth out and remove material from this segment of the bracket, which will reduce its overall weight. Fillets are an important consideration in such a design for another reason as well - they dull the corners of the design, making it safer to use and negating the risk of it snagging and possibly tearing the strap that it supports. The fillets employed on the upper bracket feature are .25" to remove more material.
 
 <img width="2554" height="1381" alt="Design 2 Rib Sketch (half shaft d)" src="https://github.com/user-attachments/assets/16b48d48-6c67-40ef-9b6b-ffb5dd9b4c5d" />
 
@@ -157,9 +165,10 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 22 - Design 2 Upper Bracket Fillet]
 
+
 #### 2. Design 2 FEA:
 
-#### 1. Coarse Mesh FEA:
+##### 1. Coarse Mesh FEA:
 
 <img width="2559" height="1385" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/7beb6394-edd8-4136-875c-6923ec426dce" />
 
@@ -177,7 +186,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 26 - Coarse Mesh FEA SF]
 
-#### 2. Medium Mesh FEA:
+##### 2. Medium Mesh FEA:
 
 <img width="2559" height="1386" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/17687eb9-ace7-46d2-808c-2be3bd227b2f" />
 
@@ -195,7 +204,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 30 - Medium Mesh FEA SF]
 
-#### 3. Fine Mesh FEA: 
+##### 3. Fine Mesh FEA: 
 
 Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
 Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
@@ -203,17 +212,124 @@ Percent Difference = |(63,140 - 61,530) / 61,530| * 100%
 Percent Difference = |1,610 / 61,530| * 100%
 Percent Difference = 0.026166 * 100% = 2.62%
 
+
+
 ### Step 3: Design 3 FEA and alterations
+
+
+#### 1. Design Alterations:
+
+After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
+
+1. The stress riser created by the sudden geometric transition from the shaft to the bracket flange was too extreme to be sustained by simply adding a rib, as I had done in the previous design iteration. More drastic measures must be taken to improve the design and more effectively distribute stress. To alleviate the stress concentration within this segment of the part, I chose to add a secondary flange on the other side of the shaft and add fillets to the transition areas between the shaft and both flanges (the old and new ones). These are valid design improvements because the strap can easily be threaded into the gap between the two flanges, and since the strap is relatively malleable, it can flex to accommodate the fillet radii. The flange thickness will be 1/4 the length of the shaft, and .1" fillets will be used to better transition it into the rest of the flange. .06" fillets will be used to alleviate the stress risers that develop at the connection between the flanges and the shaft, to not cause overt deflection of the strap.
+
+2. To help reduce the weight created by the addition of another flange, material will be removed by adding a realistic amount of material removal fillets to the outside of the bracket. It is important to not just throw them everywhere, as that would make manufacturing the bracket even more difficult. As is, it would likely already have to be composed of multiple components, or created using investment casting and then machined down to the correct tolerances.
+
+3. *Addendum, see Figure #35*: The applied force within the FEA simulation must be redefined to account for the fillets added between the shaft and flanges.
+
+<img width="2559" height="1381" alt="Flange 2 Sketch" src="https://github.com/user-attachments/assets/940ed709-7275-4d48-bad0-8cd6a0033796" />
+
+[Figure 31 - Flange 2 Sketch]
+
+<img width="2559" height="1384" alt="Flange 2 Extrusion" src="https://github.com/user-attachments/assets/dda82287-2be0-48c2-a22c-ad80feb75241" />
+
+[Figure 32 - Flange 2 Extrusion]
+
+<img width="2493" height="1381" alt="Flange 2 Bracket Fillet" src="https://github.com/user-attachments/assets/5300c335-780a-46bf-b5bb-185a9a3cc018" />
+
+[Figure 33 - Flange 2 Bracket Fillet]
+
+<img width="2559" height="1380" alt="FlangeShaft Fillet" src="https://github.com/user-attachments/assets/dd161e55-b700-45d9-a1b7-8d0eea9d141e" />
+
+[Figure 34 - Shaft/Flange Fillet]
+
+<img width="2538" height="1382" alt="Force Redef" src="https://github.com/user-attachments/assets/fd60ec27-2962-4093-b079-1cf20ed01cf6" />
+
+[Figure 35 - Redefinition of Applied Force]
+
+
+#### 2. Design 3 FEA:
+
+##### 1. Coarse Mesh FEA:
+
+<img width="2559" height="1379" alt="Coarse Mesh" src="https://github.com/user-attachments/assets/12e853f4-658d-40b1-a3ad-2653076a0fdc" />
+
+[Figure 36 - Coarse Mesh Creation]
+
+<img width="2557" height="1382" alt="Coarse FEA Stress" src="https://github.com/user-attachments/assets/815ee50b-b1f1-4ea9-a6f9-2dc6cbbc5212" />
+
+[Figure 37 - Coarse Mesh FEA Stress]
+
+<img width="2543" height="1379" alt="Coarse FEA Displacement" src="https://github.com/user-attachments/assets/236d7c14-4e7c-4d38-9303-0fb49cd9d44b" />
+
+[Figure 38 - Coarse Mesh FEA Displacement]
+
+<img width="2559" height="1383" alt="Coarse Mesh SF" src="https://github.com/user-attachments/assets/6fab6370-ac43-43be-8908-2788b461f73d" />
+
+[Figure 39 - Coarse Mesh FEA SF]
+
+##### 2. Medium Mesh FEA:
+
+<img width="2557" height="1384" alt="Med Mesh" src="https://github.com/user-attachments/assets/11369e26-da0b-424d-8f82-fe2f365d6f71" />
+
+[Figure 40 - Medium Mesh Creation]
+
+<img width="2549" height="1379" alt="Med FEA Stress" src="https://github.com/user-attachments/assets/a1286b58-5f0e-437f-a1c8-b3904ac12482" />
+
+[Figure 41 - Medium Mesh FEA Stress]
+
+<img width="2559" height="1386" alt="MED FEA Displacement" src="https://github.com/user-attachments/assets/7b2bc1e2-0a75-4ad3-acf8-27f156af8cfc" />
+
+[Figure 42 - Medium Mesh FEA Displacement]
+
+<img width="2559" height="1385" alt="Med FEA SF" src="https://github.com/user-attachments/assets/5f3f6fda-6da3-40bd-a9e5-b561923f610a" />
+
+[Figure 43 - Medium Mesh FEA SF]
+
+##### 3. Fine Mesh FEA: 
+
+Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(57,660 - 56,590) / 56,590| * 100%
+Percent Difference = |1,070 / 56,590| * 100%
+Percent Difference = 0.018908 * 100% = 1.89%
+
+
+
+### Step 4: Final Design Iteration Table and Lessons Learned
+
+
+#### 1. Design Table:
+
+<img width="1082" height="788" alt="Table Done" src="https://github.com/user-attachments/assets/d8060bc2-dc2a-49f7-8a5b-722d966735f0" />
+
+[Figure 44 - Populated Design Table]
+
+
+#### 2. Lessons Learned:
+
+A few of the major lessons I learned from this project were as follows:
+1. I learned about the importance of eliminating stress risers within a design, as they can create unforeseen failures in a part that should otherwise be able to withstand an applied load.
+2. I learned about the importance of correctly identifying modes of failure within different segments of a design, as misidentifying the effects of applied loads can be disastrous.
+
+Overall, if I were to continue creating design iterations for this bracket, I would thicken the upper walls of the design to reduce deflection and better distribute stress. I would also redesign the shaft connection, making it symmetrical so that it would not deflect unevenly.
+
 
 
 
 ## Analyze and Optimize: Link (2157 Addition)
 
 
-## Decide
+
+
+## Decide:
 
 One specific engineering decision I initially (incorrectly) made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
 
-## Communicate
+
+
+
+## Communicate:
+
 Part Files for each design and FEA analysis can be found here[]
 
