@@ -27,11 +27,10 @@ Step 1: Take the initial design (design 1) and run coarse>med>fine FEA. Find whe
 Step 2: Take the new design from Step 1 (design 2) and run coarse>med>fine FEA. Identify where stress is maximal and minimal, and add/remove material accordingly to optimize structure strength and weight. 
 Step 3: Take the new design from Step 2 (design 3) and run coarse>med>fine FEA. Identify where stress is maximal and minimal, and add/remove material accordingly to optimize structure strength and weight. 
 
-Note: Use the following difference formula for stress/displacement/safety-factor to determine if fine mesh FEA is necessary or if coarse and medium FEAs are adequate. Only run a fine mesh FEA if the (% difference between coarse and medium FEA) > 7%.
-
 <img width="239" height="151" alt="Difference Formula" src="https://github.com/user-attachments/assets/c3dcb894-626f-4812-a556-77c058b0aa05" />
 
 [Figure 2 - Difference Formula]
+
 
 
 ### Proposed workflow: Link (2157 Addition)
