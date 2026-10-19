@@ -47,7 +47,7 @@ The workflow for the link follows the same structure as that of the bracket, sin
 
 [Figure 3 - fixed fixture]
 
-##### 4: Split Creation for Force Application
+##### 2: Split Creation for Force Application
 
 <img width="2222" height="1375" alt="Split Creation for Force Application" src="https://github.com/user-attachments/assets/d04e70c3-ab7e-4c58-a8d8-76a2d99d6228" />
 
@@ -62,7 +62,7 @@ The workflow for the link follows the same structure as that of the bracket, sin
 * For all following FEAs within the "## Analyze and Optimize: Bracket:" heading, specific force application and fixturing screenshots will not be provided, as they are ubiquitous in terms of position for each mesh iteration.*
   
 
-### Step 1: Initial Design FEA:
+### Step 2: Design 1 FEA:
 
 There are no additions or alterations to consider in the first step of the part optimization. FEA must be conducted first to determine where stress and displacement maxima occur, and then optimization can occur.
 
@@ -129,6 +129,79 @@ Percent Difference = 0.100192 * 100% = 10.02%
 
 ### Step 2: Design 2 FEA and alterations
 
+#### 1. Design Alterations:
+
+After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
+
+1. The flange that connects the upper portion of the bracket to the strap shaft is significantly under-engineered, since I modelled it as an axially loaded bar, rather than one being acted upon by a bending stress. Material must be added to help support the structure and resist the bending force applied by the strap. To amend this issue, I will model a rib on the rear end of the shaft that will help resist bending, and a fillet to add material to the flange (also to resist bending). The rib width will be 1/2 of the strap shaft diameter, and it will be 1/4 as thick as the length of the shaft. The fillets employed on the rib feature and flange are .1".
+
+2. The upper portion of the bracket experiences very little stress, which means a good portion of the material can be removed (as long as the previously mentioned design alteration does not redistribute the force in a manner that compromises the upper bracket. I will use a fillet to smooth out and remove material from this segment of the bracket, which will reduce its overall weight. Fillets are an important consideration in such a design for another reason as well - they dull the corners of the design, making it safer to use and negating the risk of it snagging and possibly tearing the strap that it supports. The fillets employed on the upper bracket feature are .25", to remove more material.
+
+<img width="2554" height="1381" alt="Design 2 Rib Sketch (half shaft d)" src="https://github.com/user-attachments/assets/16b48d48-6c67-40ef-9b6b-ffb5dd9b4c5d" />
+
+[Figure 18 - Design 2 Rib Sketch]
+
+<img width="2559" height="1382" alt="Design 2 Rib Extrusion (qtr bracket thickness)" src="https://github.com/user-attachments/assets/8b6f9bef-195c-43ed-975f-7b9668fc79bf" />
+
+[Figure 19 - Design 2 Rib Extrusion]
+
+<img width="2555" height="1394" alt="Rib Fillet" src="https://github.com/user-attachments/assets/d123ebc1-03d3-41fc-a5f2-3878064cd05c" />
+
+[Figure 20 - Design 2 Rib Fillet 1]
+
+<img width="2556" height="1385" alt="Rib Fillet 2" src="https://github.com/user-attachments/assets/2da86550-e579-4069-a605-b68f766f5943" />
+
+[Figure 21 - Design 2 Rib Fillet 2]
+
+<img width="2559" height="1381" alt="Upper Bracket Fillet  25in" src="https://github.com/user-attachments/assets/9d9df6d9-7185-4cb3-a501-0ac81265e02b" />
+
+[Figure 22 - Design 2 Upper Bracket Fillet]
+
+#### 2. Design 2 FEA:
+
+#### 1. Coarse Mesh FEA:
+
+<img width="2559" height="1385" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/7beb6394-edd8-4136-875c-6923ec426dce" />
+
+[Figure 23 - Coarse Mesh Creation]
+
+<img width="2559" height="1382" alt="Coarse Mesh FEA Stress" src="https://github.com/user-attachments/assets/1bd80a19-9c64-465b-b414-b99cf69ccef2" />
+
+[Figure 24 - Coarse Mesh FEA Stress]
+
+<img width="2559" height="1385" alt="Coarse Mesh FEA Defl" src="https://github.com/user-attachments/assets/621695bd-7c80-4eee-b8e4-2cf78dc126e9" />
+
+[Figure 25 - Coarse Mesh FEA Deflection]
+
+<img width="2554" height="1382" alt="Coarse Mesh FEA SF" src="https://github.com/user-attachments/assets/957cb283-0ea0-4d6a-bf9a-d98279eef2cf" />
+
+[Figure 26 - Coarse Mesh FEA SF]
+
+#### 2. Medium Mesh FEA:
+
+<img width="2559" height="1386" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/17687eb9-ace7-46d2-808c-2be3bd227b2f" />
+
+[Figure 27 - Medium Mesh Creation]
+
+<img width="2559" height="1384" alt="Med Mesh FEA Stress" src="https://github.com/user-attachments/assets/8d4cd85d-f0e8-454f-9249-db8e0bd502ac" />
+
+[Figure 28 - Medium Mesh FEA Stress]
+
+<img width="2559" height="1384" alt="Med Mesh FEA Defl" src="https://github.com/user-attachments/assets/3203506e-f0c1-4b31-a235-6b8bdbd6facd" />
+
+[Figure 29 - Medium Mesh FEA Deflection]
+
+<img width="2559" height="1379" alt="Med Mesh FEA SF" src="https://github.com/user-attachments/assets/23c89028-362a-44ca-804b-60d6e640cfc0" />
+
+[Figure 30 - Medium Mesh FEA SF]
+
+#### 3. Fine Mesh FEA: 
+
+Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
+Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
+Percent Difference = |(63,140 - 61,530) / 61,530| * 100%
+Percent Difference = |1,610 / 61,530| * 100%
+Percent Difference = 0.026166 * 100% = 2.62%
 
 ### Step 3: Design 3 FEA and alterations
 
@@ -138,7 +211,8 @@ Percent Difference = 0.100192 * 100% = 10.02%
 
 
 ## Decide
-One specific engineering decision I initially made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
+
+One specific engineering decision I initially (incorrectly) made was to apply a rolling/sliding fixture to my bracket rather than a fixed one. I went with this choice since it is technically a more accurate representation of how the bracket is actually held in place on its mount. However, this fixturing method is invalid since the bracket is not part of a constrained assembly and will simply float off into space if it is not fixed.
 
 ## Communicate
 Part Files for each design and FEA analysis can be found here[]
