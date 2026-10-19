@@ -319,7 +319,7 @@ Overall, if I were to continue creating design iterations for this bracket, I wo
 ## Analyze and Optimize: Link (2157 Addition):
 
 
-#### Step 1: Overall FEA Setup:
+### Step 1: Overall FEA Setup:
 
 Both applied force and fixturing require split lines to accurately simulate what will occur when the link is loaded.
 
@@ -332,7 +332,7 @@ Both applied force and fixturing require split lines to accurately simulate what
 [Figure 46 - Link Force Application]
 
 
-#### Step 2. Design 1 FEA:
+### Step 2. Design 1 FEA:
 
 ##### 1. Coarse Mesh FEA:
 
@@ -379,9 +379,9 @@ Percent Difference = |1,380 / 30,570| * 100%
 Percent Difference = 0.045142 * 100% = 4.51%
 
 
-#### Step 3. Design 2 FEA:
+### Step 3. Design 2 FEA and Alterations:
 
-##### 1. Design Alterations:
+#### 1. Design Alterations:
 
 After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
 
@@ -397,7 +397,10 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 56 - Outer Link Fillets]
 
-##### 2. Coarse Mesh FEA:
+
+#### 2. Design 2 FEA:
+
+##### 1. Coarse Mesh FEA:
 
 <img width="2238" height="1382" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/78b76a50-bf4a-41a8-a889-430abc879b8a" />
 
@@ -415,7 +418,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 60 - Coarse Mesh FEA SF]
 
-##### 3. Medium Mesh FEA:
+##### 2. Medium Mesh FEA:
 
 <img width="2559" height="1380" alt="Med Mesh Creation" src="https://github.com/user-attachments/assets/91f29274-615b-4eac-bad5-9d32dfad192d" />
 
@@ -429,7 +432,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 63 - Medium Mesh FEA Deflection]
 
-##### 4. Fine Mesh FEA:
+##### 3. Fine Mesh FEA:
 
 Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
 Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
@@ -438,9 +441,9 @@ Percent Difference = |300 / 21,210| * 100%
 Percent Difference = 0.014144 * 100% = 1.41%
 
 
-#### Step 4. Design 3 FEA:
+### Step 4. Design 3 FEA and Alterations:
 
-##### 1. Design Alterations:
+#### 1. Design Alterations:
 
 After analyzing the results from the three previous FEAs, multiple design considerations became apparent:
 
@@ -456,7 +459,10 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 65 - Fillet Radii Increase]
 
-##### 2. Coarse Mesh FEA:
+
+#### 2. Design 3 FEA
+
+##### 1. Coarse Mesh FEA:
 
 <img width="2554" height="1380" alt="Coarse Mesh Creation" src="https://github.com/user-attachments/assets/f4bf3ac6-c1d7-4314-b5f5-2c0f86d7c3d9" />
 
@@ -474,7 +480,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 69 - Coarse Mesh FEA SF]
 
-##### 3. Medium Mesh FEA:
+##### 2. Medium Mesh FEA:
 
 <img width="2243" height="1380" alt="MED Mesh Creation" src="https://github.com/user-attachments/assets/93df5189-6f8c-4838-a8cc-a6a913ef2865" />
 
@@ -492,7 +498,7 @@ After analyzing the results from the three previous FEAs, multiple design consid
 
 [Figure 73 - Medium Mesh FEA SF]
 
-##### 4. Fine Mesh FEA:
+##### 3. Fine Mesh FEA:
 
 Fine Mesh FEA is not required due to the difference in coarse mesh vs. medium mesh stress being less than 7%:
 Percent Difference = |(New Value - Previous Value) / Previous Value| * 100%
@@ -500,9 +506,9 @@ Percent Difference = |(10,640 - 10,540) / 10,540| * 100%
 Percent Difference = |100 / 10,540| * 100%
 Percent Difference = 0.009488 * 100% = 0.95%
 
-#### Step 5: Final Design Iteration Table:
+### Step 5: Final Design Iteration Table:
 
-##### 1. Design Table:
+#### 1. Design Table:
 
 <img width="1080" height="816" alt="Link Table Done" src="https://github.com/user-attachments/assets/7ce1a743-1e75-4801-877d-39f3aa3a789a" />
 
