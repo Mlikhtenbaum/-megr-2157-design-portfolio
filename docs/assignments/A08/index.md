@@ -17,9 +17,10 @@
 
 - Use the equations for stress outlined in the lecture and Machinery’s Handbook to determine if the input and output shafts’ diameters are sufficient.
 
-#### Input Shaft:
+#### Input and Output Shaft Calculations:
 
-#### Output Shaft:
+[Shaft Calculations.pdf](https://github.com/user-attachments/files/34052460/Shaft.Calculations.pdf)
+
 
 ### Step 2: Design Journal Bearings:
 
