@@ -19,24 +19,46 @@
 
 #### Input and Output Shaft Calculations:
 
-[Shaft Calculations.pdf](https://github.com/user-attachments/files/34052460/Shaft.Calculations.pdf)
+- Calculations based on material information provided [here](https://matweb.com/search/DataSheet.aspx?MatGUID=d1844977c5c8440cb9a3a967f8909c3a)
+- Safety factor of shafts was calculated to be 14.85 for input and 44.55 for output, both of which are more than acceptable. The current diameter of the shafts is adequate.
+
+<img width="2333" height="3022" alt="Input output shaft calcs real" src="https://github.com/user-attachments/assets/a1286925-282f-4d67-b724-17af68eee142" />
+
+<img width="760" height="395" alt="SF Determination for Shafts" src="https://github.com/user-attachments/assets/e23333c2-d650-4c7d-9a4e-291850b3cb75" />
 
 
 ### Step 2: Design Journal Bearings:
 
 #### Journal Bearing Sizing:
+
  - Choose an appropriate size and length of the journal bearing, and determine the pressure, velocity, and PV rating
+ - Use 2 input bearings with a length of .15625" (5/32") to account for the necessary amount of shaft sticking out of the gearbox (~.36"), bearing contact length (.3125"), and gear length and clearance (~.325").
+ - Use 1 output bearing with a length of .375" (3/8") to account for the necessary amount of shaft sticking out of the gearbox (~.24"), bearing contact length (.375"), and gear length and clearance (~.385")
+
+ - Input Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/8" Shaft Diameter and 3/16" Housing ID, 5/32" Long (6391K326). Resultant safety factor of 11.19 when considering the PV rating. *NOTE: These are the calculations for a scenario in which only one bearing is being used. In my gearbox design, I plan to employ two, which would double this safety factor.*
+
+ - Output Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/4" Shaft Diameter and 5/16" Housing ID, 3/8" Long (6391K33). Resultant safety factor of 71.62 when considering the PV rating.
+
+Hand Calculations:
 
 #### Journal Bearing Thickness:
-- Design the thickness of the journal bearing
 
+- Design the thickness of the journal bearings; ensure chosen bearing thicknesses match up, alter if not applicable.
+- The calculated thickness for the input journal bearing was 7.93E-4" (0.000793"), while the output journal bearing thickness was calculated to be a minimum value of 3.31E-4 (0.000331"), both of which are satisfied by their current thicknesses (.032" for the output bearing and .0325" for the input).
+- The chosen bearings (input 6391K326 and output 6391K33) are more than capable of handling the applied loads.
+
+Hand Calculations:
+  
 ### Step 3: Gearbox Sketch:
+
+
 
 ### Step 4: Gearbox 3D Model:
 
 - Where appropriate, parametrically generate critical features of a solid model starting with the known parameters and finishing with the dimensions and material.
 - Download the necessary items from Mac-Master
 - Generate the rest of the solid model.
+
 
 ### MEGR 2157 Addition:
 
@@ -46,6 +68,8 @@
 ## Decide
 
 - One decision I made initially was to have the longer segment of each shaft sticking out of the flanged side of its respective gear. This allows the longer shaft segment, which may experience bending forces, to resist them better.
+- Another decision I made was to employ ASTM A36 Steel for my shafts. I chose this because I know it is an accessible material within SolidWorks, and I felt that it would be more than appropriate for the relatively low levels of torque that the gearbox transfers.
+- One mistake that the person who wrote this assignment made was reversing the gear tooth ratios and their respective gears, which resulted in me having to go back and recalculate my stresses. Very appreciated.
 
 ## Communicate
 
