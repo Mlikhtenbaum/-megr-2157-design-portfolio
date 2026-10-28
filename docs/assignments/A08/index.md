@@ -51,7 +51,7 @@ Hand Calculations:
   
 ### Step 3: Gearbox Sketch:
 
-
+Gearbox Sketch:
 
 ### Step 4: Gearbox 3D Model:
 
@@ -59,6 +59,19 @@ Hand Calculations:
 - Download the necessary items from Mac-Master
 - Generate the rest of the solid model.
 
+#### Processes:
+
+##### Box: 
+
+The gearbox box is the back section of the gearbox in which the gears are actually contained.
+
+1. Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
+
+##### Cover: 
+
+The gearbox cover is the front cover that has holes for bolts that secure it to the rest of the gearbox. It also has two toleranced holes that the brass journal bearings are pressed into.
+
+1. 
 
 ### MEGR 2157 Addition:
 
@@ -69,7 +82,8 @@ Hand Calculations:
 
 - One decision I made initially was to have the longer segment of each shaft sticking out of the flanged side of its respective gear. This allows the longer shaft segment, which may experience bending forces, to resist them better.
 - Another decision I made was to employ ASTM A36 Steel for my shafts. I chose this because I know it is an accessible material within SolidWorks, and I felt that it would be more than appropriate for the relatively low levels of torque that the gearbox transfers.
-- One mistake that the person who wrote this assignment made was reversing the gear tooth ratios and their respective gears, which resulted in me having to go back and recalculate my stresses. Very appreciated.
+- I also decided to choose bearings before doing the full thickness calculations due to the relatively low applied loads they experience. Macmaster has fairly limited options in terms of bearings as small as what we're working with, so there was no way they would be a no-go. However, I still checked my estimates with actual calculations.
 
 ## Communicate
 
+- One mistake I made throughout this project was mixing up the relationships between gear ratios, torque, and rotational speed. All the relationships make perfect sense if you give them a bit of thought, but rushing through calculations doesn't support critical thinking.
