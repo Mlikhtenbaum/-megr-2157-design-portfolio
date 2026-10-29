@@ -332,7 +332,7 @@ Shafts (RC4):
 [Assembly Drawing]
 
 
-<img width="1234" height="955" alt="Gearbox box" src="https://github.com/user-attachments/assets/55680307-078a-451f-9249-7347f2ef6892" />
+<img width="1234" height="955" alt="Gearbox Box" src="https://github.com/user-attachments/assets/97bda69e-ee25-41ab-83f9-ef57b28456a3" />
 [Gearbox Box Drawing]
 
 
