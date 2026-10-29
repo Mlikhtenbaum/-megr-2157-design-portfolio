@@ -32,8 +32,8 @@
 #### Journal Bearing Sizing:
 
  - Choose an appropriate size and length of the journal bearing, and determine the pressure, velocity, and PV rating
- - Use 2 input bearings with a length of .15625" (5/32") to account for the necessary amount of shaft sticking out of the gearbox (~.36"), bearing contact length (.3125"), and gear length and clearance (~.325").
- - Use 1 output bearing with a length of .375" (3/8") to account for the necessary amount of shaft sticking out of the gearbox (~.24"), bearing contact length (.375"), and gear length and clearance (~.385")
+ - Use 2 input bearings with a length of .15625" (5/32") to account for the necessary amount of shaft sticking out of the gearbox (.36"), bearing contact length (.3125"), and gear length and clearance (.325").
+ - Use 1 output bearing with a length of .375" (3/8") to account for the necessary amount of shaft sticking out of the gearbox (.24"), bearing contact length (.375"), and gear length and clearance (.385")
 
  - Input Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/8" Shaft Diameter and 3/16" Housing ID, 5/32" Long (6391K326). Resultant safety factor of 11.19 when considering the PV rating. *NOTE: These are the calculations for a scenario in which only one bearing is being used. In my gearbox design, I plan to employ two, which would double this safety factor.*
 
