@@ -59,18 +59,20 @@ Gearbox Sketch:
 - Download the necessary items from Mac-Master
 - Generate the rest of the solid model.
 
-#### Segments:
-
-##### Box: 
+#### Box: 
 
 The gearbox box is the back section of the gearbox in which the gears are actually contained. It is made of aluminum due to the relatively low pressure exerted upon it by the tangential forces of the shafts as they undergo torsion. The steps for its creation using global variables are outlined below.
 
-1. Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
+##### 1. 
+
+Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
 
 <img width="972" height="682" alt="Gear dimension initial sketch" src="https://github.com/user-attachments/assets/7ac5bf48-bb22-4d08-9590-9759c7ad64c5" />
 [Initial Gearbox Sketch Using Global Variables]
 
-2. Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. Doing this allowed me to understand that the cover of my gearbox, which I will fully detail the creation of in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
+##### 2. 
+
+Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. Doing this allowed me to understand that the cover of my gearbox, which I will fully detail the creation of in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
 
 <img width="1344" height="1103" alt="Box sidewall sktch dimension" src="https://github.com/user-attachments/assets/0b8aac99-fead-4159-8f6b-b08da0688557" />
 [Box Sidewall Sketch Dimension]
@@ -81,12 +83,16 @@ The gearbox box is the back section of the gearbox in which the gears are actual
 <img width="2334" height="1143" alt="Back Box Wall Sides Extrusion" src="https://github.com/user-attachments/assets/addfc775-d0af-48bb-a600-57d267e3035d" />
 [Box Side Wall Extrusion]
 
-3. Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will be employed, as their size is appropriate for such a small design.
+##### 3. 
+
+Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will be employed, as their size is appropriate for such a small design.
 
 <img width="2004" height="1183" alt="Thread Tap SS" src="https://github.com/user-attachments/assets/72e73519-942f-4917-bf51-0092ae514afa" />
 [Thread Tap for M3x.5 Bolt Using Hole Wizard]
 
-5. Cut out material to secure a 5/32" bearing in the back wall. A more complex sketch must be created to center components within the gearbox housing and determine the necessary position for the bearing bore.
+##### 4. 
+
+Cut out material to secure a 5/32" bearing in the back wall. A more complex sketch must be created to center components within the gearbox housing and determine the necessary position for the bearing bore.
 
 <img width="2133" height="1188" alt="Sketch for Input Bearing Hole Definition" src="https://github.com/user-attachments/assets/492d3bac-d327-429e-a137-b56155d38cd6" />
 [Sketch for Input Bearing Hole Definition]
@@ -94,7 +100,9 @@ The gearbox box is the back section of the gearbox in which the gears are actual
 <img width="2556" height="1184" alt="Back Bearing Bore" src="https://github.com/user-attachments/assets/11aa6a19-924d-4f46-9f01-77c3d9ba6c35" />
 [Back Bearing Bore]
 
-6. Final Product and Global Variables
+##### 5. 
+
+Final Product and Global Variables
 
 <img width="2553" height="1181" alt="Final SS" src="https://github.com/user-attachments/assets/c9d456ef-4c01-45c4-b400-e8510a710e30" />
 [Final Gearbox Box]
@@ -103,18 +111,74 @@ The gearbox box is the back section of the gearbox in which the gears are actual
 [Global EQ's]
 
 
-##### Cover: 
+#### Cover: 
 
 The gearbox cover is the front cover that has holes for bolts that secure it to the rest of the gearbox. It also has two toleranced holes that the brass journal bearings are pressed into. It is also made of aluminum. The steps for its creation using global variables are outlined below.
 
-1. 
+##### 1. 
+
+Create initial sketch
+
+<img width="938" height="980" alt="Cover Sketch sstep 1" src="https://github.com/user-attachments/assets/966ac5b0-d10d-4e4e-88a9-b1d7c6d5e609" />
+[Cover Sketch]
+
+##### 2. 
+
+Determine the necessary y distance for the split of the thicker and thinner sections of the cover. This measurement was determined by evaluating and measuring the gearbox box model.
+
+<img width="2259" height="1184" alt="Y distance for cover split step 2" src="https://github.com/user-attachments/assets/93686b58-8ef6-481d-a22f-223da55441a2" />
+[Y Distance for Cover Split]
+
+##### 3. 
+
+Extrude the upper and lower sections of the cover to their respective thicknesses.
+
+<img width="2326" height="1214" alt="Output section cover extrusion step 3a" src="https://github.com/user-attachments/assets/19b39e61-f166-410d-b6bb-a47b6f8531bb" />
+[Output Section (upper) Cover Extrusion]
 
 
+<img width="2360" height="1182" alt="Input section cover extrusion step 3b" src="https://github.com/user-attachments/assets/3dc84609-cf5e-4be1-9b29-d6b1937c9be3" />
+[Input Section (lower) Cover Extrusion]
 
-5. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox - the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. 
+##### 4. 
+
+Sketch out and cut out input and output bearing bores into the cover face. 
+
+<img width="1180" height="1065" alt="Output Bearing Sketch Step 4a" src="https://github.com/user-attachments/assets/2c32209b-2ec0-4aaf-bffe-56fcdb8dd85b" />
+[Output Bearing Sketch]
+
+<img width="1086" height="1037" alt="Output Bearing Cut Step 4b" src="https://github.com/user-attachments/assets/3ed091a0-91fa-4ee5-b003-ac7fad57ce2b" />
+[Output Bearing Cut]
+
+<img width="1653" height="1111" alt="Input Bearing Sketch Step 4c" src="https://github.com/user-attachments/assets/9abd45c0-01a5-4020-8f16-715ae2367d29" />
+[Input Bearing Sketch]
+
+<img width="1125" height="1052" alt="Input Bearing Cut Step 4d" src="https://github.com/user-attachments/assets/2aa03b0e-c38c-40e7-8fd6-a3ae43c19aeb" />
+[Input Bearing Cut]
 
 
+##### 5. 
 
+Tap holes for bolts. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox - the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. This alteration of the box design is detailed in the figure titled [Box Retapping].
+
+<img width="1218" height="1069" alt="Tap Hole Sketch Step 5a" src="https://github.com/user-attachments/assets/62993992-2bcf-4e18-bd53-5d3a501ced3f" />
+[Tap Hole Sketch]
+
+<img width="2559" height="1184" alt="Tap Hole Wizard Step 5b" src="https://github.com/user-attachments/assets/4a9b4310-e9d1-4893-b71b-27b2ca62afc0" />
+[Tap Hole Boring]
+
+<img width="2352" height="1187" alt="Box Retapping step 5c" src="https://github.com/user-attachments/assets/8c10bc30-9339-4040-bc36-921a7910ce0c" />
+[Box Retapping]
+
+##### 6.
+
+Final product and global equations list.
+
+<img width="1959" height="1100" alt="Final Product step 6a" src="https://github.com/user-attachments/assets/1085fb95-e5a3-4f8d-82fc-ef9001ed6f40" />
+[Final product]
+
+<img width="2320" height="727" alt="Global EQ&#39;s step 6b" src="https://github.com/user-attachments/assets/77235691-60ce-45c9-a7e7-8e0f5b06b44e" />
+[Global Equations List]
 
 
 ### MEGR 2157 Addition:
@@ -131,3 +195,4 @@ The gearbox cover is the front cover that has holes for bolts that secure it to 
 ## Communicate
 
 - One mistake I made throughout this project was mixing up the relationships between gear ratios, torque, and rotational speed. All the relationships make perfect sense if you give them a bit of thought, but rushing through calculations doesn't support critical thinking.
+- One lesson I learned was that creating simple sketches of your design is invaluable to simplifying spatial reasoning and understanding the relationships that must be satisfied to create a function product.
