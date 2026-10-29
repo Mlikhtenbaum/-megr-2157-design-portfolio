@@ -67,6 +67,29 @@ The gearbox box is the back section of the gearbox in which the gears are actual
 
 1. Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
 
+<img width="972" height="682" alt="Gear dimension initial sketch" src="https://github.com/user-attachments/assets/7ac5bf48-bb22-4d08-9590-9759c7ad64c5" />
+[Initial gearbox sketch using global variables]
+
+2. Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. Doing this allowed me to understand that the cover of my gearbox, which I will fully detail the creation of in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
+
+<img width="1344" height="1103" alt="Box sidewall sktch dimension" src="https://github.com/user-attachments/assets/0b8aac99-fead-4159-8f6b-b08da0688557" />
+
+<img width="2479" height="1145" alt="Back Box Wall Extrusion" src="https://github.com/user-attachments/assets/53f97eee-3bed-447e-b837-8554e11c90bf" />
+
+<img width="2334" height="1143" alt="Back Box Wall Sides Extrusion" src="https://github.com/user-attachments/assets/addfc775-d0af-48bb-a600-57d267e3035d" />
+
+3. Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will be employed, as their size is appropriate for such a small design.
+
+<img width="2004" height="1183" alt="Thread Tap SS" src="https://github.com/user-attachments/assets/72e73519-942f-4917-bf51-0092ae514afa" />
+
+5. Cut out material to secure 5/32" bearing in back wall. A more complex sketch must be created to center components within the gearbox housing and determine the necessary position for the bearing bore.
+
+<img width="2133" height="1188" alt="Sketch for Input Bearing Hole Definition" src="https://github.com/user-attachments/assets/492d3bac-d327-429e-a137-b56155d38cd6" />
+
+<img width="2556" height="1184" alt="Back Bearing Bore" src="https://github.com/user-attachments/assets/11aa6a19-924d-4f46-9f01-77c3d9ba6c35" />
+
+
+
 ##### Cover: 
 
 The gearbox cover is the front cover that has holes for bolts that secure it to the rest of the gearbox. It also has two toleranced holes that the brass journal bearings are pressed into.
