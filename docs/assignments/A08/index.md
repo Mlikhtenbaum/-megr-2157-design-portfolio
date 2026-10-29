@@ -68,7 +68,15 @@ Hand Calculations:
   
 ### Step 3: Gearbox Sketch:
 
-Gearbox Sketch:
+Gearbox Sketches:
+
+
+<img width="3000" height="4000" alt="Overall view sketch" src="https://github.com/user-attachments/assets/1f4df31f-666c-40c9-a964-7f194cf0b65b" />
+[Overall View Sketch]
+
+
+<img width="3000" height="4000" alt="Calculation sketch" src="https://github.com/user-attachments/assets/9c40930e-bf1c-4709-b58b-4cff3d600295" />
+[Dimension Calculation Sketch]
 
 
 ### Step 4: Gearbox 3D Model:
