@@ -19,7 +19,7 @@
 
 #### Input and Output Shaft Calculations:
 
-- Calculations based on material information provided [here](https://matweb.com/search/DataSheet.aspx?MatGUID=d1844977c5c8440cb9a3a967f8909c3a)
+- Calculations based on material information for ASTM A36 provided [here](https://matweb.com/search/DataSheet.aspx?MatGUID=d1844977c5c8440cb9a3a967f8909c3a)
 - Safety factor of shafts was calculated to be 14.85 for input and 44.55 for output, both of which are more than acceptable. The current diameter of the shafts is adequate.
 
 <img width="2333" height="3022" alt="Input output shaft calcs real" src="https://github.com/user-attachments/assets/a1286925-282f-4d67-b724-17af68eee142" />
@@ -159,7 +159,7 @@ Sketch out and cut out input and output bearing bores into the cover face.
 
 ##### 5. 
 
-Tap holes for bolts. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox - the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. This alteration of the box design is detailed in the figure titled [Box Retapping].
+Tap holes for bolts. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox: the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. This alteration of the box design is detailed in the figure titled [Box Retapping].
 
 <img width="1218" height="1069" alt="Tap Hole Sketch Step 5a" src="https://github.com/user-attachments/assets/62993992-2bcf-4e18-bd53-5d3a501ced3f" />
 [Tap Hole Sketch]
