@@ -382,6 +382,7 @@ Shafts (RC4):
 
 - One mistake I made throughout this project was mixing up the relationships between gear ratios, torque, and rotational speed. All the relationships make perfect sense if you give them a bit of thought, but rushing through calculations doesn't support critical thinking.
 - One lesson I learned was that creating simple sketches of your design is invaluable for simplifying spatial reasoning and understanding the relationships that must be satisfied to create a functional product.
+- This project took me about 12 hours to complete.
 
 
 ## Downloads and Sources:
