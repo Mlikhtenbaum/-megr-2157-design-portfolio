@@ -26,6 +26,7 @@ Hand Calculations:
 <img width="2333" height="3022" alt="Input output shaft calcs real" src="https://github.com/user-attachments/assets/a1286925-282f-4d67-b724-17af68eee142" />
 [Shear Calculations]
 
+
 <img width="760" height="395" alt="SF Determination for Shafts" src="https://github.com/user-attachments/assets/e23333c2-d650-4c7d-9a4e-291850b3cb75" />
 [SF Determination for Shafts]
 
@@ -47,6 +48,7 @@ Hand Calculations:
 <img width="2263" height="2965" alt="Input journal length" src="https://github.com/user-attachments/assets/7156ee42-7b91-4445-986a-8da8e7acf4af" />
 [Input Journal Length and PV Values]
 
+
 <img width="2323" height="3028" alt="Output journal length" src="https://github.com/user-attachments/assets/f409928e-a2ca-425d-a89d-6f2043c1132d" />
 [Output Journal Length and PV Values]
 
@@ -58,6 +60,7 @@ Hand Calculations:
 - The chosen bearings (input 6391K326 and output 6391K33) are more than capable of handling the applied loads.
 
 Hand Calculations:
+
 
 <img width="2527" height="3334" alt="Journal thickness calc" src="https://github.com/user-attachments/assets/208957dc-3467-4731-b846-385af28c02f8" />
 [Journal Bearing Thickness Calculations]
@@ -78,49 +81,67 @@ Gearbox Sketch:
 
 The gearbox box is the back section of the gearbox in which the gears are actually contained. It is made of aluminum due to the relatively low pressure exerted upon it by the tangential forces of the shafts as they undergo torsion. The steps for its creation using global variables are outlined below.
 
+
 ##### 1. 
 
 Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
 
+
 <img width="972" height="682" alt="Gear dimension initial sketch" src="https://github.com/user-attachments/assets/7ac5bf48-bb22-4d08-9590-9759c7ad64c5" />
 [Initial Gearbox Sketch Using Global Variables]
 
+
+
 ##### 2. 
 
-Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. Doing this allowed me to understand that the cover of my gearbox, which I will fully detail the creation of in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
+Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. This helped me understand that the gearbox cover, which I will fully detail in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
+
 
 <img width="1344" height="1103" alt="Box sidewall sktch dimension" src="https://github.com/user-attachments/assets/0b8aac99-fead-4159-8f6b-b08da0688557" />
 [Box Sidewall Sketch Dimension]
 
+
 <img width="2479" height="1145" alt="Back Box Wall Extrusion" src="https://github.com/user-attachments/assets/53f97eee-3bed-447e-b837-8554e11c90bf" />
 [Back Box Wall Extrusion]
 
+
 <img width="2334" height="1143" alt="Back Box Wall Sides Extrusion" src="https://github.com/user-attachments/assets/addfc775-d0af-48bb-a600-57d267e3035d" />
 [Box Side Wall Extrusion]
+
+
 
 ##### 3. 
 
 Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will be employed, as their size is appropriate for such a small design.
 
+
 <img width="2004" height="1183" alt="Thread Tap SS" src="https://github.com/user-attachments/assets/72e73519-942f-4917-bf51-0092ae514afa" />
 [Thread Tap for M3x.5 Bolt Using Hole Wizard]
 
+
+
 ##### 4. 
 
-Cut out material to secure a 5/32" bearing in the back wall. A more complex sketch must be created to center components within the gearbox housing and determine the necessary position for the bearing bore.
+Cut out material to secure a 5/32" bearing in the back wall. Create a more complex sketch to center components within the gearbox housing and determine the required position for the bearing bore.
+
 
 <img width="2133" height="1188" alt="Sketch for Input Bearing Hole Definition" src="https://github.com/user-attachments/assets/492d3bac-d327-429e-a137-b56155d38cd6" />
 [Sketch for Input Bearing Hole Definition]
 
+
 <img width="2556" height="1184" alt="Back Bearing Bore" src="https://github.com/user-attachments/assets/11aa6a19-924d-4f46-9f01-77c3d9ba6c35" />
 [Back Bearing Bore]
+
+
 
 ##### 5. 
 
 Final Product and Global Variables
 
+
 <img width="2553" height="1181" alt="Final SS" src="https://github.com/user-attachments/assets/c9d456ef-4c01-45c4-b400-e8510a710e30" />
 [Final Gearbox Box]
+
 
 <img width="1345" height="1143" alt="Global EQ&#39;s" src="https://github.com/user-attachments/assets/88cfecb8-8072-40ec-a2e2-5bf8e647f75d" />
 [Global EQ's]
@@ -134,19 +155,26 @@ The gearbox cover is the front cover that has holes for bolts that secure it to 
 
 Create initial sketch
 
+
 <img width="938" height="980" alt="Cover Sketch sstep 1" src="https://github.com/user-attachments/assets/966ac5b0-d10d-4e4e-88a9-b1d7c6d5e609" />
 [Cover Sketch]
+
+
 
 ##### 2. 
 
 Determine the necessary y distance for the split of the thicker and thinner sections of the cover. This measurement was determined by evaluating and measuring the gearbox box model.
 
+
 <img width="2259" height="1184" alt="Y distance for cover split step 2" src="https://github.com/user-attachments/assets/93686b58-8ef6-481d-a22f-223da55441a2" />
 [Y Distance for Cover Split]
+
+
 
 ##### 3. 
 
 Extrude the upper and lower sections of the cover to their respective thicknesses.
+
 
 <img width="2326" height="1214" alt="Output section cover extrusion step 3a" src="https://github.com/user-attachments/assets/19b39e61-f166-410d-b6bb-a47b6f8531bb" />
 [Output Section (upper) Cover Extrusion]
@@ -155,45 +183,60 @@ Extrude the upper and lower sections of the cover to their respective thicknesse
 <img width="2360" height="1182" alt="Input section cover extrusion step 3b" src="https://github.com/user-attachments/assets/3dc84609-cf5e-4be1-9b29-d6b1937c9be3" />
 [Input Section (lower) Cover Extrusion]
 
+
+
 ##### 4. 
 
 Sketch out and cut out input and output bearing bores into the cover face. 
 
+
 <img width="1180" height="1065" alt="Output Bearing Sketch Step 4a" src="https://github.com/user-attachments/assets/2c32209b-2ec0-4aaf-bffe-56fcdb8dd85b" />
 [Output Bearing Sketch]
+
 
 <img width="1086" height="1037" alt="Output Bearing Cut Step 4b" src="https://github.com/user-attachments/assets/3ed091a0-91fa-4ee5-b003-ac7fad57ce2b" />
 [Output Bearing Cut]
 
+
 <img width="1653" height="1111" alt="Input Bearing Sketch Step 4c" src="https://github.com/user-attachments/assets/9abd45c0-01a5-4020-8f16-715ae2367d29" />
 [Input Bearing Sketch]
 
+
 <img width="1125" height="1052" alt="Input Bearing Cut Step 4d" src="https://github.com/user-attachments/assets/2aa03b0e-c38c-40e7-8fd6-a3ae43c19aeb" />
 [Input Bearing Cut]
+
 
 
 ##### 5. 
 
 Tap holes for bolts. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox: the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. This alteration of the box design is detailed in the figure titled [Box Retapping].
 
+
 <img width="1218" height="1069" alt="Tap Hole Sketch Step 5a" src="https://github.com/user-attachments/assets/62993992-2bcf-4e18-bd53-5d3a501ced3f" />
 [Tap Hole Sketch]
+
 
 <img width="2559" height="1184" alt="Tap Hole Wizard Step 5b" src="https://github.com/user-attachments/assets/4a9b4310-e9d1-4893-b71b-27b2ca62afc0" />
 [Tap Hole Boring]
 
+
 <img width="2352" height="1187" alt="Box Retapping step 5c" src="https://github.com/user-attachments/assets/8c10bc30-9339-4040-bc36-921a7910ce0c" />
 [Box Retapping]
+
+
 
 ##### 6.
 
 Final product and global equations list.
 
+
 <img width="1959" height="1100" alt="Final Product step 6a" src="https://github.com/user-attachments/assets/1085fb95-e5a3-4f8d-82fc-ef9001ed6f40" />
 [Final product]
 
+
 <img width="2320" height="727" alt="Global EQ&#39;s step 6b" src="https://github.com/user-attachments/assets/77235691-60ce-45c9-a7e7-8e0f5b06b44e" />
 [Global Equations List]
+
 
 
 ### MEGR 2157 Addition:
@@ -206,14 +249,18 @@ Final product and global equations list.
 ##### Input Shaft Creation: 
 
 
+
 <img width="1121" height="765" alt="Input Shaft Global Equations" src="https://github.com/user-attachments/assets/62c2ccef-5395-449b-9f51-c92cd06f38df" />
 [Shaft Global Equations]
+
 
 <img width="751" height="577" alt="Input Shaft Sketch" src="https://github.com/user-attachments/assets/8c5e1729-bb33-46af-b934-0731b7997a33" />
 [Shaft Sketch]
 
+
 <img width="1448" height="821" alt="Input Shaft Extrusion" src="https://github.com/user-attachments/assets/44a5c900-3685-4414-8791-7711e9cda548" />
 [Shaft Extrusion]
+
 
 
 ##### Output Shaft Creation: 
@@ -222,19 +269,25 @@ Final product and global equations list.
 <img width="1112" height="765" alt="Output Shaft ( 25D Global Equations)" src="https://github.com/user-attachments/assets/b9af9284-99a0-4f4c-b3e2-9c9788ad561f" />
 [Shaft Global Equations]
 
+
 <img width="912" height="712" alt="Output Shaft Sketch" src="https://github.com/user-attachments/assets/19179138-819e-4046-a4b1-c1d04f153679" />
 [Shaft Sketch]
+
 
 <img width="1516" height="787" alt="Ouput Shaft Extrusion" src="https://github.com/user-attachments/assets/7a3586ac-8370-4482-81f2-e3f926a7041b" />
 [Shaft Extrusion]
 
+
 ##### Assembly Creation:
+
 
 <img width="1163" height="979" alt="Final Assem Reg" src="https://github.com/user-attachments/assets/fb8e9ed8-822b-4281-aeeb-d79c6b0db76d" />
 [Final Assembly]
 
+
 <img width="1181" height="1090" alt="Ghost front cover" src="https://github.com/user-attachments/assets/ef33ded1-ae2a-4d9c-9f99-59c862ea6172" />
 [Final Assembly with Transparent Cover]
+
 
 
 ##### Tolerancing Specifications for Bearing Bores (FN1) and Shafts (RC4):
@@ -245,22 +298,31 @@ Bores (FN1):
 <img width="797" height="78" alt="FN1 Fit class rationale" src="https://github.com/user-attachments/assets/0233cae3-8f79-45d5-b93d-3b47f84c5c1e" />
 [FN1 Fit class Rationale]
 
+
 <img width="1279" height="728" alt="FN1 Tolerance for  316 Output Bearing Bore" src="https://github.com/user-attachments/assets/112e7bd0-92c0-48fc-b382-9119350eef29" />
 [FN1 Tolerance for .316 Output Bearing Bore]
+
 
 <img width="1280" height="724" alt="FN1 Tolerance for  19 Input Bearing Bore" src="https://github.com/user-attachments/assets/0c30a2fd-ba71-4e85-a245-a3f1888eab9f" />
 [FN1 Tolerance for .19 Input Bearing Bore]
 
+
+
 Shafts (RC4):
+
+
 
 <img width="801" height="75" alt="RC4 Rationale" src="https://github.com/user-attachments/assets/63215270-f37a-4122-84c2-99c24892ed0a" />
 [RC4 Fit class Rationale]
 
+
 <img width="1286" height="783" alt="RC4 Tolerance for  125 Input Shaft" src="https://github.com/user-attachments/assets/661c01eb-0fe3-4f26-8a29-ccd97a628aae" />
 [RC4 Tolerance for .125 Input Shaft]
 
+
 <img width="1287" height="783" alt="RC4 Tolerance for  25 Output Shaft" src="https://github.com/user-attachments/assets/d42cdc2d-127d-4320-919b-7426fc02e18b" />
 [RC4 Tolerance for .25 Input Shaft]
+
 
 
 ##### Engineering Drawings:
@@ -269,23 +331,30 @@ Shafts (RC4):
 <img width="1539" height="1188" alt="Assem" src="https://github.com/user-attachments/assets/3636bb85-62e6-43a1-b440-912a0e135114" />
 [Assembly Drawing]
 
+
 <img width="1234" height="955" alt="Gearbox box" src="https://github.com/user-attachments/assets/55680307-078a-451f-9249-7347f2ef6892" />
 [Gearbox Box Drawing]
+
 
 <img width="1365" height="1056" alt="Gearbox Cover" src="https://github.com/user-attachments/assets/5a644974-977d-4bb8-8314-984241ac8230" />
 [Gearbox Cover Drawing]
 
+
 <img width="1070" height="828" alt="Input Journal Bearing" src="https://github.com/user-attachments/assets/20b9f155-cf9c-4c91-8d72-7c2fd14ce192" />
 [Input Journal Bearing Drawing]
+
 
 <img width="1366" height="1060" alt="Input Shaft" src="https://github.com/user-attachments/assets/d4f0cf17-d9f1-42d8-b850-965b57ff61ee" />
 [Input Shaft Drawing]
 
+
 <img width="1070" height="825" alt="Output Journal Bearing" src="https://github.com/user-attachments/assets/e5d343d4-c110-462f-a948-2a155415ef2f" />
 [Output Journal Bearing Drawing]
 
+
 <img width="1362" height="1053" alt="Output Shaft" src="https://github.com/user-attachments/assets/995c6532-2c22-400b-850a-f17fecbbddd9" />
 [Output Shaft Drawing]
+
 
 
 ## Decide:
