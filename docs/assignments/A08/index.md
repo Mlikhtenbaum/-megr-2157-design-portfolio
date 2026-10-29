@@ -41,7 +41,7 @@ Hand Calculations:
 
  - Input Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/8" Shaft Diameter and 3/16" Housing ID, 5/32" Long (6391K326). Resultant safety factor of 11.19 when considering the PV rating. *NOTE: These are the calculations for a scenario in which only one bearing is being used. In my gearbox design, I plan to employ two, which would double this safety factor.*
 
- - Output Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/4" Shaft Diameter and 5/16" Housing ID, 3/8" Long (6391K33). Resultant safety factor of 71.62 when considering the PV rating.
+ - Output Shaft Bearing: Oil-Embedded 841 Bronze Sleeve Bearing for 1/4" Shaft Diameter and 5/16" Housing ID, 3/8" Long (6391K33). The resultant safety factor is 71.62 when considering the PV rating.
 
 Hand Calculations:
 
