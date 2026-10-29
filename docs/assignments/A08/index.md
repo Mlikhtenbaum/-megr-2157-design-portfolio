@@ -246,7 +246,7 @@ Final product and global equations list.
 - An important note for this section is that the drawing files for the journal bearings were downloaded from the McMaster-Carr Website, as were the models for the gears, the models for the bearings themselves, and the model for the bolts that hold the gearbox together. As stated in the project description, we are not supposed to model these parts ourselves.
 
 
-##### Input Shaft Creation: 
+#### Input Shaft Creation: 
 
 
 
@@ -263,7 +263,7 @@ Final product and global equations list.
 
 
 
-##### Output Shaft Creation: 
+#### Output Shaft Creation: 
 
 
 <img width="1112" height="765" alt="Output Shaft ( 25D Global Equations)" src="https://github.com/user-attachments/assets/b9af9284-99a0-4f4c-b3e2-9c9788ad561f" />
@@ -278,7 +278,7 @@ Final product and global equations list.
 [Shaft Extrusion]
 
 
-##### Assembly Creation:
+#### Assembly Creation:
 
 
 <img width="1163" height="979" alt="Final Assem Reg" src="https://github.com/user-attachments/assets/fb8e9ed8-822b-4281-aeeb-d79c6b0db76d" />
@@ -289,8 +289,12 @@ Final product and global equations list.
 [Final Assembly with Transparent Cover]
 
 
+<img width="1677" height="1183" alt="Mates List" src="https://github.com/user-attachments/assets/67bea7a8-a251-43d8-b8d5-a4c52e040421" />
+[List of Mates]
 
-##### Tolerancing Specifications for Bearing Bores (FN1) and Shafts (RC4):
+
+
+#### Tolerancing Specifications for Bearing Bores (FN1) and Shafts (RC4):
 
 
 Bores (FN1):
@@ -325,7 +329,7 @@ Shafts (RC4):
 
 
 
-##### Engineering Drawings:
+#### Engineering Drawings:
 
 
 <img width="1539" height="1188" alt="Assem" src="https://github.com/user-attachments/assets/3636bb85-62e6-43a1-b440-912a0e135114" />
@@ -376,9 +380,13 @@ Shafts (RC4):
 
 
 Bolt: https://www.mcmaster.com/91290A572/
+
 Output Journal Bearing: https://www.mcmaster.com/6391K33/
+
 Input Journal Bearing: https://www.mcmaster.com/6391K326/
+
 Output Gear: https://www.mcmaster.com/7880K24/
+
 Input Gear: https://www.mcmaster.com/7880K19/
 
 All of my CAD parts and drawings can be found [here](https://drive.google.com/drive/folders/1njgJyAaL5iISdO9m8M9bpCfJyfW-nN22?usp=sharing)
