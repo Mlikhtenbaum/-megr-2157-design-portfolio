@@ -82,7 +82,7 @@ Gearbox Sketch:
 The gearbox box is the back section of the gearbox in which the gears are actually contained. It is made of aluminum due to the relatively low pressure exerted upon it by the tangential forces of the shafts as they undergo torsion. The steps for its creation using global variables are outlined below.
 
 
-##### 1. 
+1. 
 
 Create an initial sketch, using square geometry to simplify the design. Estimate the inside width using the actual gear diameters to ensure ample clearance, and add .2" to provide at least .1" clearance on all inner faces of the box. Assume a thickness of .1" for the walls of the box.
 
@@ -92,7 +92,7 @@ Create an initial sketch, using square geometry to simplify the design. Estimate
 
 
 
-##### 2. 
+2. 
 
 Determine the necessary dimensions for the extrusions of the different box features. There were too many variables for me to consider without a sketch to reference, so I drew one on the back of my actual gearbox sketch page. This helped me understand that the gearbox cover, which I will fully detail in the next section of this page, needs to be composed of two different thicknesses. Regardless, now that I understood the necessary dimensions from my sketch, I could import them into my CAD model, a process which is detailed below.
 
@@ -110,7 +110,7 @@ Determine the necessary dimensions for the extrusions of the different box featu
 
 
 
-##### 3. 
+3. 
 
 Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will be employed, as their size is appropriate for such a small design.
 
@@ -120,7 +120,7 @@ Tap bolt holes for cover connection. M3 Bolts with a thread pitch of .5mm will b
 
 
 
-##### 4. 
+4. 
 
 Cut out material to secure a 5/32" bearing in the back wall. Create a more complex sketch to center components within the gearbox housing and determine the required position for the bearing bore.
 
@@ -134,7 +134,7 @@ Cut out material to secure a 5/32" bearing in the back wall. Create a more compl
 
 
 
-##### 5. 
+5. 
 
 Final Product and Global Variables
 
@@ -151,7 +151,7 @@ Final Product and Global Variables
 
 The gearbox cover is the front cover that has holes for bolts that secure it to the rest of the gearbox. It also has two toleranced holes that the brass journal bearings are pressed into. It is also made of aluminum. The steps for its creation using global variables are outlined below.
 
-##### 1. 
+1. 
 
 Create initial sketch
 
@@ -161,7 +161,7 @@ Create initial sketch
 
 
 
-##### 2. 
+2. 
 
 Determine the necessary y distance for the split of the thicker and thinner sections of the cover. This measurement was determined by evaluating and measuring the gearbox box model.
 
@@ -171,7 +171,7 @@ Determine the necessary y distance for the split of the thicker and thinner sect
 
 
 
-##### 3. 
+3. 
 
 Extrude the upper and lower sections of the cover to their respective thicknesses.
 
@@ -185,7 +185,7 @@ Extrude the upper and lower sections of the cover to their respective thicknesse
 
 
 
-##### 4. 
+4. 
 
 Sketch out and cut out input and output bearing bores into the cover face. 
 
@@ -207,7 +207,7 @@ Sketch out and cut out input and output bearing bores into the cover face.
 
 
 
-##### 5. 
+5. 
 
 Tap holes for bolts. During this segment of the cover creation, I noticed a problem that would have occurred when I went to assemble the gearbox: the tapped holes in the gearbox box weren't deep enough to account for the thinner lower section of the cover. The bolts I am using (M3x.5x15mm) would have bottomed out. Therefore, I had to go back and increase the depth of the holes to 0.46875" instead of .25" like the top holes, to account for the thinner wall of the lower cover and the necessary gap behind the bolt. This alteration of the box design is detailed in the figure titled [Box Retapping].
 
@@ -225,7 +225,7 @@ Tap holes for bolts. During this segment of the cover creation, I noticed a prob
 
 
 
-##### 6.
+6.
 
 Final product and global equations list.
 
