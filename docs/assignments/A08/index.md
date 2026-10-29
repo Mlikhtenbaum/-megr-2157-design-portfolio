@@ -336,7 +336,7 @@ Shafts (RC4):
 [Gearbox Box Drawing]
 
 
-<img width="1365" height="1056" alt="Gearbox Cover" src="https://github.com/user-attachments/assets/5a644974-977d-4bb8-8314-984241ac8230" />
+<img width="1361" height="1052" alt="Gearbox Cover" src="https://github.com/user-attachments/assets/7daa3a8e-6c87-4c9f-a3b5-4e84fb916c07" />
 [Gearbox Cover Drawing]
 
 
