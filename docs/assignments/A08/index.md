@@ -43,7 +43,7 @@ Hand Calculations:
 
 #### Journal Bearing Thickness:
 
-- Design the thickness of the journal bearings; ensure chosen bearing thicknesses match up, alter if not applicable.
+- Design the thickness of the journal bearings; ensure chosen bearing thicknesses match up; alter if not applicable.
 - The calculated thickness for the input journal bearing was 7.93E-4" (0.000793"), while the output journal bearing thickness was calculated to be a minimum value of 3.31E-4 (0.000331"), both of which are satisfied by their current thicknesses (.032" for the output bearing and .0325" for the input).
 - The chosen bearings (input 6391K326 and output 6391K33) are more than capable of handling the applied loads.
 
@@ -185,16 +185,116 @@ Final product and global equations list.
 
 - Produce six multi-view CAD drawings and one assembly with complete dimensioning and proper tolerancing.
 - At least two callouts for different tolerancing applied to critical features.
+- An important note for this section is that the drawing files for the journal bearings were downloaded from the McMaster-Carr Website, as were the models for the gears, the models for the bearings themselves, and the model for the bolts that hold the gearbox together. As stated in the project description, we are not supposed to model these parts ourselves.
+
+
+##### Input Shaft Creation: 
+
+
+<img width="1121" height="765" alt="Input Shaft Global Equations" src="https://github.com/user-attachments/assets/62c2ccef-5395-449b-9f51-c92cd06f38df" />
+[Shaft Global Equations]
+
+<img width="751" height="577" alt="Input Shaft Sketch" src="https://github.com/user-attachments/assets/8c5e1729-bb33-46af-b934-0731b7997a33" />
+[Shaft Sketch]
+
+<img width="1448" height="821" alt="Input Shaft Extrusion" src="https://github.com/user-attachments/assets/44a5c900-3685-4414-8791-7711e9cda548" />
+[Shaft Extrusion]
+
+
+##### Output Shaft Creation: 
+
+
+<img width="1112" height="765" alt="Output Shaft ( 25D Global Equations)" src="https://github.com/user-attachments/assets/b9af9284-99a0-4f4c-b3e2-9c9788ad561f" />
+[Shaft Global Equations]
+
+<img width="912" height="712" alt="Output Shaft Sketch" src="https://github.com/user-attachments/assets/19179138-819e-4046-a4b1-c1d04f153679" />
+[Shaft Sketch]
+
+<img width="1516" height="787" alt="Ouput Shaft Extrusion" src="https://github.com/user-attachments/assets/7a3586ac-8370-4482-81f2-e3f926a7041b" />
+[Shaft Extrusion]
+
+##### Assembly Creation:
+
+<img width="1163" height="979" alt="Final Assem Reg" src="https://github.com/user-attachments/assets/fb8e9ed8-822b-4281-aeeb-d79c6b0db76d" />
+[Final Assembly]
+
+<img width="1181" height="1090" alt="Ghost front cover" src="https://github.com/user-attachments/assets/ef33ded1-ae2a-4d9c-9f99-59c862ea6172" />
+[Final Assembly with Transparent Cover]
+
+
+##### Tolerancing Specifications for Bearing Bores (FN1) and Shafts (RC4):
+
+
+Bores (FN1):
+
+<img width="797" height="78" alt="FN1 Fit class rationale" src="https://github.com/user-attachments/assets/0233cae3-8f79-45d5-b93d-3b47f84c5c1e" />
+[FN1 Fit class Rationale]
+
+<img width="1279" height="728" alt="FN1 Tolerance for  316 Output Bearing Bore" src="https://github.com/user-attachments/assets/112e7bd0-92c0-48fc-b382-9119350eef29" />
+[FN1 Tolerance for .316 Output Bearing Bore]
+
+<img width="1280" height="724" alt="FN1 Tolerance for  19 Input Bearing Bore" src="https://github.com/user-attachments/assets/0c30a2fd-ba71-4e85-a245-a3f1888eab9f" />
+[FN1 Tolerance for .19 Input Bearing Bore]
+
+Shafts (RC4):
+
+<img width="801" height="75" alt="RC4 Rationale" src="https://github.com/user-attachments/assets/63215270-f37a-4122-84c2-99c24892ed0a" />
+[RC4 Fit class Rationale]
+
+<img width="1286" height="783" alt="RC4 Tolerance for  125 Input Shaft" src="https://github.com/user-attachments/assets/661c01eb-0fe3-4f26-8a29-ccd97a628aae" />
+[RC4 Tolerance for .125 Input Shaft]
+
+<img width="1287" height="783" alt="RC4 Tolerance for  25 Output Shaft" src="https://github.com/user-attachments/assets/d42cdc2d-127d-4320-919b-7426fc02e18b" />
+[RC4 Tolerance for .25 Input Shaft]
+
+
+##### Engineering Drawings:
+
+
+<img width="1539" height="1188" alt="Assem" src="https://github.com/user-attachments/assets/3636bb85-62e6-43a1-b440-912a0e135114" />
+[Assembly Drawing]
+
+<img width="1234" height="955" alt="Gearbox box" src="https://github.com/user-attachments/assets/55680307-078a-451f-9249-7347f2ef6892" />
+[Gearbox Box Drawing]
+
+<img width="1365" height="1056" alt="Gearbox Cover" src="https://github.com/user-attachments/assets/5a644974-977d-4bb8-8314-984241ac8230" />
+[Gearbox Cover Drawing]
+
+<img width="1070" height="828" alt="Input Journal Bearing" src="https://github.com/user-attachments/assets/20b9f155-cf9c-4c91-8d72-7c2fd14ce192" />
+[Input Journal Bearing Drawing]
+
+<img width="1366" height="1060" alt="Input Shaft" src="https://github.com/user-attachments/assets/d4f0cf17-d9f1-42d8-b850-965b57ff61ee" />
+[Input Shaft Drawing]
+
+<img width="1070" height="825" alt="Output Journal Bearing" src="https://github.com/user-attachments/assets/e5d343d4-c110-462f-a948-2a155415ef2f" />
+[Output Journal Bearing Drawing]
+
+<img width="1362" height="1053" alt="Output Shaft" src="https://github.com/user-attachments/assets/995c6532-2c22-400b-850a-f17fecbbddd9" />
+[Output Shaft Drawing]
 
 
 
-## Decide
+## Decide:
 
 - One decision I made initially was to have the longer segment of each shaft sticking out of the flanged side of its respective gear. This allows the longer shaft segment, which may experience bending forces, to resist them better.
 - Another decision I made was to employ ASTM A36 Steel for my shafts. I chose this because I know it is an accessible material within SolidWorks, and I felt that it would be more than appropriate for the relatively low levels of torque that the gearbox transfers.
 - I also decided to choose bearings before doing the full thickness calculations due to the relatively low applied loads they experience. Macmaster has fairly limited options in terms of bearings as small as what we're working with, so there was no way they would be a no-go. However, I still checked my estimates with actual calculations.
 
-## Communicate
+## Communicate:
 
 - One mistake I made throughout this project was mixing up the relationships between gear ratios, torque, and rotational speed. All the relationships make perfect sense if you give them a bit of thought, but rushing through calculations doesn't support critical thinking.
-- One lesson I learned was that creating simple sketches of your design is invaluable to simplifying spatial reasoning and understanding the relationships that must be satisfied to create a function product.
+- One lesson I learned was that creating simple sketches of your design is invaluable for simplifying spatial reasoning and understanding the relationships that must be satisfied to create a functional product.
+
+## Downloads and Sources:
+
+Bolt: https://www.mcmaster.com/91290A572/
+Output Journal Bearing: https://www.mcmaster.com/6391K33/
+Input Journal Bearing: https://www.mcmaster.com/6391K326/
+Output Gear: https://www.mcmaster.com/7880K24/
+Input Gear: https://www.mcmaster.com/7880K19/
+
+All of my CAD parts and drawings can be found [here](
+
+
+
+
