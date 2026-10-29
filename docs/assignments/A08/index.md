@@ -186,6 +186,8 @@ Final product and global equations list.
 - Produce six multi-view CAD drawings and one assembly with complete dimensioning and proper tolerancing.
 - At least two callouts for different tolerancing applied to critical features.
 
+
+
 ## Decide
 
 - One decision I made initially was to have the longer segment of each shaft sticking out of the flanged side of its respective gear. This allows the longer shaft segment, which may experience bending forces, to resist them better.
