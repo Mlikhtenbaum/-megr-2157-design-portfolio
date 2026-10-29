@@ -12,7 +12,6 @@
 ## Analyze:
 
 
-
 ### Step 1: Shaft Calculations and Design Alterations:
 
 - Use the equations for stress outlined in the lecture and Machinery’s Handbook to determine if the input and output shafts’ diameters are sufficient.
@@ -22,9 +21,13 @@
 - Calculations based on material information for ASTM A36 provided [here](https://matweb.com/search/DataSheet.aspx?MatGUID=d1844977c5c8440cb9a3a967f8909c3a)
 - Safety factor of shafts was calculated to be 14.85 for input and 44.55 for output, both of which are more than acceptable. The current diameter of the shafts is adequate.
 
+Hand Calculations:
+
 <img width="2333" height="3022" alt="Input output shaft calcs real" src="https://github.com/user-attachments/assets/a1286925-282f-4d67-b724-17af68eee142" />
+[Shear Calculations]
 
 <img width="760" height="395" alt="SF Determination for Shafts" src="https://github.com/user-attachments/assets/e23333c2-d650-4c7d-9a4e-291850b3cb75" />
+[SF Determination for Shafts]
 
 
 ### Step 2: Design Journal Bearings:
@@ -41,6 +44,13 @@
 
 Hand Calculations:
 
+<img width="2263" height="2965" alt="Input journal length" src="https://github.com/user-attachments/assets/7156ee42-7b91-4445-986a-8da8e7acf4af" />
+[Input Journal Length and PV Values]
+
+<img width="2323" height="3028" alt="Output journal length" src="https://github.com/user-attachments/assets/f409928e-a2ca-425d-a89d-6f2043c1132d" />
+[Output Journal Length and PV Values]
+
+
 #### Journal Bearing Thickness:
 
 - Design the thickness of the journal bearings; ensure chosen bearing thicknesses match up; alter if not applicable.
@@ -48,10 +58,15 @@ Hand Calculations:
 - The chosen bearings (input 6391K326 and output 6391K33) are more than capable of handling the applied loads.
 
 Hand Calculations:
+
+<img width="2527" height="3334" alt="Journal thickness calc" src="https://github.com/user-attachments/assets/208957dc-3467-4731-b846-385af28c02f8" />
+[Journal Bearing Thickness Calculations]
+
   
 ### Step 3: Gearbox Sketch:
 
 Gearbox Sketch:
+
 
 ### Step 4: Gearbox 3D Model:
 
@@ -273,19 +288,23 @@ Shafts (RC4):
 [Output Shaft Drawing]
 
 
-
 ## Decide:
+
 
 - One decision I made initially was to have the longer segment of each shaft sticking out of the flanged side of its respective gear. This allows the longer shaft segment, which may experience bending forces, to resist them better.
 - Another decision I made was to employ ASTM A36 Steel for my shafts. I chose this because I know it is an accessible material within SolidWorks, and I felt that it would be more than appropriate for the relatively low levels of torque that the gearbox transfers.
 - I also decided to choose bearings before doing the full thickness calculations due to the relatively low applied loads they experience. Macmaster has fairly limited options in terms of bearings as small as what we're working with, so there was no way they would be a no-go. However, I still checked my estimates with actual calculations.
 
+
 ## Communicate:
+
 
 - One mistake I made throughout this project was mixing up the relationships between gear ratios, torque, and rotational speed. All the relationships make perfect sense if you give them a bit of thought, but rushing through calculations doesn't support critical thinking.
 - One lesson I learned was that creating simple sketches of your design is invaluable for simplifying spatial reasoning and understanding the relationships that must be satisfied to create a functional product.
 
+
 ## Downloads and Sources:
+
 
 Bolt: https://www.mcmaster.com/91290A572/
 Output Journal Bearing: https://www.mcmaster.com/6391K33/
@@ -293,7 +312,7 @@ Input Journal Bearing: https://www.mcmaster.com/6391K326/
 Output Gear: https://www.mcmaster.com/7880K24/
 Input Gear: https://www.mcmaster.com/7880K19/
 
-All of my CAD parts and drawings can be found [here](
+All of my CAD parts and drawings can be found [here](https://drive.google.com/drive/folders/1njgJyAaL5iISdO9m8M9bpCfJyfW-nN22?usp=sharing)
 
 
 
