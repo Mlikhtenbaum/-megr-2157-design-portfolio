@@ -71,11 +71,11 @@ Hand Calculations:
 Gearbox Sketches:
 
 
-<img width="3000" height="4000" alt="Overall view sketch" src="https://github.com/user-attachments/assets/1f4df31f-666c-40c9-a964-7f194cf0b65b" />
+<img width="3220" height="2468" alt="Overall view sketch" src="https://github.com/user-attachments/assets/f09faa8d-29f0-4937-a841-83beedbbba4d" />
 [Overall View Sketch]
 
 
-<img width="3000" height="4000" alt="Calculation sketch" src="https://github.com/user-attachments/assets/9c40930e-bf1c-4709-b58b-4cff3d600295" />
+<img width="3181" height="2459" alt="Calculation sketch" src="https://github.com/user-attachments/assets/7fa2f24d-7af1-4ea0-9c06-19367a0611d1" />
 [Dimension Calculation Sketch]
 
 
