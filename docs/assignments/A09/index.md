@@ -23,15 +23,15 @@ Assume the belt is made from polyurethane rubber, with a yield strength of 3.25 
 ## Decide:
 
 Chosen:
-Center Distance: 5"
-Rotational Speed: 1000 RPM
-Belt Tension: 5 lbf
-Pulley Material: ABS
+- Center Distance: 5"
+- Rotational Speed: 1000 RPM
+- Belt Tension: 5 lbf
+- Pulley Material: ABS
 
 Given:
-Safety Factor: 3 
-Pulley Diameter: 3"
-Belt Specifications: Polyurethane rubber, with a yield strength of 3.25 MPa (471 psi) at 20% strain
+- Safety Factor: 3 
+- Pulley Diameter: 3"
+- Belt Specifications: Polyurethane rubber, with a yield strength of 3.25 MPa (471 psi) at 20% strain
 
 Formulas to Note:
 
