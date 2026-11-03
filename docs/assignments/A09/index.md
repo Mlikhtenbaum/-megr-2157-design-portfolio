@@ -19,6 +19,7 @@ Assume the belt is made from polyurethane rubber, with a yield strength of 3.25 
 <img width="889" height="467" alt="Appendix 1" src="https://github.com/user-attachments/assets/85570625-7fca-4533-bbf3-6ecf25ebd7c7" />
 [Frame Example]
 
+
 ## Decide:
 
 Chosen:
@@ -34,20 +35,23 @@ Belt Specifications: Polyurethane rubber, with a yield strength of 3.25 MPa (471
 
 Formulas to Note:
 
-Rotational Speed:$$\frac{n_1}{n_2} = \frac{D_2}{D_1} = \frac{D}{D} = 1 \implies n_1 = n_2$$
+**Rotational Speed:**
+$$\frac{n_1}{n_2} = \frac{D_2}{D_1} = \frac{D}{D} = 1 \implies n_1 = n_2$$
 
-Transmitted Torque ($T$):$$T = (F_1 - F_2) \cdot r = \frac{D}{2}(F_1 - F_2)$$
+**Transmitted Torque ($T$):**
+$$T = (F_1 - F_2) \cdot r = \frac{D}{2}(F_1 - F_2)$$
 
-Simplified Transmitted Torque for Same Diameter Pulleys: $$T = (F_1 - F_2)r$$
+**Simplified Transmitted Torque for Same Diameter Pulleys:**
+$$T = (F_1 - F_2)r$$
 
-Power Transmitted ($P$):$$P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$$
+**Power Transmitted ($P$):**
+$$P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$$
 
-Linear Belt Speed ($v$):$$v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$$
+**Linear Belt Speed ($v$):**
+$$v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$$
 
-Flat Belts:$$\frac{F_1 - F_c}{F_2 - F_c} = e^{\mu \theta}$$
-
-
-
+**Flat Belts:**
+$$\frac{F_1 - F_c}{F_2 - F_c} = e^{\mu \theta}$$
 
 
 ## Analyze:
