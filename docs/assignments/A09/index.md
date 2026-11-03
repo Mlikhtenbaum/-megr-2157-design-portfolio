@@ -61,3 +61,4 @@ $$\frac{F_1 - F_c}{F_2 - F_c} = e^{\mu \theta}$$
 
 ## Communicate:
 
+- Google Gemini was used to code in the prettyprint formulas in the "Decide:" section.
