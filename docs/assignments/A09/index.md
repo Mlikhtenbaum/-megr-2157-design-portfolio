@@ -51,7 +51,7 @@ $$P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$$
 $$v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$$
 
 **Flat Belts:**
-$$\frac{F_1 - F_c}{F_2 - F_c} = e^{\mu \theta}$$
+$$\frac{F_1}{F_2} = e^{\mu \theta}$$
 
 
 ## Analyze:
