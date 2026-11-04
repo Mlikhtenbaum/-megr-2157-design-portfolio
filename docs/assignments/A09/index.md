@@ -45,7 +45,7 @@ $$
 T = (F_1 - F_2) \cdot r = \frac{D}{2}(F_1 - F_2)
 $$
 
-**Simplified Transmitted Torque for Same Diameter Pulleys:**
+**Simplified Transmitted Torque for Same-Diameter Pulleys:**
 $$
 T = (F_1 - F_2)r
 $$
