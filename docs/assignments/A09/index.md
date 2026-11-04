@@ -35,35 +35,12 @@ Given:
 
 Formulas to Note:
 
-**Rotational Speed:**
-$$
-\frac{n_1}{n_2} = \frac{D_2}{D_1} = \frac{D}{D} = 1 \implies n_1 = n_2
-$$
-
-**Transmitted Torque ($T$):**
-$$
-T = (F_1 - F_2) \cdot r = \frac{D}{2}(F_1 - F_2)
-$$
-
-**Simplified Transmitted Torque for Same-Diameter Pulleys:**
-$$
-T = (F_1 - F_2)r
-$$
-
-**Power Transmitted ($P$):**
-$$
-P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)
-$$
-
-**Linear Belt Speed ($v$):**
-$$
-v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}
-$$
-
-**Flat Belts:**
-$$
-\frac{F_1}{F_2} = e^{\mu \theta}
-$$
+* **Rotational Speed:** $\frac{n_1}{n_2} = \frac{D_2}{D_1} = \frac{D}{D} = 1 \implies n_1 = n_2$
+* **Transmitted Torque ($T$):** $T = (F_1 - F_2) \cdot r = \frac{D}{2}(F_1 - F_2)$
+* **Simplified Transmitted Torque for Same-Diameter Pulleys:** $T = (F_1 - F_2)r$
+* **Power Transmitted ($P$):** $P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$
+* **Linear Belt Speed ($v$):** $v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$
+* **Flat Belts:** $\frac{F_1}{F_2} = e^{\mu \theta}$
 
 
 ## Analyze:
