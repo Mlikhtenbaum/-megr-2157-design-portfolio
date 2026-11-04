@@ -11,7 +11,7 @@ theme:
 
 markdown_extensions:
   - pymdownx.arithmatex:
-      class: "arithmatex"
+      generic: true
 
 extra_javascript:
   - javascripts/mathjax.js
