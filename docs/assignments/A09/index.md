@@ -40,7 +40,7 @@ Formulas to Note:
 * **Simplified Transmitted Torque for Same-Diameter Pulleys:** $T = (F_1 - F_2)r$
 * **Power Transmitted ($P$):** $P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$
 * **Linear Belt Speed ($v$):** $v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$
-* **Flat Belts:** $\frac{F_1}{F_2} = e^{\mu \theta}$
+* **Round Belt on Flat Pulley Surface:** $\frac{F_1}{F_2} = e^{\mu \theta}$
 
 
 ## Analyze:
@@ -48,6 +48,7 @@ Formulas to Note:
 
 
 
+
 ## Communicate:
 
-- Google Gemini was used to code in the prettyprint formulas in the "Decide:" section.
+- Google Gemini was used to code the prettyprint formulas in the "Decide:" section.
