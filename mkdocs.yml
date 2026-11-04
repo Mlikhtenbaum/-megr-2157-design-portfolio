@@ -11,12 +11,12 @@ theme:
 
 markdown_extensions:
   - pymdownx.arithmatex:
-      generic: true
+      class: "arithmatex"
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  
+
 nav:
   - Portfolio Homepage: portfolio-overview.md
   - About Me: aboutme/index.md
@@ -27,6 +27,12 @@ nav:
       - A4: assignments/A04/index.md
       - A5: assignments/A05/index.md
       - A6: assignments/A06/index.md
+      - A7: assignments/A07/index.md
+      - A8: assignments/A08/index.md
+      - A9: assignments/A09/index.md
+      - A10: assignments/A10/index.md
+      - A11: assignments/A11/index.md
+  - Class Overview and Mission Reminder: index.md
       - A7: assignments/A07/index.md
       - A8: assignments/A08/index.md
       - A9: assignments/A09/index.md
