@@ -41,9 +41,30 @@ Formulas to Note:
 * **Power Transmitted ($P$):** $P = T \cdot \omega = T \cdot \left(\frac{2\pi n}{60}\right)$
 * **Linear Belt Speed ($v$):** $v = \omega \cdot r = \frac{\pi \cdot D \cdot n}{60}$
 * **Round Belt on Flat Pulley Surface:** $\frac{F_1}{F_2} = e^{\mu \theta}$
-
+* **Initial Tension Force:** $F_i = \frac{F_1 + F_2}{2}$
 
 ## Analyze:
+
+### Belt Length and Diameter Calculations:
+
+Chosen Belt Diameter and Length to best match calculated values: Round Belt 1/4" Diameter, 19 and 1/4" long (3044K606). Slightly more tension will be added by the lesser belt length (.175 in shorter), but the resultant safety factor should still be adequate.
+
+
+
+
+### Shaft Calculations: 
+
+Shear yield strength is assumed to be .557(tensile yield) as per Von Mises. The shaft diameter is calculated to be .135in.
+
+
+
+
+### Journal Bearing Calculations:
+
+The minimum diameter value calculated in the previous section is not provided as a journal bearing size on McMaster, so the shaft diameter is increased to match the 5/32 journal bearing ID size. Based on Table 4 provided in the Machinery's Handbook, porous bronze is more than capable of taking on the loads applied by the pulley system. The length to diameter ratio used for these calculations was 1, to establish adequate contact between the bearing and shaft.
+
+<img width="792" height="582" alt="image" src="https://github.com/user-attachments/assets/e5e8a903-e895-4627-be8e-4dc48ab884af" />
+[Machinery's Handbook Page 2440 Table 4]
 
 
 
@@ -52,3 +73,4 @@ Formulas to Note:
 ## Communicate:
 
 - Google Gemini was used to code the prettyprint formulas in the "Decide:" section.
+- (Belt Link)[https://www.mcmaster.com/3044K606-1835T382/]
