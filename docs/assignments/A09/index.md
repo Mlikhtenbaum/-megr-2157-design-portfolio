@@ -103,5 +103,5 @@ The creation of a SolidWorks Frame model is detailed here. A frame thickness of 
 ## Communicate:
 - One engineering lesson I learned from this project was the usefulness of having a standard length-to-diameter ratio to estimate unknown values and ensure that forces are distributed evenly. I also learned about the force relationships found within pulley systems, which are initially counterintuitive. The project took me about 5 hours.
 - Google Gemini was used to code the prettyprint formulas in the "Decide:" section.
-- (Belt Link)[https://www.mcmaster.com/3044K606-1835T382/]
-- (Frame CAD Download)[https://drive.google.com/drive/folders/1vA55Cm_CcWHrtvSAhfnMFiWjdIQkby19?usp=sharing]
+- [Belt Link](https://www.mcmaster.com/3044K606-1835T382/)
+- [Frame CAD Download](https://drive.google.com/drive/folders/1vA55Cm_CcWHrtvSAhfnMFiWjdIQkby19?usp=sharing)
