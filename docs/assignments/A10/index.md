@@ -42,15 +42,15 @@ Analyze the internal threads of the nut to select a proper bronze nut/flange. Ve
 ### Design the Crosshead (25 pts): Misha
 Analyze the minimum strength required for the load and the maximum deflection of .1 mm. There is much freedom to design the crosshead to determine the size and material. Use research to determine an appropriate length of the crosshead. Use the nut flange to determine the minimum base.
 
-#### Use simple beam stress/strength analysis to determine size and material of the crosshead.
+#### Use simple beam stress/strength analysis to determine the size and material of the crosshead.
 
-#### Use simple beam deflection analysis to determine size and material of the crosshead.
+#### Use simple beam deflection analysis to determine the size and material of the crosshead.
 
 #### Generate a multiview paper sketch of the tensile tester crosshead. 
 The sketch should be neatly presented with appropriate views (front, top, side) and sufficient annotations to communicate geometry, proportions, and nut/flang mounting intent.
 
 
-### Tabulating Costs (10 pts): Misha
+### Tabulating Costs (10 pts): Ryan
 In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. 
 
 
@@ -65,8 +65,8 @@ Download/create 3D models. Assemble the components in CAD. Do not create from sc
 
 #### Frame (parts downloaded):
 
-### 2157 Addition (20 pts):
-Use Finite Element Analysis (FEA) on the crosshead (cross slide) to evaluate stiffness and strength under a 2 kN axial test load. Apply results to optimize geometry (light-weighting, fillets, thicknesses, cutouts) where appropriate while meeting constraints.
+
+### 2157 Addition: Use Finite Element Analysis (FEA) on the crosshead (20 pts): Ryan
 
 #### Model Setup: 
 
@@ -76,11 +76,13 @@ Use Finite Element Analysis (FEA) on the crosshead (cross slide) to evaluate sti
 
 #### Optimization Pass:
 
+### 2157 Addition: Create a detailed drawing of the crosshead with proper title block (20 pts): Misha
+Produce a multi-view CAD drawing of the crosshead with complete dimensioning and proper tolerancing.
 
 
 ## Decide
 
-We decided that Misha would complete the hand calculation portion of this project while Ryan would complete the 3D modelling and assembly sections.
+We decided that Misha would complete the hand calculation portion of this project, while Ryan would complete the 3D modelling and assembly sections.
 
 ## Communicate
 
