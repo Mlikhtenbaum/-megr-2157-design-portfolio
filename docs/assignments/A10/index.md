@@ -34,6 +34,8 @@ Safety Factor: 4
 
 ### Leadscrew design (35pts): Misha
 
+ASTM A193 Grade B7 steel is used for the leadscrew material in order to minimize necessary dimensions. ASTM A193 Grade B7 steel has a tensile yield strength of 125000 Psi.
+
 In order to select a leadscrew, the team must determine the minimum diameter, a range of rotational speed, and maximum torque.
 
 #### Minimum diameter:
