@@ -6,8 +6,10 @@
 
 Design and build a mechanically driven tensile tester capable of applying up to 2 kN axial tensile load with a controllable crosshead speed from 1 to 50 mm/min. Each team is responsible for the mechanical components outlined below. The system will provide consistent, well-aligned loading for polymers and light metals, suitable for instructional use and basic materials evaluation.
 
+Relevant Example Figures:
 
-<img width="726" height="841" alt="Figure 1 Concept of Tensile Tester" src="https://github.com/user-attachments/assets/a9b65f37-94f9-411b-b63e-fc02ff912246" />
+<img width="726" height="778" alt="Figure 1 Concept of Tensile Tester" src="https://github.com/user-attachments/assets/ab0eb70e-f2b4-464b-bc3c-611c4b7f3536" />
+[Figure 1: Tensile Tester Concept]
 
 <img width="560" height="407" alt="image" src="https://github.com/user-attachments/assets/3c3506c1-dddb-444b-814e-323babdee42b" />
 
