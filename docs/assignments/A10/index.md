@@ -10,7 +10,8 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 <img width="726" height="841" alt="Figure 1 Concept of Tensile Tester" src="https://github.com/user-attachments/assets/a9b65f37-94f9-411b-b63e-fc02ff912246" />
 
 <img width="560" height="407" alt="image" src="https://github.com/user-attachments/assets/3c3506c1-dddb-444b-814e-323babdee42b" />
-[Figure 2: Tensile Tester Diagram found on page 15 of (this)[https://repositum.tuwien.at/bitstream/20.500.12708/200949/1/Demmel%20Stella%20-%202024%20-%20Design%20manufacturing%20and%20testing%20of%20an%20open-source...pdf] reference document]
+
+[Figure 2: Tensile Tester Diagram found on page 15 of [this](https://repositum.tuwien.at/bitstream/20.500.12708/200949/1/Demmel%20Stella%20-%202024%20-%20Design%20manufacturing%20and%20testing%20of%20an%20open-source...pdf) reference document]
 
 
 Part 1 Scope of Work
