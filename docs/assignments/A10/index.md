@@ -76,14 +76,19 @@ Download/create 3D models. Assemble the components in CAD. Do not create from sc
 
 #### Optimization Pass:
 
-### 2157 Addition: Create a detailed drawing of the crosshead with proper title block (20 pts): Misha
+### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Misha
 Produce a multi-view CAD drawing of the crosshead with complete dimensioning and proper tolerancing.
 
 
 ## Decide
 
-We decided that Misha would complete the hand calculation portion of this project, while Ryan would complete the 3D modelling and assembly sections.
+
+We decided that Misha would complete the hand calculation portion of this project, while Ryan would complete the 3D modelling and assembly sections. 
+
+Current Point Split: 90 Misha, 50 Ryan.
+
 
 ## Communicate
+
 
 Lessons learned:
