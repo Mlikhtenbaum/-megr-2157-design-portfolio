@@ -41,35 +41,57 @@ To select a leadscrew, the team must determine the minimum diameter, rotational 
 
 #### Minimum diameter:
 
-Choosing the smallest available lead screw (1/4" major diameter) from McMaster-Carr is more than adequate, as proven by the following formula that calculates the minor diameter of a 1/4" screw and compares it to our calculated minimum diameter of .0957". 
+Choosing the smallest available lead screw (1/4" major diameter) from McMaster-Carr is more than adequate, as proven by the following formula that calculates the minor diameter of a 1/4" screw and compares it to our calculated minimum diameter of .0957". Therefore, recalculating stress values for our chosen 3/8"-12 lead screw is unnecessary, as it is even more capable of sustaining the applied forces.
 
 $$d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$$
 
 <img width="2554" height="3295" alt="Min D" src="https://github.com/user-attachments/assets/038ba5b0-b299-46f9-b838-fcc27ffc2559" />
+[Minimum diameter of lead screw]
 
 
 #### Range of rotational speed given the linear speed:
 
-Assume a lead of .063" to match the smallest diameter alloy steel lead screw sizes provided by McMaster-Carr.
+Initially assumed a lead of .063" to match the smallest diameter alloy steel lead screw sizes provided by McMaster-Carr. After re-designing around a 3/8"-12 lead screw, our actual, final RPM ranges from .47 to 23.62.
 
 <img width="2185" height="2926" alt="RPM" src="https://github.com/user-attachments/assets/d57c89f6-d824-45c4-95c5-2e5fd8db85f2" />
+[Rotational speed of 1/4"-16 lead screw]
+
+<img width="1971" height="1684" alt="Rpm recalc" src="https://github.com/user-attachments/assets/5c8e7f07-94e7-4421-9128-7257371db3c4" />
+[Rotational speed of 3/8"-12 lead screw]
+
+
 
 
 #### Select a lead screw by determining max torque to provide the 2 kN tension to the test sample.
 
-Determine neccesary torque application to create 1KN axial force per lead screw.
+Determine the torque required to create 1 kN axial force per lead screw.
 
-<img width="2547" height="3360" alt="Torque App" src="https://github.com/user-attachments/assets/f3c77a53-c0d0-49a8-bb2b-3010bf7eab54" />
+<img width="1108" height="1419" alt="Torque og" src="https://github.com/user-attachments/assets/f6cdf30d-6ec6-42de-a814-bc77cf21105e" />
+[Torque of 1/4"-16 lead screw]
+
+<img width="1550" height="2658" alt="Torque recalc" src="https://github.com/user-attachments/assets/0151fb5c-f237-44b9-98d8-2afed25c62ea" />
+[Torque of 3/8"-12 lead screw]
 
 
+ 
 #### Select the leadscrew from the resources section on Leadscrews.
 
-The leadscrew we have selected after conducting the aforementioned calculations is the smallest one (of alloy steel) offered by McMaster-Carr. It is the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. The required length will be determined by overall tensile tester geometry and possibly deflection caluclations. For reference, the serial number of a 6" long 1/4"-16 lead screw is 93420A881 on McMaster-Carr.
+After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME Stub thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design).
+
+
 
 
 ### Nut and Flange Design (10pts): Misha
 Analyze the internal threads of the nut to select a proper bronze nut/flange. Verify the internal threads support the load using the thread-bearing bending stress analysis in lecture notes and a safety factor.
 
+This section of the project is where our design had to be altered, and calculations had to be redone. Our initial choice of the 1/4-16 lead screw was valid in terms of axial load, but the nuts available to us were incapable of sustaining our safety factor of 4.0. Therefore, we went back and decided to use a 3/8"-12 lead screw, allowing us to employ a taller nut that had more thread engagement, better distributing the applied loads.
+
+Before redesign (using the 1/4"-16 screw), our safety factor was too low: $$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{1,046.8\text{ psi}} = \mathbf{2.39}$$
+
+After redesign (using the 3/8"-12 screw), our safety factor was more than adequate: $$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{490.7\text{ psi}} = \mathbf{5.10}$$
+
+<img width="2326" height="3007" alt="Nut stress" src="https://github.com/user-attachments/assets/9681a223-ac52-4a6d-8462-e97a776f9057" />
+[Nut bearing stress calculation and recalculation]
 
 
 
