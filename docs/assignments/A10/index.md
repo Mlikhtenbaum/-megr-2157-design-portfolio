@@ -88,9 +88,9 @@ Analyze the internal threads of the nut to select a proper bronze nut/flange. Ve
 
 This section of the project is where our design had to be altered, and calculations had to be redone. Our initial choice of the 1/4-16 lead screw was valid in terms of axial load, but the nuts available to us were incapable of sustaining our safety factor of 4.0. Therefore, we went back and decided to use a 3/8"-12 lead screw, allowing us to employ a taller nut that had more thread engagement, better distributing the applied loads.
 
-Before redesign (using the 1/4"-16 screw), our safety factor was too low: $$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{1,046.8\text{ psi}} = \mathbf{2.39}$
+Before redesign (using the 1/4"-16 screw), our safety factor was too low:$$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{1,046.8\text{ psi}} = \mathbf{2.39}$$
 
-After redesign (using the 3/8"-12 screw), our safety factor was more than adequate: $$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{490.7\text{ psi}} = \mathbf{5.10}$
+After redesign (using the 3/8"-12 screw), our safety factor was more than adequate:$$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{490.7\text{ psi}} = \mathbf{5.10}$$
 
 <img width="2326" height="3007" alt="Nut stress" src="https://github.com/user-attachments/assets/9681a223-ac52-4a6d-8462-e97a776f9057" />
 [Nut bearing stress calculation and recalculation]
