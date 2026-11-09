@@ -144,50 +144,19 @@ For this multiview sketch, the overhanging portions of the crosshead that mate w
 
 ### T-slot Frame Selection (as per crosshead constraints)
 
-The t-slot frame column we selected to design our crosshead around was a E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the t-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accesssed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, a length of 24" should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
+The T-slot frame column we selected to design our crosshead around was an E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the T-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accessed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, a length of 24" should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
 
 ### Tabulating Costs (10 pts): Misha
 In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. The frame and crosshead will not be factored into the table.
 
-```python
-# Calculate exact totals
-ext_qty = 2
-ext_unit = 21.32
-ext_total = ext_qty * ext_unit
-
-screw_qty = 2
-screw_unit = 31.13
-screw_total = screw_qty * screw_unit
-
-nut_qty = 2
-nut_unit = 111.78
-nut_total = nut_qty * nut_unit
-
-grand_total = ext_total + screw_total + nut_total
-
-print(f"Extrusion Total: ${ext_total:.2f}")
-print(f"Screw Total: ${screw_total:.2f}")
-print(f"Nut Total: ${nut_total:.2f}")
-print(f"Grand Total: ${grand_total:.2f}")
-
-
-```
-
-```text
-Extrusion Total: $42.64
-Screw Total: $62.26
-Nut Total: $223.56
-Grand Total: $328.46
-
-
-```
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :-: | :--- | :-: | :-: | :---: |
 | 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 24" Long | $21.32 | $42.64 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
 | 2 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 12" Long | $31.13 | $62.26 | [McMaster-Carr](https://www.mcmaster.com/93410A916/) |
 | 3 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
-|  |  |  | **Total Cost** | **$328.46** |  |
+| | | | **Total Cost** | **$328.46** | |
+
 
 
 ### Parametric Modeling (20 pts): Ryan
