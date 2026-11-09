@@ -34,21 +34,43 @@ Safety Factor: 4
 
 ### Leadscrew design (35pts): Misha
 
-ASTM A193 Grade B7 steel is used for the leadscrew material in order to minimize necessary dimensions. ASTM A193 Grade B7 steel has a tensile yield strength of 125000 Psi.
+ASTM A193 Grade B7 steel (alloy steel) is used for the leadscrew material in order to minimize necessary dimensions. ASTM A193 Grade B7 steel has a tensile yield strength of 125000 Psi.
 
-In order to select a leadscrew, the team must determine the minimum diameter, a range of rotational speed, and maximum torque.
+To select a leadscrew, the team must determine the minimum diameter, rotational speed range, and maximum torque.
+
 
 #### Minimum diameter:
 
+Choosing the smallest available lead screw (1/4" major diameter) from McMaster-Carr is more than adequate, as proven by the following formula that calculates the minor diameter of a 1/4" screw and compares it to our calculated minimum diameter of .0957". 
+
+$$d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$$
+
+<img width="2554" height="3295" alt="Min D" src="https://github.com/user-attachments/assets/038ba5b0-b299-46f9-b838-fcc27ffc2559" />
+
+
 #### Range of rotational speed given the linear speed:
+
+Assume a lead of .063" to match the smallest diameter alloy steel lead screw sizes provided by McMaster-Carr.
+
+<img width="2185" height="2926" alt="RPM" src="https://github.com/user-attachments/assets/d57c89f6-d824-45c4-95c5-2e5fd8db85f2" />
+
 
 #### Select a lead screw by determining max torque to provide the 2 kN tension to the test sample.
 
+Determine neccesary torque application to create 1KN axial force per lead screw.
+
+<img width="2547" height="3360" alt="Torque App" src="https://github.com/user-attachments/assets/f3c77a53-c0d0-49a8-bb2b-3010bf7eab54" />
+
+
 #### Select the leadscrew from the resources section on Leadscrews.
+
+The leadscrew we have selected after conducting the aforementioned calculations is the smallest one (of alloy steel) offered by McMaster-Carr. It is the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. The required length will be determined by overall tensile tester geometry and possibly deflection caluclations. For reference, the serial number of a 6" long 1/4"-16 lead screw is 93420A881 on McMaster-Carr.
 
 
 ### Nut and Flange Design (10pts): Misha
 Analyze the internal threads of the nut to select a proper bronze nut/flange. Verify the internal threads support the load using the thread-bearing bending stress analysis in lecture notes and a safety factor.
+
+
 
 
 ### Design the Crosshead (25 pts): Misha
@@ -96,6 +118,8 @@ Produce a multi-view CAD drawing of the crosshead with complete dimensioning and
 
 
 We decided that Misha would complete the hand calculation portion of this project, while Ryan would complete the 3D modelling and assembly sections. 
+
+Our tensile tester will have a linear speed of 25mm/min.
 
 Current Point Split: 90 Misha, 50 Ryan.
 
