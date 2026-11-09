@@ -88,9 +88,9 @@ Analyze the internal threads of the nut to select a proper bronze nut/flange. Ve
 
 This section of the project is where our design had to be altered, and calculations had to be redone. Our initial choice of the 1/4-16 lead screw was valid in terms of axial load, but the nuts available to us were incapable of sustaining our safety factor of 4.0. Therefore, we went back and decided to use a 3/8"-12 lead screw, allowing us to employ a taller nut that had more thread engagement, better distributing the applied loads.
 
-Before redesign (using the 1/4"-16 screw), our safety factor was too low:$$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{1,046.8\text{ psi}} = \mathbf{2.39}$$
+Before redesign (using the 1/4"-16 screw), our safety factor was too low:$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{1,046.8\text{ psi}} = \mathbf{2.39}$
 
-After redesign (using the 3/8"-12 screw), our safety factor was more than adequate:$$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{490.7\text{ psi}} = \mathbf{5.10}$$
+After redesign (using the 3/8"-12 screw), our safety factor was more than adequate:$SF_{\text{actual}} = \frac{\sigma_{B,\text{allow}}}{\sigma_B} = \frac{2,500\text{ psi}}{490.7\text{ psi}} = \mathbf{5.10}$
 
 <img width="2326" height="3007" alt="Nut stress" src="https://github.com/user-attachments/assets/9681a223-ac52-4a6d-8462-e97a776f9057" />
 [Nut bearing stress calculation and recalculation]
@@ -136,7 +136,7 @@ The sketch should be neatly presented with appropriate views (front, top, side) 
 
 For this multiview sketch, the overhanging portions of the crosshead that mate with the alignment columns on the outside of the tester have been upped to 2in past each flange. This may be altered once we create the overall structure of the tensile tester in CAD, but the overhanging portion of the structure is totally unaffected by the applied forces regardless.
 
-<img width="2689" height="2151" alt="Crosshead multiview sketch" src="https://github.com/user-attachments/assets/c6c33474-f9ed-494d-927e-dd1c52876c39" />
+<img width="2689" height="2151" alt="Crosshead multiview sketch" src="https://github.com/user-attachments/assets/bd2963f7-fdbf-4b13-a30b-5ca00a0567cc" />
 [Crosshead multiview sketch]
 
 
