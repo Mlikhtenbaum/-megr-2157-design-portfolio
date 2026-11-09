@@ -8,6 +8,7 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 Relevant Example Figures:
 
 <img width="726" height="778" alt="Figure 1 Concept of Tensile Tester" src="https://github.com/user-attachments/assets/ab0eb70e-f2b4-464b-bc3c-611c4b7f3536" />
+
 [Figure 1: Tensile Tester Concept]
 
 <img width="560" height="407" alt="image" src="https://github.com/user-attachments/assets/3c3506c1-dddb-444b-814e-323babdee42b" />
