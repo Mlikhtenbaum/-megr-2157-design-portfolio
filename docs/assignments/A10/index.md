@@ -42,7 +42,7 @@ To select a leadscrew, the team must determine the minimum diameter, rotational 
 
 Choosing the smallest available lead screw (1/4" major diameter) from McMaster-Carr is more than adequate, as proven by the following formula that calculates the minor diameter of a 1/4" screw and compares it to our calculated minimum diameter of .0957". Therefore, recalculating stress values for our chosen 3/8"-12 lead screw is unnecessary, as it is even more capable of sustaining the applied forces.
 
-This calculation proves that a 1/4"-16 screw has a minor diameter larger than our minimum calculated diameter: $$d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$$
+This calculation proves that a 1/4"-16 screw has a minor diameter larger than our minimum calculated diameter: $d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$
 
 <img width="2554" height="3295" alt="Min D" src="https://github.com/user-attachments/assets/038ba5b0-b299-46f9-b838-fcc27ffc2559" />
 [Minimum diameter of lead screw]
