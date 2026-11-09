@@ -43,7 +43,7 @@ To select a leadscrew, the team must determine the minimum diameter, rotational 
 
 Choosing the smallest available lead screw (1/4" major diameter) from McMaster-Carr is more than adequate, as proven by the following formula that calculates the minor diameter of a 1/4" screw and compares it to our calculated minimum diameter of .0957". Therefore, recalculating stress values for our chosen 3/8"-12 lead screw is unnecessary, as it is even more capable of sustaining the applied forces.
 
-$$d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$$
+This calculation proves that a 1/4"-16 screw has a minor diameter larger than our minimum calculated diameter: $$d_r = d - p = 0.2500'' - 0.0625'' = 0.1875'' > 0.0957''$$
 
 <img width="2554" height="3295" alt="Min D" src="https://github.com/user-attachments/assets/038ba5b0-b299-46f9-b838-fcc27ffc2559" />
 [Minimum diameter of lead screw]
@@ -62,7 +62,7 @@ Initially assumed a lead of .063" to match the smallest diameter alloy steel lea
 
 #### Select a lead screw by determining max torque to provide 2 kN tension to the test sample.
 
-Determine the torque required to create 1 kN axial force per lead screw.
+Determine the torque required to create 1 kN axial force per lead screw. The "Extra" note on the bottom uses the calculated torque value to determine the resultant shear, demonstrating that it is far below the typical shear yield threshold of steel (~35000 Psi).
 
 <img width="1108" height="1419" alt="Torque og" src="https://github.com/user-attachments/assets/f6cdf30d-6ec6-42de-a814-bc77cf21105e" />
 [Torque of 1/4"-16 lead screw]
@@ -95,7 +95,7 @@ After redesign (using the 3/8"-12 screw), our safety factor was more than adequa
 <img width="2326" height="3007" alt="Nut stress" src="https://github.com/user-attachments/assets/9681a223-ac52-4a6d-8462-e97a776f9057" />
 [Nut bearing stress calculation and recalculation]
 
-The final flange nut we selected, based on its resultant safety factor, was 932 Bearing Bronze Acme Flange Nut Right Hand, 3/8"-12 Thread Size (7/8" height), which has a serial number of 95120A592.
+The final flange nut we selected, based on its resultant safety factor, was the 932 Bearing Bronze Acme Flange Nut, Right-Hand, 3/8"-12 Thread Size (7/8" height), which has a serial number of 95120A592.
 
 <img width="1002" height="766" alt="38 lead nut" src="https://github.com/user-attachments/assets/929b9d45-375a-47c6-aa74-52afe7c0b39b" />
 [3/8"-12 lead nut dimensions drawing sourced from [site]([https://www.mcmaster.com/93420A882/](https://www.mcmaster.com/95120A592/))]
@@ -104,7 +104,17 @@ The final flange nut we selected, based on its resultant safety factor, was 932 
 ### Design the Crosshead (25 pts): Misha
 Analyze the minimum strength required for the load and the maximum deflection of .1 mm. There is much freedom to design the crosshead to determine the size and material. Use research to determine an appropriate length of the crosshead. Use the nut flange to determine the minimum base.
 
+To keep hand calculations relatively straightforward, we used a rectangular cross-section for our crosshead. 1060-H12 aluminum is to be the crosshead material, due to its high strength-to-weight ratio.
+
+For length, engineering reasoning was used to determine a valid dimension. We needed our tensile tester to have a small enough footprint to sit on a regularly sized desk, but we also required a width with enough to allow adequate room for our dogbone test specimen and our lead screws, plus any additional clearance between components. The following diagram details the general measurements used to find our overall length, and the shear and moment diagrams that outline the behavior of the beam under loading.
+
+<img width="2484" height="3203" alt="Crosshead general dimensions" src="https://github.com/user-attachments/assets/334f4b2e-e78b-4d69-aaa7-2d50676d283b" />
+[General crosshead structure]
+
 #### Use simple beam stress/strength analysis to determine the size and material of the crosshead.
+
+
+
 
 #### Use simple beam deflection analysis to determine the size and material of the crosshead.
 
@@ -112,7 +122,7 @@ Analyze the minimum strength required for the load and the maximum deflection of
 The sketch should be neatly presented with appropriate views (front, top, side) and sufficient annotations to communicate geometry, proportions, and nut/flang mounting intent.
 
 
-### Tabulating Costs (10 pts): Ryan
+### Tabulating Costs (10 pts): Misha
 In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. 
 
 
@@ -138,7 +148,7 @@ Download/create 3D models. Assemble the components in CAD. Do not create from sc
 
 #### Optimization Pass:
 
-### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Misha
+### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Ryan
 Produce a multi-view CAD drawing of the crosshead with complete dimensioning and proper tolerancing.
 
 
@@ -147,9 +157,6 @@ Produce a multi-view CAD drawing of the crosshead with complete dimensioning and
 
 We decided that Misha would complete the hand calculation portion of this project, while Ryan would complete the 3D modelling and assembly sections. 
 
-Our tensile tester will have a linear speed of 25mm/min.
-
-Current Point Split: 90 Misha, 50 Ryan.
 
 
 ## Communicate
