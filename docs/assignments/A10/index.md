@@ -102,6 +102,7 @@ The final flange nut we selected, based on its resultant safety factor, was the 
 
 
 ### Design the Crosshead (25 pts): Misha
+
 Analyze the minimum strength required for the load and the maximum deflection of .1 mm. There is much freedom to design the crosshead to determine the size and material. Use research to determine an appropriate length of the crosshead. Use the nut flange to determine the minimum base.
 
 To keep hand calculations relatively straightforward, we used a rectangular cross-section for our crosshead. 1060-H12 aluminum is to be the crosshead material, due to its high strength-to-weight ratio.
@@ -111,19 +112,38 @@ For length, engineering reasoning was used to determine a valid dimension. We ne
 <img width="2484" height="3203" alt="Crosshead general dimensions" src="https://github.com/user-attachments/assets/334f4b2e-e78b-4d69-aaa7-2d50676d283b" />
 [General crosshead structure]
 
+Although the overall length of the crosshead is 11in (updated from the initial length estimate of 10in found in figure "General crosshead structure"), only the middle 6in portion of it is affected by the applied forces, and therefore is the section analyzed in our calculations.
+
 #### Use simple beam stress/strength analysis to determine the size and material of the crosshead.
 
-
+<img width="2319" height="2995" alt="Crosshead beam stress" src="https://github.com/user-attachments/assets/eebdeaf4-97a8-4675-852e-734a373ace0a" />
+[Height calculations from stress analysis]
 
 
 #### Use simple beam deflection analysis to determine the size and material of the crosshead.
 
+<img width="2607" height="3418" alt="Crosshead beam defl" src="https://github.com/user-attachments/assets/c40f0e88-c11d-41e5-898e-cfdaae2f8c59" />
+[Height calculations from deflection analysis]
+
+#### Crosshead final dimensions: 11in long, 1.25in x 1.25in cross section
+
+Based on an assumed base dimension of 1.25in, our crosshead needs to have a height of 1.091in to resist the stress created by the applied loads. However, since this height is not limited by our design constraints, using a 11in long, 1.25in x 1.25in piece of aluminum bar stock will simplify any further calculations, and ensure that sourcing components will be a simple process.
+
+
 #### Generate a multiview paper sketch of the tensile tester crosshead. 
-The sketch should be neatly presented with appropriate views (front, top, side) and sufficient annotations to communicate geometry, proportions, and nut/flang mounting intent.
+
+The sketch should be neatly presented with appropriate views (front, top, side) and sufficient annotations to communicate geometry, proportions, and nut/flange mounting intent.
+
+For this multiview sketch, the overhanging portions of the crosshead that mate with the alignment columns on the outside of the tester have been upped to 2in past each flange. This may be altered once we create the overall structure of the tensile tester in CAD, but the overhanging portion of the structure is totally unaffected by the applied forces regardless.
+
+<img width="2689" height="2151" alt="Crosshead multiview sketch" src="https://github.com/user-attachments/assets/c6c33474-f9ed-494d-927e-dd1c52876c39" />
+[Crosshead multiview sketch]
 
 
 ### Tabulating Costs (10 pts): Misha
 In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. 
+
+
 
 
 ### Parametric Modeling (20 pts): Ryan
