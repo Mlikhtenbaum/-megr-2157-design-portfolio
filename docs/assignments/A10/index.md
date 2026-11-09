@@ -147,7 +147,7 @@ For this multiview sketch, the overhanging portions of the crosshead that mate w
 The T-slot frame column we selected to design our crosshead around was an E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the T-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accessed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, a length of 24" should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
 
 ### Tabulating Costs (10 pts): Misha
-In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. The frame and crosshead will not be factored into the table.
+In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. The crosshead will not be factored into the table.
 
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
