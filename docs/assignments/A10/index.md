@@ -60,9 +60,7 @@ Initially assumed a lead of .063" to match the smallest diameter alloy steel lea
 [Rotational speed of 3/8"-12 lead screw]
 
 
-
-
-#### Select a lead screw by determining max torque to provide the 2 kN tension to the test sample.
+#### Select a lead screw by determining max torque to provide 2 kN tension to the test sample.
 
 Determine the torque required to create 1 kN axial force per lead screw.
 
@@ -72,13 +70,17 @@ Determine the torque required to create 1 kN axial force per lead screw.
 <img width="1550" height="2658" alt="Torque recalc" src="https://github.com/user-attachments/assets/0151fb5c-f237-44b9-98d8-2afed25c62ea" />
 [Torque of 3/8"-12 lead screw]
 
-
  
 #### Select the leadscrew from the resources section on Leadscrews.
 
-After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME Stub thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design).
+After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME stub-thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design).
 
+Any of the lead screws in the following figure are possible choices:
+<img width="1129" height="86" alt="list of compatible 38_12 lead screws" src="https://github.com/user-attachments/assets/e8453bc0-88b1-4297-93be-fd3b45e1084d" />
+[3/8"-12 lead screws of varying lengths]
 
+<img width="905" height="382" alt="38 Lead Screw Diagram" src="https://github.com/user-attachments/assets/0e868820-c0f6-45ab-91df-aa4e4dd5037b" />
+[3/8"-12 lead screw dimensions drawing sourced from [site](https://www.mcmaster.com/93420A882/)]
 
 
 ### Nut and Flange Design (10pts): Misha
@@ -93,6 +95,10 @@ After redesign (using the 3/8"-12 screw), our safety factor was more than adequa
 <img width="2326" height="3007" alt="Nut stress" src="https://github.com/user-attachments/assets/9681a223-ac52-4a6d-8462-e97a776f9057" />
 [Nut bearing stress calculation and recalculation]
 
+The final flange nut we selected, based on its resultant safety factor, was 932 Bearing Bronze Acme Flange Nut Right Hand, 3/8"-12 Thread Size (7/8" height), which has a serial number of 95120A592.
+
+<img width="1002" height="766" alt="38 lead nut" src="https://github.com/user-attachments/assets/929b9d45-375a-47c6-aa74-52afe7c0b39b" />
+[3/8"-12 lead nut dimensions drawing sourced from [site]([https://www.mcmaster.com/93420A882/](https://www.mcmaster.com/95120A592/))]
 
 
 ### Design the Crosshead (25 pts): Misha
