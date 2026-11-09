@@ -61,7 +61,7 @@ Initially assumed a lead of .063" to match the smallest diameter alloy steel lea
 
 #### Select a lead screw by determining max torque
 
-Determine the torque required to create 1 kN axial force per lead screw. The "Extra" note at the bottom uses the calculated torque value to determine the resultant shear, demonstrating that it is far below the typical shear yield threshold of steel (~35000 Psi).
+Determine the torque required to create 1 kN axial force per lead screw. The "Extra" note at the bottom uses the calculated torque value to determine the resultant shear, demonstrating that it is far below the typical shear yield threshold of steel (~35,000 psi). Friction was excluded from these calculations, as it was not stressed in the lecture or in the provided formulas.
 
 <img width="1108" height="1419" alt="Torque og" src="https://github.com/user-attachments/assets/f6cdf30d-6ec6-42de-a814-bc77cf21105e" />
 [Torque of 1/4"-16 lead screw]
@@ -74,7 +74,7 @@ Determine the torque required to create 1 kN axial force per lead screw. The "Ex
 
 Selected: Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread Size, 12" Long, 93410A916
 
-After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right-Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME stub-thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design). It is also important to note that the portion of the screw that is secured in the lower portion on the tensile tester must be able to spin freely, otherwise the design will not function correctly.
+After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right-Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME stub-thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design). It is also important to note that the portion of the screw that is secured in the lower portion on the tensile tester must be able to spin freely; otherwise, the design will not function correctly.
 
 Any of the lead screws in the following figure are possible choices:
 <img width="1129" height="86" alt="list of compatible 38_12 lead screws" src="https://github.com/user-attachments/assets/e8453bc0-88b1-4297-93be-fd3b45e1084d" />
