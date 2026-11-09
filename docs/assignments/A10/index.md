@@ -71,9 +71,9 @@ Determine the torque required to create 1 kN axial force per lead screw. The "Ex
 [Torque of 3/8"-12 lead screw]
 
  
-#### Select the leadscrew from the resources section on Leadscrews.
+#### Select the leadscrew from the resources section on Leadscrews. Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread Size, 12" Long, 93410A916
 
-After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME stub-thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design).
+After conducting the aforementioned calculations, we initially selected the smallest leadscrew (alloy steel) offered by McMaster-Carr. It was the Alloy Steel Acme Lead Screw, Right Hand, 1/4"-16 Thread Size. Although that specific lead screw was capable of withstanding the applied load, the 1/4-16 nut that McMaster-Carr has available did not, so we had to recalculate our lead screw measurements. After recalculating, we chose to use an ACME 3/8"-12 lead screw, which has a larger diameter and therefore a larger inner thread bearing area. The required length will be determined by overall tensile tester geometry and possibly deflection calculations. We did not choose the ACME stub-thread design because those threads are meant for applications in which maintaining the wall thickness of a thin-walled sleeve is necessary (not relevant to our design). It is also important to note that the portion of the screw that is secured in the lower portion on the tensile tester must be able to spin freely, otherwise the design will not function correctly.
 
 Any of the lead screws in the following figure are possible choices:
 <img width="1129" height="86" alt="list of compatible 38_12 lead screws" src="https://github.com/user-attachments/assets/e8453bc0-88b1-4297-93be-fd3b45e1084d" />
@@ -82,8 +82,11 @@ Any of the lead screws in the following figure are possible choices:
 <img width="905" height="382" alt="38 Lead Screw Diagram" src="https://github.com/user-attachments/assets/0e868820-c0f6-45ab-91df-aa4e4dd5037b" />
 [3/8"-12 lead screw dimensions drawing sourced from [site](https://www.mcmaster.com/93420A882/)]
 
+For the sake of the cost tabulation detailed later in the project, we will assume that a lead screw length of 12in will be sufficient for our tensile tester design, as the next size up (24in), will most likely be overkill. 
 
-### Nut and Flange Design (10pts): Misha
+
+### Nut and Flange Design (10pts): Misha: 932 Bearing Bronze Acme Flange Nut, Right-Hand, 3/8"-12 Thread Size, (7/8" height), 95120A592
+
 Analyze the internal threads of the nut to select a proper bronze nut/flange. Verify the internal threads support the load using the thread-bearing bending stress analysis in lecture notes and a safety factor.
 
 This section of the project is where our design had to be altered, and calculations had to be redone. Our initial choice of the 1/4-16 lead screw was valid in terms of axial load, but the nuts available to us were incapable of sustaining our safety factor of 4.0. Therefore, we went back and decided to use a 3/8"-12 lead screw, allowing us to employ a taller nut that had more thread engagement, better distributing the applied loads.
@@ -136,14 +139,55 @@ The sketch should be neatly presented with appropriate views (front, top, side) 
 
 For this multiview sketch, the overhanging portions of the crosshead that mate with the alignment columns on the outside of the tester have been upped to 2in past each flange. This may be altered once we create the overall structure of the tensile tester in CAD, but the overhanging portion of the structure is totally unaffected by the applied forces regardless.
 
-<img width="2689" height="2151" alt="Crosshead multiview sketch" src="https://github.com/user-attachments/assets/bd2963f7-fdbf-4b13-a30b-5ca00a0567cc" />
+<img width="2913" height="2244" alt="Crosshead multiview" src="https://github.com/user-attachments/assets/2380c523-ff05-4904-b8c5-30f4c9d2d843" />
 [Crosshead multiview sketch]
 
+### T-slot Frame Selection (as per crosshead constraints)
+
+The t-slot frame column we selected to design our crosshead around was a E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the t-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accesssed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, a length of 24" should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
 
 ### Tabulating Costs (10 pts): Misha
-In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. 
+In order to get credit for this portion of the assignment, you must not use an image for the table, and it needs to have functional links. The frame and crosshead will not be factored into the table.
+
+```python
+# Calculate exact totals
+ext_qty = 2
+ext_unit = 21.32
+ext_total = ext_qty * ext_unit
+
+screw_qty = 2
+screw_unit = 31.13
+screw_total = screw_qty * screw_unit
+
+nut_qty = 2
+nut_unit = 111.78
+nut_total = nut_qty * nut_unit
+
+grand_total = ext_total + screw_total + nut_total
+
+print(f"Extrusion Total: ${ext_total:.2f}")
+print(f"Screw Total: ${screw_total:.2f}")
+print(f"Nut Total: ${nut_total:.2f}")
+print(f"Grand Total: ${grand_total:.2f}")
 
 
+```
+
+```text
+Extrusion Total: $42.64
+Screw Total: $62.26
+Nut Total: $223.56
+Grand Total: $328.46
+
+
+```
+
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 24" Long | $21.32 | $42.64 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
+| 2 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 12" Long | $31.13 | $62.26 | [McMaster-Carr](https://www.mcmaster.com/93410A916/) |
+| 3 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
+|  |  |  | **Total Cost** | **$328.46** |  |
 
 
 ### Parametric Modeling (20 pts): Ryan
