@@ -141,7 +141,7 @@ Based on an assumed base dimension of 1.25in, our crosshead needs to have a heig
 
 The sketch should be neatly presented with appropriate views (front, top, side) and sufficient annotations to communicate geometry, proportions, and nut/flange mounting intent.
 
-For this multiview sketch, the overhanging portions of the crosshead that mate with the alignment columns on the outside of the tester have been upped to 2in past each flange. This may be altered once we create the overall structure of the tensile tester in CAD, but the overhanging portion of the structure is totally unaffected by the applied forces regardless.
+For this multiview sketch, the overhanging portions of the crosshead that mate with the alignment columns on the outside of the tester have been increased to 2in past each flange. This may be altered once we create the overall structure of the tensile tester in CAD, but the overhanging portion of the structure is totally unaffected by the applied forces regardless.
 
 <img width="2913" height="2244" alt="Crosshead multiview" src="https://github.com/user-attachments/assets/2380c523-ff05-4904-b8c5-30f4c9d2d843" />
 [Crosshead multiview sketch]
@@ -203,4 +203,10 @@ We decided that Misha would complete the hand calculation portion of this projec
 ## Communicate
 
 
-Lessons learned:
+Lessons learned: 
+
+To maximize efficiency and sanity, it is important to consider components that are most likely to fail, such as smaller fasteners. If I had considered how small the flange nut would have to be when using a 1/4"-16 lead screw, I would have instantly chosen a larger diameter screw and saved myself the trouble of all my extra calculations. - Misha
+
+Time Spent
+Misha: 10 hours
+Ryan:
