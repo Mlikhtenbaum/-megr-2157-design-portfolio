@@ -219,7 +219,7 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 #### Assembly:
 
-<img width="968" height="865" alt="image" src="https://github.com/user-attachments/assets/f5bb0013-7d49-4fff-a536-0f0fc1161218" />
+<img width="968" height="1048" alt="image" src="https://github.com/user-attachments/assets/f78d3f4a-a4b9-42c9-a2a9-92ac5dceb38b" />
 
 [Full assembly]
 
