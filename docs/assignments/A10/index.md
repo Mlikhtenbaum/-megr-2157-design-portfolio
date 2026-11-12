@@ -160,10 +160,11 @@ In order to get credit for this portion of the assignment, you must not use an i
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 24" Long | $21.32 | $42.64 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
-| 2 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | $57.73 | $115.46 | [McMaster-Carr](https://www.google.com/search?q=https://www.mcmaster.com/93410A111/) |
-| 3 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
-|  |  |  | **Total Cost** | **$381.66** |  |
+| 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 11" Long | $9.78 | $19.56 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
+| 2 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 30" Long | $26.67 | $53.34 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
+| 3 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | $57.73 | $115.46 | [McMaster-Carr](https://www.mcmaster.com/93410A111/) |
+| 4 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
+|  |  |  | **Total Cost** | **$411.92** |  |
 
 
 ### Parametric Modeling (20 pts): Ryan
