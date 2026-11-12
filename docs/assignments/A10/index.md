@@ -193,7 +193,7 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 #### Leadscrew (downloaded):
 
-[McMaster-Carr 93410A916](https://www.mcmaster.com/93410A916/)
+[McMaster-Carr 93410A916](https://www.mcmaster.com/93410A111/)
 
 <img width="1342" height="676" alt="image" src="https://github.com/user-attachments/assets/94e101c2-8617-4b1a-b058-5055b4b71751" />
 
