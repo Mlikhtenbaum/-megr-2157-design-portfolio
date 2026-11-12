@@ -182,7 +182,8 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 11in x 1.25in x 1.25in, 1060-H12 aluminum.
 
-<img width="900" alt="Crosshead" src="SCREENSHOT_URL" />
+<img width="1327" height="756" alt="image" src="https://github.com/user-attachments/assets/3d20ae3e-0f13-41f1-b642-492b28f0f82c" />
+
 
 [Crosshead model]
 
@@ -232,38 +233,108 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 #### Meshing & Verification:
 
-<img width="900" alt="Mesh" src="SCREENSHOT_URL" />
+##### Mesh 1 – Coarse (2,804 elements)
 
-[Mesh]
-
-#### Results to Report:
-
-<img width="1300" height="817" alt="Screenshot 2026-11-12 011229" src="https://github.com/user-attachments/assets/b3696b8f-6e0e-4d56-a94a-6fdd232a4966" />
+<img width="1257" height="820" alt="Screenshot 2026-11-12 062342" src="https://github.com/user-attachments/assets/b5c5d384-4b6e-44b0-91b5-1962c2d88dcd" />
 
 
-<img width="1070" height="633" alt="Screenshot 2026-11-12 011409" src="https://github.com/user-attachments/assets/75e0dcf6-108b-4a79-b2a9-23a43cd35b3e" />
+[Mesh 1 von Mises]
 
+<img width="1365" height="757" alt="Screenshot 2026-11-12 062136" src="https://github.com/user-attachments/assets/6f31f6e5-b6b4-4241-ac9c-3ea210d6f11b" />
 
-| Result | FEA Value | Requirement | Pass? |
-| :--- | :-: | :-: | :-: |
-| Max von Mises stress | 2,398 psi | ≤ 2,720 psi (Sy / 4) | ✅ |
-| Factor of safety | 4.54 (10,880 / 2,398) | ≥ 4 | ✅ |
-| Max displacement | 0.000344 in (0.0087 mm) | ≤ 0.1 mm | ✅ |
+[Mesh 1 URES]
 
-The maximum stress (2,398 psi) occurs at the edges of the lead screw holes, where the crosshead is fixed. This is a stress concentration caused by the rigid fixture. Away from the holes, most of the crosshead stays below about 700 psi. The yield strength of 1060-H12 in SolidWorks is 10,880 psi, giving a minimum factor of safety of 4.54, which meets the required 4.
+##### Mesh 2 – Refinement 1 (12,524 elements)
 
-The maximum displacement (0.000344 in, or 0.0087 mm) occurs at the center of the crosshead under the load. This is less than 9% of the 0.1 mm limit. The deformed shape in the plots is exaggerated by SolidWorks so the bending can be seen.
+<img width="1195" height="727" alt="Screenshot 2026-11-12 062553" src="https://github.com/user-attachments/assets/62f1caf8-854c-4b06-b8bf-3b64bf55fe75" />
 
-**Comparison to hand calculations:** The FEA deflection is lower than the simply supported hand calculation (0.0016 in) because Fixed Geometry clamps the holes, which behaves like a beam fixed at both ends. A fixed-fixed beam with a center load deflects PL³/(192EI) = 0.0004 in, which closely matches the FEA result of 0.00034 in.
+[Mesh 2 von Mises]
 
+<img width="1232" height="737" alt="Screenshot 2026-11-12 062606" src="https://github.com/user-attachments/assets/d8230d6c-0ee7-402a-b8cb-f4955ff555cd" />
+
+[Mesh 2 URES]
+
+##### Mesh 3 – Refinement 2 (77,155 elements)
+
+<img width="1242" height="832" alt="Screenshot 2026-11-12 062907" src="https://github.com/user-attachments/assets/be2888b8-a86f-4669-a856-f1b28911fd9e" />
+
+[Mesh 3 von Mises]
+
+<img width="1201" height="767" alt="Screenshot 2026-11-12 062918" src="https://github.com/user-attachments/assets/840d0612-0111-40cf-badd-ff9ddb8ffd30" />
+
+[Mesh 3 URES]
+
+##### Convergence Results
+
+| Mesh | Elements | Nodes | Min / Max Element Size (in) | Max von Mises (psi) | Change | Max Displacement (in) | Change |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 – Coarse | 2,804 | 4,818 | 0.169 / 0.506 | 2,096 | — | 0.000333 | — |
+| 2 – Refinement 1 | 12,524 | 19,662 | 0.084 / 0.253 | 2,398 | +14.4% | 0.000344 | +3.2% |
+| 3 – Refinement 2 | 77,155 | 113,462 | 0.042 / 0.126 | 3,196 | +33.3% | 0.000349 | +1.5% |
 #### Optimization Pass:
 
 ____
 
-<img width="900" alt="Optimized" src="SCREENSHOT_URL" />
+<img width="657" height="546" alt="Screenshot 2026-11-12 065036" src="https://github.com/user-attachments/assets/6bb83e4c-2acb-4b8e-93dc-63301b56c781" />
+
+<img width="1368" height="718" alt="image" src="https://github.com/user-attachments/assets/1fe0e58f-1afb-4de0-8794-0495a1700346" />
+
 
 [Optimized crosshead]
 
+#### Optimized Crosshead:
+
+A pocket was cut through the web of the crosshead to reduce weight. The same fixtures, load and mesh convergence procedure were used.
+
+##### Coarse Mesh (2,890 elements)
+
+<img width="1235" height="635" alt="Screenshot 2026-11-12 070341" src="https://github.com/user-attachments/assets/5a31b879-4852-41ae-9653-f15b632543c4" />
+
+[Coarse von Mises]
+
+<img width="1305" height="662" alt="Screenshot 2026-11-12 070352" src="https://github.com/user-attachments/assets/88992767-dfd4-416e-9390-43af649edca7" />
+
+[Coarse URES]
+
+##### Mid Mesh (11,309 elements)
+
+<img width="1235" height="740" alt="Screenshot 2026-11-12 070001" src="https://github.com/user-attachments/assets/4a22dff8-98de-4c30-945a-724171d273f7" />
+
+[Mid von Mises]
+
+<img width="1263" height="623" alt="Screenshot 2026-11-12 070013" src="https://github.com/user-attachments/assets/546410a9-5cdb-4ccd-9351-c120fdbd3e53" />
+
+[Mid URES]
+
+##### Fine Mesh (69,226 elements)
+
+<img width="1258" height="747" alt="Screenshot 2026-11-12 065436" src="https://github.com/user-attachments/assets/fcadcef9-4836-430d-81e2-07aca1b47405" />
+
+[Fine von Mises]
+
+<img width="1283" height="747" alt="Screenshot 2026-11-12 065446" src="https://github.com/user-attachments/assets/6def4b78-76b0-48ac-8c58-60206848785f" />
+
+[Fine URES]
+
+##### Convergence Results
+
+| Mesh | Elements | Nodes | Min / Max Element Size (in) | Max von Mises (psi) | Change | Max Displacement (in) | Change |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Coarse | 2,890 | 5,126 | 0.164 / 0.492 | 2,239 | — | 0.000389 | — |
+| Mid | 11,309 | 18,336 | 0.082 / 0.246 | 2,527 | +12.9% | 0.000402 | +3.6% |
+| Fine | 69,226 | 104,098 | 0.041 / 0.123 | 3,158 | +25.0% | 0.000412 | +2.3% |
+
+The displacement converged, with the change dropping from 3.6% to 2.3%. As with the original crosshead, the peak stress moved to the sharp cylinder–crosshead edge on the fine mesh, a singularity that grows as the elements get smaller. The real peak stress is at the lead screw holes (2,527 psi).
+
+| Result | Original | Optimized | Requirement | Pass? |
+| :--- | :-: | :-: | :-: | :-: |
+| Max von Mises (at lead screw holes) | 2,398 psi | 2,527 psi | ≤ 2,720 psi (Sy / 4) | Yes |
+| Factor of safety | 4.54 | 4.31 | ≥ 4 | Yes |
+| Max displacement | 0.000349 in (0.0089 mm) | 0.000412 in (0.0105 mm) | ≤ 0.1 mm | Yes |
+| Volume | 16.17 in³ | 14.90 in³ | — | −7.9% |
+| Mass | 1.58 lb | 1.46 lb | — | −7.9% |
+
+The pocket cut mass by 7.9% (1.58 lb → 1.46 lb). Hole stress rose about 5% and deflection about 18%, but both still pass: FoS = 4.31 and deflection is about 10% of the 0.1 mm limit.
 
 ### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Ryan
 
