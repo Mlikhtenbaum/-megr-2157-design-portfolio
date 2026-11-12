@@ -183,6 +183,10 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 11in x 1.25in x 1.25in, 1060-H12 aluminum.
 
+<img width="1836" height="793" alt="Screenshot 2026-11-12 001057" src="https://github.com/user-attachments/assets/070a3eac-a194-4ee1-a1d4-55bfd99d12ff" />
+<img width="1422" height="635" alt="Screenshot 2026-11-12 001113" src="https://github.com/user-attachments/assets/4281ec33-2728-4b1a-861b-355eca461bd7" />
+
+
 <img width="1327" height="756" alt="image" src="https://github.com/user-attachments/assets/3d20ae3e-0f13-41f1-b642-492b28f0f82c" />
 
 [Crosshead model]
@@ -207,13 +211,13 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 [Parco E40-4001-C](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/)
 
-<img width="900" alt="Frame" src="SCREENSHOT_URL" />
+SS
 
 [T-slot frame model]
 
 #### Assembly:
 
-<img width="900" alt="Assembly" src="SCREENSHOT_URL" />
+SS
 
 [Full assembly]
 
@@ -339,7 +343,7 @@ The pocket cut mass by 7.9% (1.58 lb → 1.46 lb). Hole stress rose about 5% and
 
 ### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Ryan
 
-<img width="900" alt="Drawing" src="SCREENSHOT_URL" />
+SS
 
 [Crosshead drawing]
 
