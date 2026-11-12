@@ -174,6 +174,7 @@ Download/create 3D models. Assemble the components in CAD. Do not create from sc
 
 The hand calculations were entered as global variables in the SolidWorks Equations Manager to drive the model.
 
+<img width="1316" height="846" alt="image" src="https://github.com/user-attachments/assets/35e517e4-3073-44ab-8356-5f38d63096dd" />
 
 
 [SolidWorks equations]
@@ -184,14 +185,13 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 <img width="1327" height="756" alt="image" src="https://github.com/user-attachments/assets/3d20ae3e-0f13-41f1-b642-492b28f0f82c" />
 
-
 [Crosshead model]
 
 #### Leadscrew (downloaded):
 
 [McMaster-Carr 93410A916](https://www.mcmaster.com/93410A916/)
 
-<img width="900" alt="Leadscrew" src="SCREENSHOT_URL" />
+<img width="1342" height="676" alt="image" src="https://github.com/user-attachments/assets/94e101c2-8617-4b1a-b058-5055b4b71751" />
 
 [Lead screw model]
 
@@ -199,7 +199,7 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 [McMaster-Carr 95120A592](https://www.mcmaster.com/95120A592/)
 
-<img width="900" alt="Nut" src="SCREENSHOT_URL" />
+<img width="1006" height="847" alt="image" src="https://github.com/user-attachments/assets/54824ea2-996d-4b22-bff5-17578dbf9d6d" />
 
 [Flange nut model]
 
@@ -228,8 +228,9 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 <img width="1110" height="701" alt="Screenshot 2026-11-12 011127" src="https://github.com/user-attachments/assets/a8624988-8543-4a5f-ba14-c663a1d1c4b3" />
 
-
 [Fixtures and load]
+
+Decided to add a puck similar to the load device onto the bottom of the crosshead to FEA test my part in an assembly, treating the puck rigidly in an attempt to make the FEA results more realistic.
 
 #### Meshing & Verification:
 
