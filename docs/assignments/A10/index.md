@@ -217,7 +217,8 @@ SS
 
 #### Assembly:
 
-SS
+<img width="842" height="876" alt="image" src="https://github.com/user-attachments/assets/0c78a73b-22a2-4e61-8b96-28547ce288d4" />
+
 
 [Full assembly]
 
