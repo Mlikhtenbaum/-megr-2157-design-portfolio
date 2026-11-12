@@ -83,7 +83,7 @@ Any of the lead screws in the following figure are possible choices:
 <img width="905" height="382" alt="38 Lead Screw Diagram" src="https://github.com/user-attachments/assets/0e868820-c0f6-45ab-91df-aa4e4dd5037b" />
 [3/8"-12 lead screw dimensions drawing sourced from [site](https://www.mcmaster.com/93420A882/)]
 
-For the sake of the cost tabulation detailed later in the project, we will assume that a lead screw length of 12in will be sufficient for our tensile tester design, as the next size up (24in) will most likely be overkill. 
+For the sake of the cost tabulation detailed later in the project, we will assume that a lead screw length of 24in will be sufficient for our tensile tester design.
 
 
 ### Nut and Flange Design (10pts): Misha
@@ -159,12 +159,11 @@ In order to get credit for this portion of the assignment, you must not use an i
 
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
-| :---: | :-: | :--- | :-: | :-: | :---: |
+| --- | --- | --- | --- | --- | --- |
 | 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 24" Long | $21.32 | $42.64 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
-| 2 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 12" Long | $31.13 | $62.26 | [McMaster-Carr](https://www.mcmaster.com/93410A916/) |
+| 2 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | $57.73 | $115.46 | [McMaster-Carr](https://www.google.com/search?q=https://www.mcmaster.com/93410A111/) |
 | 3 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
-| | | | **Total Cost** | **$328.46** | |
-
+|  |  |  | **Total Cost** | **$381.66** |  |
 
 
 ### Parametric Modeling (20 pts): Ryan
