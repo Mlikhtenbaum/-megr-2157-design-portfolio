@@ -170,27 +170,106 @@ In order to get credit for this portion of the assignment, you must not use an i
 ### Parametric Modeling (20 pts): Ryan
 Download/create 3D models. Assemble the components in CAD. Do not create from scratch items you can download.
 
+#### Equations:
+
+The hand calculations were entered as global variables in the SolidWorks Equations Manager to drive the model.
+
+
+
+[SolidWorks equations]
+
 #### Crosshead (designed):
+
+11in x 1.25in x 1.25in, 1060-H12 aluminum.
+
+<img width="900" alt="Crosshead" src="SCREENSHOT_URL" />
+
+[Crosshead model]
 
 #### Leadscrew (downloaded):
 
+[McMaster-Carr 93410A916](https://www.mcmaster.com/93410A916/)
+
+<img width="900" alt="Leadscrew" src="SCREENSHOT_URL" />
+
+[Lead screw model]
+
 #### Nut/Flange (downloaded):
 
+[McMaster-Carr 95120A592](https://www.mcmaster.com/95120A592/)
+
+<img width="900" alt="Nut" src="SCREENSHOT_URL" />
+
+[Flange nut model]
+
 #### Frame (parts downloaded):
+
+[Parco E40-4001-C](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/)
+
+<img width="900" alt="Frame" src="SCREENSHOT_URL" />
+
+[T-slot frame model]
+
+#### Assembly:
+
+<img width="900" alt="Assembly" src="SCREENSHOT_URL" />
+
+[Full assembly]
 
 
 ### 2157 Addition: Use Finite Element Analysis (FEA) on the crosshead (20 pts): Ryan
 
-#### Model Setup: 
+#### Model Setup:
+
+- Material: 1060-H12 aluminum
+- Fixtures: lead screw holes
+- Load: 2 kN at center of crosshead
+
+<img width="1110" height="701" alt="Screenshot 2026-11-12 011127" src="https://github.com/user-attachments/assets/a8624988-8543-4a5f-ba14-c663a1d1c4b3" />
+
+
+[Fixtures and load]
 
 #### Meshing & Verification:
 
+<img width="900" alt="Mesh" src="SCREENSHOT_URL" />
+
+[Mesh]
+
 #### Results to Report:
+
+<img width="1300" height="817" alt="Screenshot 2026-11-12 011229" src="https://github.com/user-attachments/assets/b3696b8f-6e0e-4d56-a94a-6fdd232a4966" />
+
+
+<img width="1070" height="633" alt="Screenshot 2026-11-12 011409" src="https://github.com/user-attachments/assets/75e0dcf6-108b-4a79-b2a9-23a43cd35b3e" />
+
+
+| Result | FEA Value | Requirement | Pass? |
+| :--- | :-: | :-: | :-: |
+| Max von Mises stress | 2,398 psi | ≤ 2,720 psi (Sy / 4) | ✅ |
+| Factor of safety | 4.54 (10,880 / 2,398) | ≥ 4 | ✅ |
+| Max displacement | 0.000344 in (0.0087 mm) | ≤ 0.1 mm | ✅ |
+
+The maximum stress (2,398 psi) occurs at the edges of the lead screw holes, where the crosshead is fixed. This is a stress concentration caused by the rigid fixture. Away from the holes, most of the crosshead stays below about 700 psi. The yield strength of 1060-H12 in SolidWorks is 10,880 psi, giving a minimum factor of safety of 4.54, which meets the required 4.
+
+The maximum displacement (0.000344 in, or 0.0087 mm) occurs at the center of the crosshead under the load. This is less than 9% of the 0.1 mm limit. The deformed shape in the plots is exaggerated by SolidWorks so the bending can be seen.
+
+**Comparison to hand calculations:** The FEA deflection is lower than the simply supported hand calculation (0.0016 in) because Fixed Geometry clamps the holes, which behaves like a beam fixed at both ends. A fixed-fixed beam with a center load deflects PL³/(192EI) = 0.0004 in, which closely matches the FEA result of 0.00034 in.
 
 #### Optimization Pass:
 
+____
+
+<img width="900" alt="Optimized" src="SCREENSHOT_URL" />
+
+[Optimized crosshead]
+
+
 ### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Ryan
-Produce a multi-view CAD drawing of the crosshead with complete dimensioning and proper tolerancing.
+
+<img width="900" alt="Drawing" src="SCREENSHOT_URL" />
+
+[Crosshead drawing]
 
 
 ## Decide
