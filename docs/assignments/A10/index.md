@@ -211,7 +211,10 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 [Parco E40-4001-C](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/)
 
-SS
+
+<img width="497" height="811" alt="image" src="https://github.com/user-attachments/assets/bd544d8f-45f4-4d65-868b-44548f964cdc" />
+
+<img width="725" height="758" alt="image" src="https://github.com/user-attachments/assets/ab66250d-506e-4da5-b7a1-ae4cfc4a5822" />
 
 [T-slot frame model]
 
