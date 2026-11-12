@@ -213,7 +213,7 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 <img width="497" height="811" alt="image" src="https://github.com/user-attachments/assets/bd544d8f-45f4-4d65-868b-44548f964cdc" />
 
-<img width="757" height="882" alt="image" src="https://github.com/user-attachments/assets/93d051d5-290e-48a4-9a13-8dd678783324" />
+<img width="757" height="1039" alt="image" src="https://github.com/user-attachments/assets/ae2eb180-6dee-4d54-bc57-a1592559bed1" />
 
 [T-slot frame model]
 
