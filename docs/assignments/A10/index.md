@@ -134,7 +134,7 @@ Although the overall length of the crosshead is 11in (updated from the initial l
 
 #### Crosshead final dimensions: 11in long, 1.25in x 1.25in cross section
 
-Based on an assumed base dimension of 1.25in, our crosshead needs to have a height of 1.091in to resist the stress created by the applied loads. However, since this height is not limited by our design constraints, using a 11in long, 1.25in x 1.25in piece of aluminum bar stock will simplify any further calculations, and ensure that sourcing components will be a simple process.
+Based on an assumed base dimension of 1.25in, our crosshead needs to have a height of 1.091in to resist the stress created by the applied loads. However, since this height is not limited by our design constraints, using a 11in long, 1.25in x 1.25in piece of aluminum bar stock will simplify any further calculations and ensure that sourcing components will be a simple process.
 
 
 #### Generate a multiview paper sketch of the crosshead. 
@@ -151,7 +151,7 @@ For this multiview sketch, the overhanging portions of the crosshead that mate w
 
 Selected: 40 SERIES, 40mm x 40mm Mono Slot T Slot Aluminum Framing Extrusion
 
-The T-slot frame column we selected to design our crosshead around was an E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the T-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accessed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, a length of 24" should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
+The T-slot frame column we selected to design our crosshead around was an E40-4001-C – 40mm x 40mm MONO SLOT ALUMINUM EXTRUSION from parco-inc. We couldn't find the full technical drawings of the T-slot framing available at Grainger, so we chose a different supplier. The T-frame can be accessed at this [link](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/). For our theoretical design and cost table, 2 rails, with lengths of 11in and 30in should be adequate. If the overall design changes, we can easily alter both our frame design and our cost table.
 
 
 ### Tabulating Costs (10 pts): Misha
