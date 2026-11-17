@@ -221,6 +221,7 @@ The hand calculations were entered as global variables in the SolidWorks Equatio
 
 [Full assembly]
 
+The area of the frame directly beneath the lead screws was intentionally left empty in the assembly. This space is reserved for the drive motors, which will be mounted below each lead screw in our final design.
 
 ### 2157 Addition: Use Finite Element Analysis (FEA) on the crosshead (20 pts): Ryan
 
@@ -238,6 +239,9 @@ Decided to add a puck similar to the load device onto the bottom of the crosshea
 
 #### Meshing & Verification:
 
+Applying the full 2 kN load at a single point or along a single edge of the crosshead would create an unrealistic stress concentration, since a point load acts over an area of essentially zero and the solver would report artificially high stresses directly under it. In reality, the load is transferred into the crosshead through the face of the grip/load device, which spreads the force over a finite contact area.
+
+To capture this more accurately, I estimated the size of the feature that would be in contact with the crosshead, based on the footprint of a typical tensile grip mount, and modeled the puck at that size. The 2 kN load is then applied through the puck, so it acts on the crosshead as a pressure distributed over the estimated contact area rather than as a concentrated force. This gives a more realistic stress distribution at the center of the crosshead and keeps the peak stresses in the results tied to actual geometric features (the lead screw holes) instead of to the load application point.
 ##### Mesh 1 – Coarse (2,804 elements)
 
 <img width="1257" height="820" alt="Screenshot 2026-11-12 062342" src="https://github.com/user-attachments/assets/b5c5d384-4b6e-44b0-91b5-1962c2d88dcd" />
