@@ -343,7 +343,7 @@ The pocket cut mass by 7.9% (1.58 lb → 1.46 lb). Hole stress rose about 5% and
 
 ### 2157 Addition: Create a detailed drawing of the crosshead with a proper title block (20 pts): Ryan
 
-SS
+<img width="997" height="768" alt="image" src="https://github.com/user-attachments/assets/5a562f62-8f2d-47de-abe1-23c0708e54a4" />
 
 [Crosshead drawing]
 
@@ -364,4 +364,7 @@ To maximize efficiency and sanity, it is important to consider components that a
 
 Time Spent
 Misha: 10 hours
-Ryan:
+Ryan: 6 Hours
+
+## Apendix
+[A10 CAD Folder](https://drive.google.com/drive/folders/1nBWY8t1kYcQthW3WGljc9gPIUMdEUClD?usp=sharing).
