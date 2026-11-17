@@ -6,9 +6,9 @@ Part 2 Scope of Work:
 Select a Motor
 Design Motor Mounts
 Select or design a coupler
-Design a Frame to support a crosshead stability and tensile load
+Design a Frame to support crosshead stability and tensile load
 Select or design a Clamp Analysis and Design
-Provide complete CAD model of the engineered parts of the Tensile Tester
+Provide a complete CAD model of the engineered parts of the Tensile Tester
 Deliver a Bill of Materials and Engineering Cost
 
 ## Analyze:
@@ -19,9 +19,9 @@ Deliver a Bill of Materials and Engineering Cost
 (10pts) Use torque and speed requirements derived from the lead screw design to select an appropriate motor (DC, stepper, or gearmotor). Document all relevant motor parameters: rated torque, speed, efficiency, voltage/current, and mounting interface. Verify that:
 
 - The motor provides sufficient output torque to achieve the maximum 2 kN load across the entire speed range (1–50 mm/min).
-- Provide a speed torque curve showing the selected motor.
+- Provide a speed-torque curve showing the selected motor.
 
-(10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four hole pattern to secure the mount to the top of the frame.  The mount must: a. ) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b. Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection.
+(10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four-hole pattern to secure the mount to the top of the frame.  The mount must: a. ) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b. Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection.
 
 - List all the knowns and unknowns.
 - Detail a FBD for the bearing stress.
@@ -31,7 +31,7 @@ Deliver a Bill of Materials and Engineering Cost
 (10pts) Select/design a coupler to connect. Use shear stress torsion analysis to determine the inner and outer diameter of the coupler.
 
 - List all the knowns and unknowns.
-- Detail a FBD for the torsional stress
+- Detail an FBD for the torsional stress
 - Model the equations to solve for thickness.
 - Numerically solve for the thickness.
 
@@ -42,13 +42,13 @@ Deliver a Bill of Materials and Engineering Cost
 - List all the knowns and unknowns.
 - Detail a FBD for the top of the frame
 - Symbolically represent the forces required to stabilize the top of the frame at the ends.
-- Using the appropriate stress analysis select the proper mounting from the top to the vertical frame.
+- Using the appropriate stress analysis, select the proper mounting from the top to the vertical frame.
 
-(20 pts) Verify the top of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads.
+(20 pts) Verify that the top of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads.
 
-- Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents two the 1 kN axial tension path through the leadscrew and the two moments applied from the motor.
+- Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents two of the 1 kN axial tension paths through the leadscrew and the two moments applied from the motor.
   
-- Meshing & Verification: Use a solid mesh with local refinement at stress raisers. Perform a mesh convergence check and report key metrics.
+- Meshing & Verification: Use a solid mesh with local refinement at stress risers. Perform a mesh convergence check and report key metrics.
   
 - Results to Report:
   - Maximum von Mises stress and location.
@@ -77,16 +77,16 @@ Deliver a Bill of Materials and Engineering Cost
 
 ### Design Floating Bearing Mount
 
-(10pts) Design a mounting bearing which allows the end of the leadscrew to rotate using a RC3 Fit class and affix to the bottom of the frame. Clearance holes for bolts must be researched in the Machinery’s Handbook.
+(10pts) Design a mounting bearing that allows the end of the leadscrew to rotate using an RC3 Fit class and affix to the bottom of the frame. Clearance holes for bolts must be researched in the Machinery’s Handbook.
 Justify each size and location dimension of the mount.
 Note the functional tolerances for the appropriate dimensions.
 
 ### Bill of Materials and Labor Costs
 
-(10pt) Tabulate all the costs associated with both assignment parts. Use the following template to show the associated costs. You are to use an entry level mechanical engineering designer cost per hour of $35/hour.
+(10pt) Tabulate all the costs associated with both assignment parts. Use the following template to show the associated costs. You are to use an entry-level mechanical engineering designer cost per hour of $35/hour.
 
 ## Decide: 
 
-Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?
 
 ## Communicate:
