@@ -21,6 +21,8 @@ Deliver a Bill of Materials and Engineering Cost
 - The motor provides sufficient output torque to achieve the maximum 2 kN load across the entire speed range (1–50 mm/min).
 - Provide a speed-torque curve showing the selected motor.
 
+
+
 (10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four-hole pattern to secure the mount to the top of the frame.  The mount must: a. ) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b. Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection.
 
 - List all the knowns and unknowns.
@@ -85,7 +87,10 @@ Note the functional tolerances for the appropriate dimensions.
 
 (10pt) Tabulate all the costs associated with both assignment parts. Use the following template to show the associated costs. You are to use an entry-level mechanical engineering designer cost per hour of $35/hour.
 
+
 ## Decide: 
+
+We chose a stepper motor for our tensile tester because it can measure strain when connected to a microcontroller, allowing us to use Hooke's Law to determine the test material's modulus of elasticity.
 
 Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?
 
