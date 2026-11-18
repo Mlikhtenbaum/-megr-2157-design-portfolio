@@ -25,6 +25,8 @@ A useful source for understanding how T-slot rail hardware functions can be foun
 
 Based on the following hand calculations, the "Stepper Motor with Square Body, NEMA 23, 173.5 in.-oz. Maximum Holding Torque (SN: 6627T53)" from McMaster-Carr can provide an adequate amount of torque (when assuming an ACME lead screw efficiency of 30%) to create 1KN of force per lead screw. The motor specifications can be accessed at this [link](https://www.mcmaster.com/6627T53/)
 
+[Hand calculations for torque conversion and thread efficiency]
+
 <img width="627" height="477" alt="Stepper Motor Image" src="https://github.com/user-attachments/assets/63db5a08-6417-4a33-9222-4a95cd20463f" />
 [Chosen stepper motor]
 
@@ -35,9 +37,11 @@ Based on the following hand calculations, the "Stepper Motor with Square Body, N
 [Chosen stepper motor speed-torque curve]
 
 
+(10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four-hole pattern to secure the mount to the top of the frame. The mount must: a.) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b.) Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection.
 
+The T-slot nuts we will use to couple the motor mount to the T-slot rails can be found [here](https://8020.net/40-3203.html).
 
-(10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four-hole pattern to secure the mount to the top of the frame.  The mount must: a. ) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b. Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection.
+An important consideration to take into account during this phase of the design was ensuring that the motor mounting bracket and the load cell have enough clearance to fit within the constraints of our current frame setup. This check is detailed in the calculation: ((.5125 * 2) + 2.25) + 2.4, which adds up to 5.675in (which is less than 6in), meaning that the current motor mount design will work with our current frame spacing.
 
 - List all the knowns and unknowns.
 - Detail a FBD for the bearing stress.
