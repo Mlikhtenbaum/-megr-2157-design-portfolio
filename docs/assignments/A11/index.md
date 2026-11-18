@@ -122,7 +122,7 @@ After conducting our calculations, a minimum thickness of .0054 in was determine
 
 ### 2157 Addition:
 
-(30pts) Create a drawing package which includes detailed drawings of the designed components, an assembly isometric drawing, and a Bill of Materials (BOM). Note: include the crosshead drawing from the previous assignment.
+(30pts) Create a drawing package that includes detailed drawings of the designed components, an assembly isometric drawing, and a Bill of Materials (BOM). Note: include the crosshead drawing from the previous assignment. *Ryan and Misha*
 
 - Each drawing has its proper title block.
 - Apply ASME Y14.5 standards for dimensioning and tolerancing.
