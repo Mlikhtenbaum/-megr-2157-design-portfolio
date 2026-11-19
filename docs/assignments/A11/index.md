@@ -113,6 +113,7 @@ After the aforementioned calculations were conducted, it was determined that eac
 [Hand calculations for bottom tensile tester rail and joint connectors]
 
 
+
 (20 pts) Verify that the top of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. *Ryan*
 
 - Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents two of the 1 kN axial tension paths through the leadscrew and the two moments applied from the motor.
