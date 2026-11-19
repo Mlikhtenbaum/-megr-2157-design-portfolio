@@ -249,7 +249,7 @@ Drawings:
 <img width="1468" height="1138" alt="image" src="https://github.com/user-attachments/assets/991665ec-8cad-4b50-87ba-6b470907f3bb" />
 [Flange/floating bearing mount drawing]
 
-<img width="1387" height="1072" alt="Motor Mount Drawing" src="https://github.com/user-attachments/assets/aa3ce677-2f58-4d5d-8ae2-76c8029229f7" />
+<img width="1384" height="1068" alt="image" src="https://github.com/user-attachments/assets/15278620-4c1f-46d9-86ec-cd4ef8c92ba2" />
 [Motor mount drawing]
 
 
