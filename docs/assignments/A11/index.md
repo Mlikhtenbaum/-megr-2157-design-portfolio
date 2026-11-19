@@ -33,12 +33,15 @@ Based on the following hand calculations, the "Stepper Motor with Square Body, N
 [Hand calculations for torque conversion and thread efficiency]
 
 <img width="627" height="477" alt="Stepper Motor Image" src="https://github.com/user-attachments/assets/63db5a08-6417-4a33-9222-4a95cd20463f" />
+
 [Chosen stepper motor]
 
 <img width="627" height="477" alt="Stepper Motor Drawing" src="https://github.com/user-attachments/assets/babe5154-d9ac-41ea-a854-e51e1fc14f1b" />
+
 [Chosen stepper motor drawing]
 
 <img width="1007" height="758" alt="Stepper Motor Speed Torque Curve" src="https://github.com/user-attachments/assets/178c7923-04f0-4e7b-b0d0-47e95ade5858" />
+
 [Chosen stepper motor speed-torque curve]
 
 
@@ -77,9 +80,10 @@ ASTM A36 Steel was the material used to create the coupler. This is due to its h
 Applicable coupler grub screws (Black-Oxide Alloy Steel Cone-Tip Set Screw 5-40 Thread Size, 3/16" Long) can be found [here](https://www.mcmaster.com/92695A126/)
 
 <img width="150" height="211" alt="Grub Screw Example" src="https://github.com/user-attachments/assets/db25e66f-4654-49c3-aa1d-809d6e46048c" />
+
 [1/8 x 3/16 (5-40 thread size) grub screw example (sourced from [this](https://www.ebay.co.uk/itm/187812375772) page]
 
-<img width="2187" height="3125" alt="Coupler OD" src="https://github.com/user-attachments/assets/577061f1-a4f8-4794-b9dc-37b08c97b22c" />
+<img width="2187" height="3125" alt="Coupler OD" src="https://github.com/user-attachments/assets/d14664f8-6d11-4e79-bc61-6c6d943d4cb1" />
 [Hand calculations for outer diameter/coupler thickness]
 
 
