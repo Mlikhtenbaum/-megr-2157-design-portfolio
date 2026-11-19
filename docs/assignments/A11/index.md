@@ -188,7 +188,7 @@ Following the pressure and velocity analysis, the thrust element of the flange b
 
 (10pt) Tabulate all the costs associated with both assignment parts. Use the following template to show the associated costs. You are to use an entry-level mechanical engineering designer cost per hour of $35/hour. *Misha*
 
-A10 (Initial Design BOM and Labor Costs)
+A10 (Initial Design BOM and Labor Costs):
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
 | :---: | :---: | :--- | :---: | :---: | :--- |
@@ -198,9 +198,10 @@ A10 (Initial Design BOM and Labor Costs)
 | 4 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | \$111.78 | \$223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
 | — | — | **Total Cost** | — | **\$411.92** | — |
 
-A11 (Comprehensive Design BOM and Labor Costs) *As per last assignment's instructions, designed parts are not priced, neither in terms of raw material nor in machining time*
 
-Bought parts
+A11 (Comprehensive Design BOM and Labor Costs) *As per last assignment's instructions, designed parts are not priced, neither in terms of raw material nor in machining time*:
+
+Bought parts:
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
 | :---: | :---: | :--- | :---: | :---: | :--- |
@@ -216,7 +217,7 @@ Bought parts
 | 10 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | \$111.78 | \$223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
 | — | — | **Total Cost** | — | **\$811.90** | — |
 
-Design cost
+Design cost:
 
 | Person | Phase | Hours Worked | Cost / Hour | Cost |
 | :--- | :---: | :---: | :---: | :---: |
