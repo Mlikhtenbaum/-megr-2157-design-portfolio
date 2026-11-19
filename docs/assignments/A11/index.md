@@ -65,16 +65,32 @@ After conducting our calculations, a minimum thickness of .0054 in was determine
 - Model the equations to solve for thickness.
 - Numerically solve for the thickness.
 
+ASTM A36 Steel was the material used to create the coupler. This is due to its high strength, which allows the component to be compact while experiencing minimal deformation. After hand calculations were conducted, a minimum outer diameter of .3944 in was determined for the coupler. This would result in a minute wall thickness of .0097 in, so a stock bar of 3/4 in ASTM A36 Steel, with a length of 1.5 in, will be more than sufficient for our design. This thickness will also allow us to use fairly substantial 1/8 x 3/16 in grub screws to ensure that the coupler will not slip on the motor or the lead screw.
+
+<img width="150" height="211" alt="Grub Screw Example" src="https://github.com/user-attachments/assets/db25e66f-4654-49c3-aa1d-809d6e46048c" />
+[1/8 x 3/16 in grub screw example (sourced from [this](https://www.ebay.co.uk/itm/187812375772) page]
+
+<img width="2187" height="3125" alt="Coupler OD" src="https://github.com/user-attachments/assets/577061f1-a4f8-4794-b9dc-37b08c97b22c" />
+[Hand calculations for outer diameter/coupler thickness]
 
 
 ### Analyze and design a Frame
 
-(10pts) Analyze the affected twist by the motors to design a bracket to affix the vertical standoffs of the frame to the top of the frame. Select proper Connectors for T-Slot Framing using the resources. *Misha*
+(10pts) Analyze the applied twist by the motors to design a bracket to affix the vertical standoffs of the frame to the top of the frame. Select proper Connectors for T-Slot Framing using the resources. *Misha*
 
 - List all the knowns and unknowns.
-- Detail a FBD for the top of the frame
+- Detail an FBD for the top of the frame
 - Symbolically represent the forces required to stabilize the top of the frame at the ends.
 - Using the appropriate stress analysis, select the proper mounting from the top to the vertical frame.
+
+An important point of our design is that our motors are mounted on the bottom portion of our tester, rather than the top, which means that they don't have to output the extra torque required to lift their own weight. Therefore, for this section of the project, we will be analyzing the necessary brackets to affix the vertical standoffs to the BOTTOM of the frame.
+
+Another important note for this portion of the project is that we will have to change the type of T-slot rails that we use. For visual cleanliness on our base tensile tester design, we used T-slot rails that only had one "T-slot" on one side. This means that they cannot be used with plate connectors and will have to be switched out for regular, 4-sided T-slot rails.
+
+Plate connectors are our T-slot rail connectors of choice, as they allow us to minimize the horizontal length of our tensile tester design, which provides 2 key advantages. Firstly, a shorter beam length lessens the amount of deflection caused by the application of a moment. Secondly, it minimizes the desk space required by the tester. We will use the same connectors all around our design to keep it uniform visually.
+
+
+
 
 (20 pts) Verify that the top of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. *Ryan*
 
