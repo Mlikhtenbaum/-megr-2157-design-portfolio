@@ -181,11 +181,6 @@ Following the pressure and velocity analysis, the thrust element of the flange b
 [Flange bearing hand drawing]
 
 
-
-
-
-
-
 ### Bill of Materials and Labor Costs:
 
 
@@ -267,3 +262,5 @@ As mentioned in the "Analyze the applied twist" subsection of the "Analyze and d
 ## Communicate:
 
 Misha: This project took me about 7 hours. One important lesson I learned was the importance of using accurate simplifications for stress and deflection calculations, as making lazy assumptions that oversimplify the actual physics behind a design can be disastrous, leading to wasted time and numerous design iterations. However, it is vital to know when a simplification is valid, since it can make a design more comprehensible and aid in the ease of calculations.
+
+SolidWorks file downloads [here](https://drive.google.com/drive/folders/1IhMKdD6ZhvOsRu4-RQheC9PkQh70olW9?usp=sharing)
