@@ -364,7 +364,7 @@ Drawings:
 <img width="997" height="768" alt="crosshead drawing" src="https://github.com/user-attachments/assets/2895315b-755a-4dbf-82f2-52be338dd307" />
 [Crosshead drawing]  
 
-<img width="1610" height="947" alt="A11FULL_ASSEMD" src="https://github.com/user-attachments/assets/1f0357df-ab3d-49c1-a5ae-83a47c985e2a" />
+<img width="621" height="801" alt="Screenshot 2026-11-19 075714" src="https://github.com/user-attachments/assets/99d83e12-bbf5-456b-898c-60b31b0326f4" />
 
 [Assembly drawing]
 
