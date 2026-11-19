@@ -101,7 +101,7 @@ An important point of our design is that our motors are mounted on the bottom po
 
 Another important note for this portion of the project is that we will have to change the type of T-slot rails that we use. For visual cleanliness on our base tensile tester design, we used T-slot rails that only had one "T-slot" on one side. This means that they cannot be used with plate connectors and will have to be switched out for regular, 4-sided T-slot rails.
 
-Plate connectors are our T-slot rail connectors of choice, as they allow us to minimize the horizontal length of our tensile tester design, which provides 2 key advantages. Firstly, a shorter beam length lessens the amount of deflection caused by the application of a moment. Secondly, it minimizes the desk space required by the tester. We will use the same connectors all around our design to keep it visually uniform.
+Plate connectors are our T-slot rail connectors of choice, as they allow us to minimize the horizontal length of our tensile tester design, which provides 2 key advantages. Firstly, a shorter beam length lessens the amount of deflection caused by the application of a moment. Secondly, it minimizes the desk space required by the tester. We will use the same connectors throughout our design to keep it visually uniform.
 
 The following hand calculations detail two problem-solving processes. Firstly, the bottom of the frame is modelled as a fixed-fixed beam to determine the values of its reaction moments. Secondly, each joint (where the L-plate connector juts out from the vertical column rail) is modelled as a cantilever beam that undergoes the applied moment that was determined in the previous calculation. The magnitude of the moment is halved in this calculation to account for there being a connector on both sides of the bottom beam. A maximum deflection of .002 in is assumed to be adequate.
 
@@ -111,6 +111,7 @@ After the aforementioned calculations were conducted, it was determined that eac
 
 <img width="2335" height="3207" alt="L Connector calc" src="https://github.com/user-attachments/assets/ab216209-a1de-4422-a28c-c451ac15d680" />
 [Hand calculations for bottom tensile tester rail and joint connectors]
+
 
 
 
