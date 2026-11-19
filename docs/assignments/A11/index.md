@@ -252,6 +252,9 @@ Drawings:
 <img width="1384" height="1068" alt="image" src="https://github.com/user-attachments/assets/15278620-4c1f-46d9-86ec-cd4ef8c92ba2" />
 [Motor mount drawing]
 
+<img width="997" height="768" alt="crosshead drawing" src="https://github.com/user-attachments/assets/2895315b-755a-4dbf-82f2-52be338dd307" />
+[Crosshead drawing]
+
 
 ## Decide: 
 
