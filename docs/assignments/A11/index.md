@@ -150,12 +150,30 @@ After the aforementioned calculations were conducted, it was determined that eac
 - Justify each size and location dimension of the mount.
 - Note the functional tolerances for the appropriate dimensions.
 
-Just like for our "Select/design a coupler to connect" subsection, our design is flipped when compared to that outlined in the base design of the tensile tester, meaning that our mounting bearing will be mounted on the top section of our frame. The base geometry of our floating bearing mount will be similar to that of our motor mount, as they both perform similar functions. A relatively tall journal bearing will interface with the end threads of the lead screws to more evenly distribute the pressure and velocity output from the screw rotation.
+Just like for our "Select/design a coupler to connect" subsection, our design is flipped when compared to that outlined in the base design of the tensile tester, meaning that our mounting bearing(s) will be mounted on the top section of our frame. The base geometry of our floating bearing mount will be similar to that of our motor mount, as they both perform similar functions. A relatively tall journal bearing will interface with the end threads of the lead screws to more evenly distribute the pressure and velocity output from the screw rotation.
 
-An important note for this section is that I (Misha) initially planned to use a flanged journal/thrust bearing to withstand the forces output by the lead screw. However, while consulting Google Gemini in an attempt to understand how the interface between the lead screws in our tensile tester design and the thrust bearings would function, I was met with an important piece of information. Gemini detailed an important consideration that changed our design plans - "Many thin flanged bushings (like standard sintered bronze or PTFE-lined sleeves) are great for light axial location and radial alignment, but their thin flange can wear or dish under sustained $225\text{ lbf}$ ($1\text{ kN}$) axial tension while turning." This made a lot of sense, so to develop a realistic design, we decided to use separate thrust and journal bearings.
+An important note for this section is that I (Misha) initially misread the instructions for this portion of the project and thought that I was to select pre-made products from a catalogue to fulfill our design requirements. After realizing my error, I decided that our design would employ a flange-style bearing, as that would best fit our design needs.
 
-The following hand calculations were used to determine the necessary dimensions of the thrust bearing. In theory, there are no radially applied loads on the journal bearing, so engineering reasoning has been used to choose one proportionally sized to the floating bearing mount and the thrust bearing. As another side note, in reality, a set of nuts would have to be locked together, or a collar clamp would have to be mounted on the lead screw to create a shoulder for the thrust bearing to interface with.
+The following hand calculations determined the required dimensions of the thrust portion of the flange bearing. In theory, there are no radially applied loads on the journal portion of the bearing, so engineering reasoning has been used to keep the bearing dimensions proportional. As another side note, in reality, a set of nuts would have to be locked together, or a collar clamp would have to be mounted on the lead screw to create a shoulder for the thrust bearing to interface with. An outer diameter of 3/4 in was initially estimated for the thrust portion of the flange bearing, but that measurement resulted in a pressure safety factor of 2.94 (while we are aiming for 4.0). Therefore, the outer diameter was bumped up to 7/8 in, which better distributes the applied stress and gives us a resultant safety factor right over 4.0.
 
+Following the pressure and velocity analysis, the thrust element of the flange bearing is specified as SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and a 7/8 in (0.875 in) outer diameter (+0.0011/+0.0007 in). It has a thickness of 1/8 in)
+
+Following the pressure and velocity analysis, the journal portion of the flange bearing is specified in SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and an outer diameter of 5/8 in (+0.0009/+0.0006 in).
+
+<img width="2366" height="3271" alt="Axial force calc" src="https://github.com/user-attachments/assets/f6ad7ec3-2a99-4038-a521-724342e1f463" />
+[Axial force calculations for thrust element design]
+
+<img width="1589" height="1059" alt="Rc3 for bearing mount" src="https://github.com/user-attachments/assets/1c180be5-aad1-40fc-915e-12c5c9c0a5e2" />
+[RC3 fit class used for 3/8 in lead screw hole]
+
+<img width="1273" height="718" alt="FN1 for bearing mount" src="https://github.com/user-attachments/assets/fe3e8608-d95d-455e-91e4-a30fb6d59a4d" />
+[FN1 fit class used for flange bearing dimensions]
+
+<img width="1823" height="2707" alt="Floating bearing mount drawing" src="https://github.com/user-attachments/assets/34fef2ea-1b0d-4a0b-85f8-40acb4aa0d70" />
+[Floating bearing mount hand drawing]
+
+<img width="2426" height="1525" alt="Flange bearing drawing" src="https://github.com/user-attachments/assets/a8675028-d8ad-4e0a-b040-896ff57f050c" />
+[Flange bearing hand drawing]
 
 
 
