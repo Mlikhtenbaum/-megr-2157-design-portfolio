@@ -110,29 +110,80 @@ After the aforementioned calculations were conducted, it was determined that eac
 80-20 40-4481 40 Series 5 Hole - “L” Flat Plate connectors are viable for use in our design and can be accessed through [this](https://8020.net/40-4481.html) link. Grainger did not have L-shaped plate connectors available; all of theirs were flanged, which would require us to lengthen the horizontal footprint of our design.
 
 <img width="2335" height="3207" alt="L Connector calc" src="https://github.com/user-attachments/assets/ab216209-a1de-4422-a28c-c451ac15d680" />
-[Hand calculations for bottom tensile tester rail and joint connectors]
-
+[Hand calculations for bottom tensile tester rail and joint connectors]   
 
 
 
 (20 pts) Verify that the top of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. *Ryan*
 
-- Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents two of the 1 kN axial tension paths through the leadscrew and the two moments applied from the motor.
-  
-- Meshing & Verification: Use a solid mesh with local refinement at stress risers. Perform a mesh convergence check and report key metrics.
-  
-- Results to Report:
-  - Maximum von Mises stress and location.
-  - Maximum vertical deflection at the grip line.
-  - Factor of Safety (based on chosen material yield).
-  - Brief discussion of load path and any observed twisting/warping tendencies.
-    
-- Optimization Pass:
-  - Propose targeted changes (e.g., pocketing, ribbing, thicker flange pads, larger fillets).
-  - Any shift in critical locations.
+**Model Setup:**
 
+Because our motors are mounted on the bottom of the tester, the top rail carries the two floating flange bearings rather than the motors. Each bearing passes its lead screw's 1 kN (224.8 lbf) axial tension into the top rail. To stay conservative and satisfy the required load case, the full motor reaction torque was also applied at each bearing mount. 
 
-(20 pts) Verify that the vertical components of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. Note: there should be two forces, one axial compression and one transverse load. *Ryan*
+The torque per lead screw is T = F·L / (2πη) = (224.8 lbf)(0.0833 in) / (2π · 0.30) ≈ 9.94 lbf·in (1.12 N·m), using the 3/8"-12 ACME lead screw at 30% efficiency. The motor's maximum holding torque of 173.5 oz·in (10.84 lbf·in, 1.23 N·m) was applied instead as an upper bound.
+
+| Item | Value |
+| :--- | :--- |
+| Geometry | E40-4040 rail, 11" long, with L-plate connectors (40-4481) and flange bearing mounts |
+| Material | 6061-T6 aluminum (E = 10,000 ksi / 68.9 GPa, ν = 0.33, Sy = 39.9 ksi / 275 MPa) |
+| Fixtures | Fixed geometry on both rail end faces (connector interfaces), matching the fixed-fixed hand calculation model |
+| Contacts | Global bonded (bolt preload not modeled) |
+| Load 1 | 1,000 N (224.8 lbf) per bearing mount face, axial along lead screw (×2) |
+| Load 2 | 1.23 N·m (10.84 lbf·in) torque per bearing mount about the lead screw axis (×2) |
+| Mesh controls | Blended curvature-based mesh, which automatically refines at the T-slots, bolt holes, and plate edges (min element size = 1/20 of max) |
+
+**Meshing & Verification:**
+
+| Mesh | Element Size (global / local) | # Elements | # Nodes | Max von Mises (psi) | Max Vertical Deflection at Grip Line (in) | % Change (Stress / Deflection) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Standard | 0.537 / 0.0268 | 668,670 | 996,164 | 2,420 | 7.44e-4 | — |
+| Fine | 0.268 / 0.0134 | 751,302 | 1,112,171 | 2,313 | 7.43e-4 | -4.4% / -0.1% |
+
+Both meshes used the blended curvature-based mesher at high quality (16 Jacobian points). Halving the element size changed the maximum von Mises stress by 4.4% and the maximum deflection by 0.1%, both below the 5% convergence criterion, so the Fine mesh results are reported. Because the peak stress decreased with refinement rather than climbing, it is not a stress singularity.
+
+**Results:**
+
+| Result | Value | Location |
+| :--- | :---: | :--- |
+| Maximum von Mises stress | 2,313 psi (15.9 MPa) | Rail face at the edge of the bearing mount plate |
+| Maximum vertical deflection at grip line | 7.43e-4 in (0.0189 mm) | Rail midspan, specimen centerline |
+| Minimum Factor of Safety (Sy / σmax) | 17.2 | Rail face at the edge of the bearing mount plate |
+
+**Standard Mesh Results:**
+
+<img width="822" height="870" alt="Screenshot 2026-11-19 043827" src="https://github.com/user-attachments/assets/dbf7ebef-a8d7-4195-8bc6-0d4c9df8c35d" />
+
+[Top rail von Mises stress plot, Standard mesh]
+
+<img width="980" height="841" alt="Screenshot 2026-11-19 043845" src="https://github.com/user-attachments/assets/2b442f9d-65b0-4196-9abd-e6f43647528f" />
+
+[Top rail resultant displacement (URES) plot, Standard mesh]
+
+<img width="882" height="880" alt="Screenshot 2026-11-19 044046" src="https://github.com/user-attachments/assets/7a332bc9-0e06-454e-bad2-63c4352d2f55" />
+
+[Top rail Factor of Safety plot, Standard mesh]
+
+**Fine Mesh Results:**
+
+<img width="816" height="857" alt="Screenshot 2026-11-19 044332" src="https://github.com/user-attachments/assets/c7925912-1b22-4c03-9f3f-d8f45af281b9" />
+
+[Top rail von Mises stress plot, Fine mesh]
+
+<img width="991" height="870" alt="Screenshot 2026-11-19 044345" src="https://github.com/user-attachments/assets/cc17cc3d-a33b-431b-a09b-c36d97fce1f7" />
+
+[Top rail resultant displacement (URES) plot, Fine mesh]
+
+<img width="841" height="862" alt="Screenshot 2026-11-19 044359" src="https://github.com/user-attachments/assets/b5fab2dd-6af4-4af0-9354-2641fb373fd0" />
+[Top rail Factor of Safety plot, Fine mesh]
+
+**Load Path and Twisting/Warping:**
+
+The 2 kN specimen load travels from the crosshead nuts into our two lead screws, which are held in tension by the floating flange bearings on the top rail. Each bearing pulls down on the rail, bending it between the L-plate connectors, which then pass the load into the vertical rails as axial compression. The deformed shape matches the fixed-fixed model from our hand calculations, with the maximum deflection at midspan (the grip line) and the highest stresses at the edges of the bearing mount plates, where the stiff plates hand the load off to the rail. Some slight warping of the T-slot lips is visible next to the plates, but no significant twisting was observed, since the 10.84 lbf·in motor torques are small compared to the bending from the axial loads.
+
+**Optimization Pass:**
+Our top rail is already plenty strong FOS of 17.2, so we don need to make it stronger. The highest stress is at the sharp edges of the bearing mount plates. Rounding off those edges with a fillet would spread the load out more smoothly and lower that stress. After this change, the highest stress would most likely move to the ends of the rail where it connects to the frame.
+
+(20 pts) Verify that the vertical components of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. Note: There should be two forces, one axial compression and one transverse load. *Ryan*
 
 - Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents the two loads.
   
