@@ -262,7 +262,7 @@ Drawings:
 
 We chose a stepper motor for our tensile tester because it can measure strain when connected to a microcontroller, allowing us to use Hooke's Law to determine the test material's modulus of elasticity.
 
-As mentioned in the "Analyze the applied twist" subsection of the "Analyze and design a Frame " section, we chose to mount our motors on the bottom portion of our tensile tester, which reduces the torque output required to create the necessary tensile force, and lessens the buckling forces acting on our frame.
+As mentioned in the "Analyze the applied twist" subsection of the "Analyze and design a Frame" section, we chose to mount our motors on the bottom portion of our tensile tester, which reduces the torque output required to create the necessary tensile force, and lessens the buckling forces acting on our frame.
 
 
 ## Communicate:
