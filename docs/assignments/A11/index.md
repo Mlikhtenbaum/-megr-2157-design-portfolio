@@ -86,7 +86,6 @@ Applicable coupler grub screws (Black-Oxide Alloy Steel Cone-Tip Set Screw 5-40 
 <img width="2187" height="3125" alt="Coupler OD" src="https://github.com/user-attachments/assets/d14664f8-6d11-4e79-bc61-6c6d943d4cb1" />
 [Hand calculations for outer diameter/coupler thickness]
 
-
 ### Analyze and design a Frame:
 
 
@@ -110,7 +109,13 @@ After the aforementioned calculations were conducted, it was determined that eac
 80-20 40-4481 40 Series 5 Hole - “L” Flat Plate connectors are viable for use in our design and can be accessed through [this](https://8020.net/40-4481.html) link. Grainger did not have L-shaped plate connectors available; all of theirs were flanged, which would require us to lengthen the horizontal footprint of our design.
 
 <img width="2335" height="3207" alt="L Connector calc" src="https://github.com/user-attachments/assets/ab216209-a1de-4422-a28c-c451ac15d680" />
-[Hand calculations for bottom tensile tester rail and joint connectors]   
+[Hand calculations for bottom tensile tester rail and joint connectors]      
+
+
+### CAD Assembly
+
+
+<img width="833" height="873" alt="Screenshot 2026-11-19 072635" src="https://github.com/user-attachments/assets/69965588-2586-41d0-8871-6b76ecea5343" />
 
 
 
@@ -357,8 +362,11 @@ Drawings:
 [Motor mount drawing]
 
 <img width="997" height="768" alt="crosshead drawing" src="https://github.com/user-attachments/assets/2895315b-755a-4dbf-82f2-52be338dd307" />
-[Crosshead drawing]
+[Crosshead drawing]  
 
+<img width="1610" height="947" alt="A11FULL_ASSEMD" src="https://github.com/user-attachments/assets/1f0357df-ab3d-49c1-a5ae-83a47c985e2a" />
+
+[Assembly drawing]
 
 ## Decide: 
 
@@ -371,5 +379,7 @@ As mentioned in the "Analyze the applied twist" subsection of the "Analyze and d
 ## Communicate:
 
 Misha: This project took me about 7 hours. One important lesson I learned was the importance of using accurate simplifications for stress and deflection calculations, as making lazy assumptions that oversimplify the actual physics behind a design can be disastrous, leading to wasted time and numerous design iterations. However, it is vital to know when a simplification is valid, since it can make a design more comprehensible and aid in the ease of calculations.
+
+Ryan: This project took me 6 hours to complete one important lesson that I learned was being able to work with assemblies in more detail I made subassemblies which I use to test my FEA in a more realistic manner and using the creation of those subassemblies I added them right into the final assembly which made the workflow a lot quicker and more efficient throughout this assignment.
 
 SolidWorks file downloads [here](https://drive.google.com/drive/folders/1IhMKdD6ZhvOsRu4-RQheC9PkQh70olW9?usp=sharing)
