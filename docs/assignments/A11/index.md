@@ -183,23 +183,75 @@ The 2 kN specimen load travels from the crosshead nuts into our two lead screws,
 **Optimization Pass:**
 Our top rail is already plenty strong FOS of 17.2, so we don need to make it stronger. The highest stress is at the sharp edges of the bearing mount plates. Rounding off those edges with a fillet would spread the load out more smoothly and lower that stress. After this change, the highest stress would most likely move to the ends of the rail where it connects to the frame.
 
-(20 pts) Verify that the vertical components of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. Note: There should be two forces, one axial compression and one transverse load. *Ryan*
+(20 pts) Verify that the vertical components of the frame constructed from heavy 40 Series will provide the strength necessary to hold the loads of the lead screw load and torque. Conduct an FEA using the proper constraints and loads. Note: there should be two forces, one axial compression and one transverse load. *Ryan*
 
-- Model Setup: Define boundary conditions: constrain interfaces to frame brackets and motor brackets. Apply loading that represents the two loads.
-  
-- Meshing & Verification: Use a solid mesh with local refinement at stress raisers. Perform a mesh convergence check (at least two refinements) and report key metrics (max von Mises stress and max vertical deflection).
-  
-- Results to Report:
-  - Maximum von Mises stress and location.
-  - Maximum vertical deflection at the grip line.
-  - Factor of Safety (based on chosen material yield).
-  - Brief discussion of load path and any observed twisting/warping tendencies.
-    
-- Optimization Pass:
-  - Propose targeted changes (e.g., pocketing, ribbing, thicker flange pads, larger fillets).
-  - Any shift in critical locations.
+**Model Setup:**
 
+For this study, our full frame was modeled so the vertical rails are loaded and supported the same way they will be in the real tester. Each vertical rail carries 1 kN (224.8 lbf) of axial compression, which comes from the lead screws pulling down on the top rail at the two flange bearings. The transverse load represents the side force from the lead screw torque (10.84 lbf·in per motor), and it was applied at the top of the frame at the flange bearing mounts, where it pushes sideways on the tops of the vertical rails.
 
+| Item | Value |
+| :--- | :--- |
+| Geometry | Full frame: E40-4040 rails (30" vertical, 11" horizontal), L-plate connectors (40-4481), and flange bearing mounts |
+| Material | 6061-T6 aluminum (E = 10,000 ksi / 68.9 GPa, ν = 0.33, Sy = 39.9 ksi / 275 MPa) |
+| Fixtures | Fixed geometry on the bottom faces of the frame, where it sits on the table |
+| Contacts | Global bonded (bolt preload not modeled) |
+| Load 1 | 1,000 N (224.8 lbf) downward at each flange bearing mount, putting each vertical rail in axial compression (×2) |
+| Load 2 | ___ lbf transverse at each flange bearing mount (×2) |
+| Mesh controls | Blended curvature-based mesh, which automatically refines at the T-slots, bolt holes, and plate edges (min element size = 1/20 of max) |
+
+**Meshing & Verification:**
+
+| Mesh | Element Size (global / local) | # Elements | # Nodes | Max von Mises (psi) | Max Displacement (in) | % Change (Stress / Displacement) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Standard | 2.517 / 0.126 | 545,287 | 896,289 | 1,023 | 5.83e-4 | — |
+| Fine | 1.481 / 0.074 | 1,361,628 | 2,152,405 | 935 | 5.84e-4 | -8.6% / +0.2% |
+
+Both meshes used the blended curvature-based mesher at high quality (16 Jacobian points). Refining the mesh changed the maximum displacement by only 0.2%, so the deflection has converged. The maximum stress dropped by 8.6%, which is above our 5% target, because the peak sits at a sharp plate edge on the top rail where the stress is very sensitive to element size. Since the stress went down with refinement and the FOS is still about 35, this does not change our conclusion that the frame is safe.
+
+**Results:**
+
+| Result | Value | Location |
+| :--- | :---: | :--- |
+| Maximum von Mises stress | 935 psi (6.4 MPa) | Top rail, at the edge of the right bearing mount plate |
+| Maximum stress in the vertical rails | Below ~200 psi | Near the L-plate connectors |
+| Maximum displacement | 5.84e-4 in (0.0148 mm) | Top rail, at midspan |
+| Minimum Factor of Safety | 35.0 | ___ |
+
+**Standard Mesh Results:**
+
+<img width="1005" height="842" alt="Screenshot 2026-11-19 063042" src="https://github.com/user-attachments/assets/6de5e432-cace-4c75-8835-a6b7d6223f2e" />
+
+[Full frame von Mises stress plot, Standard mesh]
+
+<img width="1006" height="867" alt="Screenshot 2026-11-19 063050" src="https://github.com/user-attachments/assets/b35a1451-c97b-4f56-9a2e-418603a9f8e9" />
+
+[Full frame resultant displacement (URES) plot, Standard mesh]
+
+<img width="1010" height="916" alt="Screenshot 2026-11-19 063102" src="https://github.com/user-attachments/assets/cbc683a8-7c07-43c7-a5d4-f6fa03ff5d76" />
+
+[Full frame Factor of Safety plot, Standard mesh]
+
+**Fine Mesh Results:**
+
+<img width="965" height="827" alt="Screenshot 2026-11-19 064130" src="https://github.com/user-attachments/assets/051b403c-f5de-4877-a241-e12ad19ab346" />
+
+[Full frame von Mises stress plot, Fine mesh]
+
+<img width="973" height="827" alt="Screenshot 2026-11-19 064141" src="https://github.com/user-attachments/assets/e9a2ccb0-49d9-4f15-8d3d-6423abcd2fa9" />
+
+[Full frame resultant displacement (URES) plot, Fine mesh]
+
+<img width="985" height="886" alt="Screenshot 2026-11-19 064206" src="https://github.com/user-attachments/assets/d43730e9-58b6-4b3c-ac12-25b48bbfa49e" />
+
+[Full frame Factor of Safety plot, Fine mesh]
+
+**Load Path and Twisting/Warping:**
+
+The lead screws pull down on our top rail, which sends the load through the L-plate connectors into the vertical rails as compression and down into the table. The vertical rails bow slightly outward but stay at very low stress, with the highest stress on the top rail at the bearing mount plate edge. No noticeable twisting was seen.
+
+**Optimization Pass:**
+
+Our vertical rails are very lightly loaded, so they do not need to be stronger. The best change would be adding a diagonal brace or gusset at the top corners, where the vertical rails meet the top rail. This would stop the frame from bowing outward. After this, the highest stress would most likely stay at the bearing mount plate edges.
 ### Design Floating Bearing Mount:
 
 
