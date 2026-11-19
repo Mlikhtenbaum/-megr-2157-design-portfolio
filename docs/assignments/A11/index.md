@@ -44,6 +44,7 @@ Based on the following hand calculations, the "Stepper Motor with Square Body, N
 
 (10pts) Design a motor mount bracket or housing to securely attach the motor to the tester frame. Use the mounting holes in the motor as a pattern for features in the bracket. Select a four-hole pattern to secure the mount to the top of the frame. The mount must: a.) Maintain precise alignment with the lead screw to prevent binding or eccentric loading. b.) Accommodate service access for assembly and maintenance. c.) Withstand both operational torque and reaction forces without excessive deflection. *Misha*
 
+The T-slot bolts we will use to couple the motor mount to the T-slot rails can be found [here](https://8020.net/3611.html)
 The T-slot nuts we will use to couple the motor mount to the T-slot rails can be found [here](https://8020.net/40-3203.html).
 
 An important consideration during this phase was ensuring the motor mounting bracket and load cell have enough clearance to fit within the constraints of our current frame setup. This check is detailed in the calculation: ((.5125 * 2) + 2.25) + 2.4, which adds up to 5.675 in (which is less than 6 in), meaning that the current motor mount design will work with our current frame spacing.
@@ -96,7 +97,7 @@ An important point of our design is that our motors are mounted on the bottom po
 
 Another important note for this portion of the project is that we will have to change the type of T-slot rails that we use. For visual cleanliness on our base tensile tester design, we used T-slot rails that only had one "T-slot" on one side. This means that they cannot be used with plate connectors and will have to be switched out for regular, 4-sided T-slot rails.
 
-Plate connectors are our T-slot rail connectors of choice, as they allow us to minimize the horizontal length of our tensile tester design, which provides 2 key advantages. Firstly, a shorter beam length lessens the amount of deflection caused by the application of a moment. Secondly, it minimizes the desk space required by the tester. We will use the same connectors all around our design to keep it uniform visually.
+Plate connectors are our T-slot rail connectors of choice, as they allow us to minimize the horizontal length of our tensile tester design, which provides 2 key advantages. Firstly, a shorter beam length lessens the amount of deflection caused by the application of a moment. Secondly, it minimizes the desk space required by the tester. We will use the same connectors all around our design to keep it visually uniform.
 
 The following hand calculations detail two problem-solving processes. Firstly, the bottom of the frame is modelled as a fixed-fixed beam to determine the values of its reaction moments. Secondly, each joint (where the L-plate connector juts out from the vertical column rail) is modelled as a cantilever beam that undergoes the applied moment that was determined in the previous calculation. The magnitude of the moment is halved in this calculation to account for there being a connector on both sides of the bottom beam. A maximum deflection of .002 in is assumed to be adequate.
 
@@ -156,9 +157,9 @@ An important note for this section is that I (Misha) initially misread the instr
 
 The following hand calculations determined the required dimensions of the thrust portion of the flange bearing. In theory, there are no radially applied loads on the journal portion of the bearing, so engineering reasoning has been used to keep the bearing dimensions proportional. As another side note, in reality, a set of nuts would have to be locked together, or a collar clamp would have to be mounted on the lead screw to create a shoulder for the thrust bearing to interface with. An outer diameter of 3/4 in was initially estimated for the thrust portion of the flange bearing, but that measurement resulted in a pressure safety factor of 2.94 (while we are aiming for 4.0). Therefore, the outer diameter was bumped up to 7/8 in, which better distributes the applied stress and gives us a resultant safety factor right over 4.0.
 
-Following the pressure and velocity analysis, the thrust element of the flange bearing is specified as SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and a 7/8 in (0.875 in) outer diameter (+0.0011/+0.0007 in). It has a thickness of 1/8 in)
+Following the pressure and velocity analysis, the thrust element of the flange bearing is specified as SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and a 7/8 in (0.875 in) outer diameter (+0.0011/+0.0007 in). It has a thickness of 1/8 in. The journal portion of the flange bearing is specified in SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and an outer diameter of 5/8 in (+0.0009/+0.0006 in). It also has a thickness of 1/8 in.
 
-Following the pressure and velocity analysis, the journal portion of the flange bearing is specified in SAE 841 bronze with a 3/8 in (0.375 in) inner diameter (+0.0006 in) and an outer diameter of 5/8 in (+0.0009/+0.0006 in).
+
 
 <img width="2366" height="3271" alt="Axial force calc" src="https://github.com/user-attachments/assets/f6ad7ec3-2a99-4038-a521-724342e1f463" />
 [Axial force calculations for thrust element design]
@@ -172,7 +173,7 @@ Following the pressure and velocity analysis, the journal portion of the flange 
 <img width="1823" height="2707" alt="Floating bearing mount drawing" src="https://github.com/user-attachments/assets/34fef2ea-1b0d-4a0b-85f8-40acb4aa0d70" />
 [Floating bearing mount hand drawing]
 
-<img width="2426" height="1525" alt="Flange bearing drawing" src="https://github.com/user-attachments/assets/a8675028-d8ad-4e0a-b040-896ff57f050c" />
+<img width="2426" height="1525" alt="Flange bearing drawing" src="https://github.com/user-attachments/assets/7e657f70-ad54-4a46-afa1-84644f6148eb" />
 [Flange bearing hand drawing]
 
 
@@ -186,22 +187,43 @@ Following the pressure and velocity analysis, the journal portion of the flange 
 
 (10pt) Tabulate all the costs associated with both assignment parts. Use the following template to show the associated costs. You are to use an entry-level mechanical engineering designer cost per hour of $35/hour. *Misha*
 
-A10 (Initial Design BOM and labor costs)
+A10 (Initial Design BOM and Labor Costs)
+
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 11" Long | $9.78 | $19.56 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
-| 2 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 30" Long | $26.67 | $53.34 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
-| 3 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | $57.73 | $115.46 | [McMaster-Carr](https://www.mcmaster.com/93410A111/) |
-| 4 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | $111.78 | $223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
-|  |  |  | **Total Cost** | **$411.92** |  |
+| :---: | :---: | :--- | :---: | :---: | :--- |
+| 1 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 11" Long | \$9.78 | \$19.56 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
+| 2 | 2 | 40mm x 40mm Mono Slot T-Slotted Extrusion, 30" Long | \$26.67 | \$53.34 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-mono-slot-t-slotted-extrusion/) |
+| 3 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | \$57.73 | \$115.46 | [McMaster-Carr](https://www.mcmaster.com/93410A111/) |
+| 4 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | \$111.78 | \$223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
+| — | — | **Total Cost** | — | **\$411.92** | — |
 
-A11 (Comprehensive Design BOM and Labor Costs)
+A11 (Comprehensive Design BOM and Labor Costs) *As per last assignment's instructions, designed parts are not priced, neither in terms of raw material nor in machining time*
 
+Bought parts
 
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+| :---: | :---: | :--- | :---: | :---: | :--- |
+| 1 | 2 | E40-4040-C – 40mm x 40mm T-SLOT ALUMINUM EXTRUSION (Cut To Length) 11" | \$10.92 | \$21.84 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-t-slotted-extrusion-cut-to-length/) |
+| 2 | 2 | E40-4040-C – 40mm x 40mm T-SLOT ALUMINUM EXTRUSION (Cut To Length) 30" | \$29.72 | \$59.44 | [Parco Inc](https://parco-inc.com/product/40mm-x-40mm-t-slotted-extrusion-cut-to-length/) |
+| 3 | 2 | Stepper Motor with Square Body, NEMA 23, 173.5 in.-oz. Maximum Holding Torque (6627T53) | \$111.68 | \$223.36 | [McMaster-Carr](https://www.mcmaster.com/6627T53/) |
+| 4 | 4 | 40-3203: 40 Series 5/16-18 Standard Slide-in T-Nut | \$1.30 | \$5.20 | [8020](https://8020.net/40-3203.html) |
+| 5 | 4 | 3611: 5/16-18 x .625" Button Head Socket Cap Screw (BHSCS) | \$0.88 | \$3.52 | [8020](https://8020.net/3611.html) |
+| 6 | 1 | Black-Oxide Alloy Steel Cone-Tip Set Screw, 5-40 Thread Size, 3/16" Long (92695A126, Pack of 50) | \$8.96 | \$8.96 | [McMaster-Carr](https://www.mcmaster.com/92695A126/) |
+| 7 | 8 | 40-4481: 40 Series 5 Hole - “L” Flat Plate | \$13.12 | \$104.96 | [8020](https://8020.net/40-4481.html) |
+| 8 | 40 | 75-3422: Bolt Assembly - M8 x 16.00mm Blue BHSCS with Slide-In Economy T-Nut - Offset Thread - Bright Zinc | \$1.14 | \$45.60 | [8020](https://8020.net/75-3422.html) |
+| 9 | 2 | Alloy Steel Acme Lead Screw, Right Hand, 3/8"-12 Thread, 2 Feet Long | \$57.73 | \$115.46 | [McMaster-Carr](https://www.mcmaster.com/93410A111/) |
+| 10 | 2 | 932 Bearing Bronze Acme Flange Nut, Right Hand, 3/8"-12 Thread | \$111.78 | \$223.56 | [McMaster-Carr](https://www.mcmaster.com/95120A592/) |
+| — | — | **Total Cost** | — | **\$811.90** | — |
 
+Design cost
 
-
-
+| Person | Phase | Hours Worked | Cost / Hour | Cost |
+| :--- | :---: | :---: | :---: | :---: |
+| Misha | A10 | 10 | \$30.00 | \$300.00 |
+| Ryan | A10 | 6 | \$30.00 | \$180.00 |
+| Misha | A11 | 7 | \$30.00 | \$210.00 |
+| Ryan | A11 | 5 | \$30.00 | \$150.00 |
+| — | **Total Design Cost** | **28** | — | **\$840.00** |
 
 
 ### 2157 Addition:
@@ -225,8 +247,6 @@ A11 (Comprehensive Design BOM and Labor Costs)
 We chose a stepper motor for our tensile tester because it can measure strain when connected to a microcontroller, allowing us to use Hooke's Law to determine the test material's modulus of elasticity.
 
 As mentioned in the "Analyze the applied twist" subsection of the "Analyze and design a Frame " section, we chose to mount our motors on the bottom portion of our tensile tester, which reduces the torque output required to create the necessary tensile force, and lessens the buckling forces acting on our frame.
-
-Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?
 
 
 ## Communicate:
