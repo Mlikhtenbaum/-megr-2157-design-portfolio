@@ -243,6 +243,17 @@ Design cost
   - X.X ± .02
   - X.XX ± .01
   - X.XXX ± .005
+ 
+Drawings: 
+
+<img width="1456" height="1124" alt="image" src="https://github.com/user-attachments/assets/4486a747-c36b-4971-90b1-b8ddff093311" />
+[Flange/floating bearing drawing]
+
+<img width="1468" height="1138" alt="image" src="https://github.com/user-attachments/assets/991665ec-8cad-4b50-87ba-6b470907f3bb" />
+[Flange/floating bearing mount drawing]
+
+<img width="1387" height="1072" alt="Motor Mount Drawing" src="https://github.com/user-attachments/assets/aa3ce677-2f58-4d5d-8ae2-76c8029229f7" />
+[Motor mount drawing]
 
 
 ## Decide: 
