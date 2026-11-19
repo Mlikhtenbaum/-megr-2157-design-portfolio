@@ -167,7 +167,7 @@ Following the pressure and velocity analysis, the thrust element of the flange b
 
 
 
-<img width="2366" height="3271" alt="Axial force calc" src="https://github.com/user-attachments/assets/f6ad7ec3-2a99-4038-a521-724342e1f463" />
+<img width="2284" height="3271" alt="Axial force calc" src="https://github.com/user-attachments/assets/1372a499-c115-436d-895d-8aa4e78f576f" />
 [Axial force calculations for thrust element design]
 
 <img width="1589" height="1059" alt="Rc3 for bearing mount" src="https://github.com/user-attachments/assets/1c180be5-aad1-40fc-915e-12c5c9c0a5e2" />
